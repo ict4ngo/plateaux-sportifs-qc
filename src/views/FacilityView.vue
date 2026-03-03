@@ -34,24 +34,7 @@
           <p>Aucun horaire disponible pour cette installation.</p>
         </div>
 
-        <div v-else class="week-grid">
-          <div 
-            v-for="(slots, day) in schedulesByDay" 
-            :key="day"
-            class="day-card"
-          >
-            <h3>{{ day }}</h3>
-            <ul>
-              <li v-for="slot in slots" :key="slot.id">
-                <span class="activity">{{ slot.activity }}</span>
-                <span class="time" v-if="slot.start_time">
-                  {{ slot.start_time }} - {{ slot.end_time }}
-                </span>
-                <span class="time" v-else>{{ slot.raw_text }}</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ScheduleTable v-else :schedules="facilitySchedules" />
       </section>
 
       <!-- Recent Changes -->
@@ -101,6 +84,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useScheduleStore } from '../stores/schedules'
 import { getFacilities, getSchedules, getChanges } from '../api/client'
+import ScheduleTable from '../components/ScheduleTable.vue'
 
 const route = useRoute()
 const store = useScheduleStore()
