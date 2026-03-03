@@ -22,7 +22,7 @@
     </div>
 
     <!-- Schedule Table -->
-    <ScheduleTable v-else />
+    <ScheduleTable v-else :schedules="store.filteredSchedules" />
   </div>
 </template>
 

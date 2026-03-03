@@ -2,10 +2,10 @@
   <section class="table-wrapper">
     <div class="table-header">
       <h3>Horaires</h3>
-      <span class="result-count">{{ store.filteredSchedules.length }} résultat(s)</span>
+      <span class="result-count">{{ schedules.length }} résultat(s)</span>
     </div>
 
-    <table v-if="store.filteredSchedules.length > 0" class="schedule-table">
+    <table v-if="schedules.length > 0" class="schedule-table">
       <thead>
         <tr>
           <th @click="sortBy('facility_name')" class="sortable">
@@ -52,9 +52,8 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { useScheduleStore } from '../stores/schedules'
 
-const store = useScheduleStore()
+const props = defineProps({ schedules: Array })
 const router = useRouter()
 
 // Sorting
@@ -62,7 +61,7 @@ const sortKey = ref('facility_name')
 const sortOrder = ref('asc')
 
 const sortedSchedules = computed(() => {
-  const sorted = [...store.filteredSchedules]
+  const sorted = [...props.schedules]
   sorted.sort((a, b) => {
     let aVal = a[sortKey.value]
     let bVal = b[sortKey.value]
