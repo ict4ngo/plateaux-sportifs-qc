@@ -54,22 +54,62 @@ export const useScheduleStore = defineStore("schedules", {
     async fetchFacilities() {
       const params = {};
       if (this.filters.facility_type) params.facility_type = this.filters.facility_type;
-      this.facilities = await getFacilities(params);
+      const facilities = await getFacilities(params);
+      // Add short names for display
+      this.facilities = facilities.map(f => ({
+        ...f,
+        short_name: this.getShortName(f.name)
+      }));
     },
+    
+    getShortName(fullName) {
+      // Mapping of long names to short display names
+      const shortNames = {
+        "Centre communautaire Ferland": "Ferland",
+        "Centre communautaire Lucien-Borne": "Lucien-Borne",
+        "Centre communautaire Michel-Labadie": "Labadie",
+        "Centre municipal Monseigneur-De Laval": "De Laval",
+        "Complexe Jean-Paul-Nolin": "Nolin",
+        "Pavillon de l'éducation physique et des sports de l'Université Laval (PEPS)": "PEPS",
+        "Piscine A. Couture (Collège François-de-Laval)": "A. Couture",
+        "Piscine Jacques-Amyot": "Jacques-Amyot",
+        "Piscine Jos.-A.-Lachance": "Jos.-A.-Lachance",
+        "Piscine Jules-Dallaire - Patro Roc-Amadour": "Jules-Dallaire",
+        "Piscine Lucien-Flamand (centre Wilbrod-Bhérer)": "Lucien-Flamand",
+        "Piscine Sylvie-Bernier": "Sylvie-Bernier",
+        "Piscine Wilfrid-Hamel": "Wilfrid-Hamel",
+        "Piscine de l'école L'Odyssée": "L'Odyssée",
+        "Piscine de l'édifice Denis-Giguère": "Denis-Giguère",
+        "Piscine du Campus Notre-Dame-de-Foy": "ND de Foy",
+        "Piscine municipale du Bourg-Royal": "Bourg-Royal",
+        "YMCA St-Roch": "YMCA St-Roch",
+        "YWCA Québec": "YWCA",
+        "École secondaire de La Seigneurie": "La Seigneurie"
+      };
+      return shortNames[fullName] || fullName;
+    },
+    
     async fetchSchedules() {
       this.loading = true;
       this.error = null;
       try {
         const params = {};
-        // Only send facility-related filters to API
-        // Activity filtering is done client-side to keep the activities list complete
         if (this.filters.facility_ids.length > 0) {
           params.facility_ids = this.filters.facility_ids.join(',');
         }
         if (this.filters.days.length > 0) {
           params.days = this.filters.days.join(',');
         }
-        this.schedules = await getSchedules(params);
+        const schedules = await getSchedules(params);
+        
+        // Deduplicate: keep only unique combinations of facility + day + activity + time
+        const seen = new Set();
+        this.schedules = schedules.filter(s => {
+          const key = `${s.facility_id}-${s.day_of_week}-${s.activity}-${s.start_time || s.raw_text}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
       } catch (e) {
         this.error = "Erreur de chargement des horaires.";
         console.error(e);

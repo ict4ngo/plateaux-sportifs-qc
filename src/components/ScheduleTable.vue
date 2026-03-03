@@ -8,7 +8,7 @@
     <table v-if="schedules.length > 0" class="schedule-table">
       <thead>
         <tr>
-          <th @click="sortBy('facility_name')" class="sortable">
+          <th @click="sortBy('facility_name')" class="sortable installation-col">
             Installation {{ sortIcon('facility_name') }}
           </th>
           <th @click="sortBy('day_of_week')" class="sortable">
@@ -29,7 +29,10 @@
           @click="goToFacility(slot.facility_id)"
           class="clickable"
         >
-          <td class="facility">{{ slot.facility_name }}</td>
+          <td class="facility installation-col">
+            <span class="full-name">{{ slot.facility_name }}</span>
+            <span class="short-name">{{ getShortName(slot.facility_name) }}</span>
+          </td>
           <td class="day">{{ slot.day_of_week }}</td>
           <td class="activity">{{ slot.activity }}</td>
           <td class="time">
@@ -55,6 +58,35 @@ import { useRouter } from 'vue-router'
 
 const props = defineProps({ schedules: Array })
 const router = useRouter()
+
+// Short name mapping
+const shortNames = {
+  "Centre communautaire Ferland": "Ferland",
+  "Centre communautaire Lucien-Borne": "Lucien-Borne",
+  "Centre communautaire Michel-Labadie": "Labadie",
+  "Centre municipal Monseigneur-De Laval": "De Laval",
+  "Complexe Jean-Paul-Nolin": "Nolin",
+  "Pavillon de l'éducation physique et des sports de l'Université Laval (PEPS)": "PEPS",
+  "Piscine A. Couture (Collège François-de-Laval)": "A. Couture",
+  "Piscine Jacques-Amyot": "Jacques-Amyot",
+  "Piscine Jos.-A.-Lachance": "Jos.-A.-Lachance",
+  "Piscine Jules-Dallaire - Patro Roc-Amadour": "Jules-Dallaire",
+  "Piscine Lucien-Flamand (centre Wilbrod-Bhérer)": "Lucien-Flamand",
+  "Piscine Sylvie-Bernier": "Sylvie-Bernier",
+  "Piscine Wilfrid-Hamel": "Wilfrid-Hamel",
+  "Piscine de l'école L'Odyssée": "L'Odyssée",
+  "Piscine de l'édifice Denis-Giguère": "Denis-Giguère",
+  "Piscine du Campus Notre-Dame-de-Foy": "ND de Foy",
+  "Piscine municipale du Bourg-Royal": "Bourg-Royal",
+  "YMCA St-Roch": "YMCA St-Roch",
+  "YWCA Québec": "YWCA",
+  "École secondaire de La Seigneurie": "La Seigneurie",
+  "Arpidrome": "Arpidrome"
+}
+
+const getShortName = (fullName) => {
+  return shortNames[fullName] || fullName.substring(0, 20)
+}
 
 // Sorting
 const sortKey = ref('facility_name')
@@ -170,6 +202,14 @@ const goToFacility = (id) => {
   font-weight: 500;
 }
 
+.facility .short-name {
+  display: none;
+}
+
+.facility .full-name {
+  display: inline;
+}
+
 .day {
   color: var(--muted);
 }
@@ -200,10 +240,28 @@ const goToFacility = (id) => {
   opacity: 0.7;
 }
 
+/* Mobile: show short names */
 @media (max-width: 720px) {
-  .schedule-table th:nth-child(1), 
-  .schedule-table td:nth-child(1) { 
-    display: none; 
+  .installation-col {
+    max-width: 100px;
+  }
+  
+  .facility .short-name {
+    display: inline;
+  }
+  
+  .facility .full-name {
+    display: none;
+  }
+  
+  .schedule-table th {
+    font-size: 11px;
+    padding: 10px 8px;
+  }
+  
+  .schedule-table td {
+    font-size: 13px;
+    padding: 10px 8px;
   }
 }
 </style>
