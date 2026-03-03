@@ -8,7 +8,7 @@
     </section>
 
     <section class="form-section">
-      <form @submit.prevent="submitReport" class="report-form">
+      <form @submit.prevent="handleSubmit" class="report-form">
         <!-- Facility Selection -->
         <div class="form-group">
           <label for="facility">Installation concernée</label>
@@ -142,7 +142,7 @@ const loadFacilities = async () => {
   }
 }
 
-const submitReport = async () => {
+const handleSubmit = async () => {
   if (!isValid.value) return
 
   submitting.value = true
