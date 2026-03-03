@@ -3,63 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Horaires piscines Québec</title>
-    <script type="module" crossorigin src="/plateaux-sportifs-qc/assets/index-gUcTBxwY.js"></script>
-    <link rel="stylesheet" crossorigin href="/plateaux-sportifs-qc/assets/index-DuW5jUzS.css">
+    <title>Plateaux Sportifs Québec</title>
   </head>
   <body>
-    <header>
-      <div class="hero">
-        <div>
-          <p class="eyebrow">Ville de Québec</p>
-          <h1>Horaires des piscines (Longueurs)</h1>
-          <p class="lede">Tableau filtrable par piscine, jour et activité. Données collectées automatiquement.</p>
-          <div class="meta">
-            <span id="last-update">Dernière mise à jour : …</span>
-            <a class="source" href="https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/installations_sportives/piscines_interieures/piscines_interieures.aspx" target="_blank" rel="noreferrer">Source : Ville de Québec</a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section class="controls">
-        <label>
-          Piscine
-          <select id="pool-filter">
-            <option value="">Toutes</option>
-          </select>
-        </label>
-        <label>
-          Jour
-          <select id="day-filter">
-            <option value="">Tous</option>
-            <option>Lundi</option><option>Mardi</option><option>Mercredi</option><option>Jeudi</option><option>Vendredi</option><option>Samedi</option><option>Dimanche</option>
-          </select>
-        </label>
-        <label>
-          Activité
-          <select id="activity-filter">
-            <option value="">Toutes</option>
-          </select>
-        </label>
-      </section>
-
-      <section class="table-wrapper">
-        <table id="slots-table">
-          <thead>
-            <tr>
-              <th>Piscine</th>
-              <th>Jour</th>
-              <th>Activité</th>
-              <th>Horaire</th>
-            </tr>
-          </thead>
-          <tbody id="slots-body"></tbody>
-        </table>
-        <p id="empty" class="empty">Aucune plage pour ces filtres.</p>
-      </section>
-    </main>
-
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
