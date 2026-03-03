@@ -17,23 +17,6 @@
 </template>
 
 <style>
-:root {
-  --bg: #0f172a;
-  --card: #111827;
-  --muted: #94a3b8;
-  --text: #e2e8f0;
-  --accent: #38bdf8;
-  --border: #1f2937;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: "Inter", system-ui, sans-serif;
-  min-height: 100vh;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
