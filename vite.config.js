@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [vue()],
-  base: '/plateaux-sportifs-qc/',
+  base: command === 'serve' ? '/' : '/plateaux-sportifs-qc/',
   server: {
     port: 5173,
     proxy: {
@@ -14,4 +14,4 @@ export default defineConfig({
       },
     },
   },
-})
+}))
