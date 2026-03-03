@@ -27,11 +27,14 @@
         v-for="change in store.changes" 
         :key="change.id"
         class="change-card"
-        :class="change.change_type"
+        :class="[change.change_type, { 'special-schedule': isSpecialSchedule(change) }]"
       >
         <div class="change-header">
           <span class="badge" :class="change.change_type">
             {{ badgeText(change.change_type) }}
+          </span>
+          <span v-if="isSpecialSchedule(change)" class="special-badge">
+            ⚠️ Special
           </span>
           <span class="facility">{{ change.facility_name }}</span>
           <span class="date">{{ formatDate(change.created_at) }}</span>
@@ -69,6 +72,34 @@ const badgeText = (type) => {
     'modified': 'MODIFIÉ'
   }
   return texts[type] || type.toUpperCase()
+}
+
+// Keywords that indicate special schedules
+const specialScheduleKeywords = [
+  'march break',
+  'spring break',
+  'vacances',
+  'holiday',
+  'férié',
+  'congé',
+  'fermé',
+  'noël',
+  'christmas',
+  'pâques',
+  'easter',
+  'été',
+  'summer',
+  'hiver',
+  'winter',
+  'construction',
+  'rénovation',
+  'exception'
+]
+
+const isSpecialSchedule = (change) => {
+  if (!change.description) return false
+  const desc = change.description.toLowerCase()
+  return specialScheduleKeywords.some(keyword => desc.includes(keyword.toLowerCase()))
 }
 
 const formatDate = (isoDate) => {
@@ -157,6 +188,26 @@ h1 {
 
 .change-card.modified {
   border-left-color: #f59e0b;
+}
+
+/* Special schedule highlighting */
+.change-card.special-schedule {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, var(--card) 100%);
+  border-left-color: #f59e0b;
+  border-left-width: 6px;
+}
+
+.change-card.special-schedule.removed {
+  border-left-color: #ef4444;
+}
+
+.special-badge {
+  background: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .change-header {

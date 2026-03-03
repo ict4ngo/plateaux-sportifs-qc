@@ -29,12 +29,15 @@
       <!-- Weekly Schedule -->
       <section class="schedule-section">
         <h2>Horaire hebdomadaire</h2>
+        <p v-if="lastUpdated" class="last-updated">
+          Dernière mise à jour : {{ lastUpdated }}
+        </p>
         
         <div v-if="facilitySchedules.length === 0" class="empty">
           <p>Aucun horaire disponible pour cette installation.</p>
         </div>
 
-        <ScheduleTable v-else :schedules="facilitySchedules" />
+        <ScheduleTable v-else :schedules="facilitySchedules" :isSingleFacility="true" />
       </section>
 
       <!-- Recent Changes -->
@@ -111,6 +114,27 @@ const schedulesByDay = computed(() => {
   })
   
   return grouped
+})
+
+// Compute last updated from the most recent schedule
+const lastUpdated = computed(() => {
+  if (!facilitySchedules.value || facilitySchedules.value.length === 0) return null
+  
+  const dates = facilitySchedules.value
+    .map(s => s.created_at)
+    .filter(Boolean)
+    .map(d => new Date(d))
+  
+  if (dates.length === 0) return null
+  
+  const mostRecent = new Date(Math.max(...dates))
+  return mostRecent.toLocaleString('fr-CA', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  })
 })
 
 const formatDate = (isoDate) => {
@@ -216,10 +240,17 @@ h1 {
   margin-bottom: 40px;
 }
 
+.last-updated {
+  color: var(--accent);
+  font-size: 13px;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
 h2 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   color: var(--text);
 }
 

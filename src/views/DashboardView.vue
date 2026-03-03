@@ -5,6 +5,9 @@
       <p class="eyebrow">Ville de Québec</p>
       <h1>Horaires des installations sportives</h1>
       <p class="lede">Consultez et filtrez les horaires. Sélectionnez plusieurs installations ou jours.</p>
+      <p v-if="lastUpdated" class="last-updated">
+        Dernière mise à jour : {{ lastUpdated }}
+      </p>
     </section>
 
     <!-- Filters -->
@@ -27,12 +30,34 @@
 </template>
 
 <script setup>
-import { onMounted, watch } from 'vue'
+import { ref, onMounted, watch, computed } from 'vue'
 import { useScheduleStore } from '../stores/schedules'
 import FilterBar from '../components/FilterBar.vue'
 import ScheduleTable from '../components/ScheduleTable.vue'
 
 const store = useScheduleStore()
+
+// Compute last updated from the most recent schedule
+const lastUpdated = computed(() => {
+  if (!store.schedules || store.schedules.length === 0) return null
+  
+  // Find the most recent created_at date
+  const dates = store.schedules
+    .map(s => s.created_at)
+    .filter(Boolean)
+    .map(d => new Date(d))
+  
+  if (dates.length === 0) return null
+  
+  const mostRecent = new Date(Math.max(...dates))
+  return mostRecent.toLocaleString('fr-CA', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  })
+})
 
 // Load data
 const loadData = async () => {
@@ -78,6 +103,13 @@ h1 {
 .lede {
   color: var(--muted);
   font-size: 16px;
+}
+
+.last-updated {
+  color: var(--accent);
+  font-size: 13px;
+  margin-top: 12px;
+  font-style: italic;
 }
 
 .loading, .error {
