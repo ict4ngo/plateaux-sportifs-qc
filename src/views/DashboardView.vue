@@ -6,6 +6,7 @@
       <h1>Horaires des installations sportives</h1>
       <p class="lede">Consultez et filtrez les horaires. Sélectionnez plusieurs installations ou jours.</p>
       <p v-if="lastUpdated" class="last-updated">
+        <span v-if="store.isOfflineMode" class="offline-badge">Hors ligne</span>
         Dernière mise à jour : {{ lastUpdated }}
       </p>
     </section>
@@ -37,11 +38,23 @@ import ScheduleTable from '../components/ScheduleTable.vue'
 
 const store = useScheduleStore()
 
-// Compute last updated from the most recent schedule
+// Compute last updated from the most recent schedule or exported_at
 const lastUpdated = computed(() => {
+  // If using fallback, show the exported_at date
+  if (store.isOfflineMode && store.lastExportedAt) {
+    const date = new Date(store.lastExportedAt)
+    return date.toLocaleString('fr-CA', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    })
+  }
+  
+  // Otherwise use schedule dates
   if (!store.schedules || store.schedules.length === 0) return null
   
-  // Find the most recent created_at date
   const dates = store.schedules
     .map(s => s.created_at)
     .filter(Boolean)
@@ -110,6 +123,19 @@ h1 {
   font-size: 13px;
   margin-top: 12px;
   font-style: italic;
+}
+
+.offline-badge {
+  background: #f59e0b;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .loading, .error {

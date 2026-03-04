@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { getFacilities, getSchedules, getChanges } from "../api/client";
+import { getFacilities, getSchedules, getChanges, isUsingFallback, getLastExportedAt } from "../api/client";
 
 export const useScheduleStore = defineStore("schedules", {
   state: () => ({
@@ -8,6 +8,8 @@ export const useScheduleStore = defineStore("schedules", {
     changes: [],
     loading: false,
     error: null,
+    usingFallback: false,
+    lastExportedAt: null,
     filters: {
       facility_ids: [],      // Array of selected facility IDs
       facility_type: null,   // Single type filter (optional)
@@ -48,6 +50,9 @@ export const useScheduleStore = defineStore("schedules", {
              state.filters.days.length > 0 ||
              state.filters.activities.length > 0;
     },
+    isOfflineMode(state) {
+      return state.usingFallback;
+    },
   },
 
   actions: {
@@ -60,6 +65,7 @@ export const useScheduleStore = defineStore("schedules", {
         ...f,
         short_name: this.getShortName(f.name)
       }));
+      this.updateFallbackState();
     },
     
     getShortName(fullName) {
@@ -89,6 +95,11 @@ export const useScheduleStore = defineStore("schedules", {
       return shortNames[fullName] || fullName;
     },
     
+    updateFallbackState() {
+      this.usingFallback = isUsingFallback();
+      this.lastExportedAt = getLastExportedAt();
+    },
+    
     async fetchSchedules() {
       this.loading = true;
       this.error = null;
@@ -110,6 +121,8 @@ export const useScheduleStore = defineStore("schedules", {
           seen.add(key);
           return true;
         });
+        
+        this.updateFallbackState();
       } catch (e) {
         this.error = "Erreur de chargement des horaires.";
         console.error(e);
@@ -119,6 +132,7 @@ export const useScheduleStore = defineStore("schedules", {
     },
     async fetchChanges() {
       this.changes = await getChanges({ limit: 50 });
+      this.updateFallbackState();
     },
     
     // Multi-select helpers
