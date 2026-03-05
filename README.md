@@ -62,3 +62,4 @@ The frontend uses hash-based routing (`/#/changes`) for GitHub Pages compatibili
 
 When deployed to production (GitHub Pages), it connects to the homelab backend via HTTPS.
 # Snapshot deployed
+// Build timestamp: jeu. 05 mars 2026 17:56:49 EST
