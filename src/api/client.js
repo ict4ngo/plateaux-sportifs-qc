@@ -1,9 +1,9 @@
 import axios from "axios";
+import { API_BASE_URL } from "../config.js";
 
 // In production, this points to the homelab API via Cloudflare Tunnel.
-// In development, it points to the local FastAPI server.
-const apiBase =
-  import.meta.env.VITE_API_URL || "http://localhost:8000";
+// In development, override in config.js or use local FastAPI server.
+const apiBase = API_BASE_URL || "http://localhost:8000";
 
 // Path to static snapshot file (raw GitHub URL - updates immediately on push)
 const snapshotUrl = "https://raw.githubusercontent.com/ict4ngo/plateaux-sportifs-qc/main/public/data/snapshot.json";
