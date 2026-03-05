@@ -5,8 +5,8 @@ import axios from "axios";
 const apiBase =
   import.meta.env.VITE_API_URL || "http://localhost:8000";
 
-// Path to static snapshot file (served from same domain in production)
-const snapshotUrl = "/data/snapshot.json";
+// Path to static snapshot file (raw GitHub URL - updates immediately on push)
+const snapshotUrl = "https://raw.githubusercontent.com/ict4ngo/plateaux-sportifs-qc/main/public/data/snapshot.json";
 
 const client = axios.create({
   baseURL: apiBase,
