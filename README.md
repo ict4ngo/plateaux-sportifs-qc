@@ -61,3 +61,4 @@ src/
 The frontend uses hash-based routing (`/#/changes`) for GitHub Pages compatibility.
 
 When deployed to production (GitHub Pages), it connects to the homelab backend via HTTPS.
+# Snapshot deployed
