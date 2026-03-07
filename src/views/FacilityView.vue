@@ -98,19 +98,12 @@ const facilityChanges = ref([])
 const loading = ref(true)
 const error = ref(null)
 
-// Compute last updated from the most recent schedule
+// Use last scrape time from the store (fetched via health endpoint)
 const lastUpdated = computed(() => {
-  if (!facilitySchedules.value || facilitySchedules.value.length === 0) return null
+  if (!store.lastScrapedAt) return null
   
-  const dates = facilitySchedules.value
-    .map(s => s.created_at)
-    .filter(Boolean)
-    .map(d => new Date(d))
-  
-  if (dates.length === 0) return null
-  
-  const mostRecent = new Date(Math.max(...dates))
-  return mostRecent.toLocaleString('fr-CA', {
+  const date = new Date(store.lastScrapedAt)
+  return date.toLocaleString('fr-CA', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -134,6 +127,9 @@ const loadFacility = async () => {
   try {
     loading.value = true
     error.value = null
+    
+    // Fetch last scrape time (fire-and-forget)
+    store.fetchHealthStatus()
     
     // Load facility details
     const facilities = await getFacilities()

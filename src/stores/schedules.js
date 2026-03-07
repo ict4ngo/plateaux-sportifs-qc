@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { getFacilities, getSchedules, getChanges, isUsingFallback, getLastExportedAt } from "../api/client";
+import { getFacilities, getSchedules, getChanges, getHealthStatus, isUsingFallback, getLastExportedAt } from "../api/client";
 
 export const useScheduleStore = defineStore("schedules", {
   state: () => ({
@@ -10,6 +10,7 @@ export const useScheduleStore = defineStore("schedules", {
     error: null,
     usingFallback: false,
     lastExportedAt: null,
+    lastScrapedAt: null,
     filters: {
       facility_ids: [],      // Array of selected facility IDs
       facility_type: null,   // Single type filter (optional)
@@ -62,6 +63,13 @@ export const useScheduleStore = defineStore("schedules", {
       const facilities = await getFacilities(params);
       this.facilities = facilities;
       this.updateFallbackState();
+    },
+    
+    async fetchHealthStatus() {
+      const health = await getHealthStatus();
+      if (health && health.last_scraped_at) {
+        this.lastScrapedAt = health.last_scraped_at;
+      }
     },
     
     updateFallbackState() {

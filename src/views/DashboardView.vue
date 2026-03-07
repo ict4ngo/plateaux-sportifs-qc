@@ -38,7 +38,7 @@ import ScheduleTable from '../components/ScheduleTable.vue'
 
 const store = useScheduleStore()
 
-// Compute last updated from the most recent schedule or exported_at
+// Compute last updated from the last scrape time or exported_at
 const lastUpdated = computed(() => {
   // If using fallback, show the exported_at date
   if (store.isOfflineMode && store.lastExportedAt) {
@@ -52,28 +52,24 @@ const lastUpdated = computed(() => {
     })
   }
   
-  // Otherwise use schedule dates
-  if (!store.schedules || store.schedules.length === 0) return null
+  // Use last scrape time from health endpoint
+  if (store.lastScrapedAt) {
+    const date = new Date(store.lastScrapedAt)
+    return date.toLocaleString('fr-CA', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    })
+  }
   
-  const dates = store.schedules
-    .map(s => s.created_at)
-    .filter(Boolean)
-    .map(d => new Date(d))
-  
-  if (dates.length === 0) return null
-  
-  const mostRecent = new Date(Math.max(...dates))
-  return mostRecent.toLocaleString('fr-CA', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
-  })
+  return null
 })
 
 // Load data
 const loadData = async () => {
+  store.fetchHealthStatus()  // fire-and-forget, non-blocking
   await store.fetchFacilities()
   await store.fetchSchedules()
 }

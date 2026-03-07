@@ -144,6 +144,16 @@ export async function getChanges(params = {}) {
   return data;
 }
 
+export async function getHealthStatus() {
+  // Fetch last scrape time from the health endpoint (no fallback needed)
+  try {
+    const { data } = await client.get("/api/health");
+    return data;
+  } catch {
+    return null;
+  }
+}
+
 export async function submitReport(report) {
   // Reports always require the API - no fallback for write operations
   const { data } = await client.post("/api/reports/", report);
