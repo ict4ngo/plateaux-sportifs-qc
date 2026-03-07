@@ -100,6 +100,7 @@ const formatDate = (isoDate) => {
   if (!isoDate) return ''
   const date = new Date(isoDate)
   return date.toLocaleDateString('fr-CA', {
+    timeZone: 'America/New_York',
     year: 'numeric',
     month: 'short',
     day: 'numeric',

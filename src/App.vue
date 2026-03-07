@@ -10,6 +10,7 @@ const lastExportedAt = computed(() => {
   if (!store.lastExportedAt) return null
   const date = new Date(store.lastExportedAt)
   return date.toLocaleString('fr-CA', {
+    timeZone: 'America/New_York',
     year: 'numeric',
     month: 'long',
     day: 'numeric',

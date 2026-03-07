@@ -104,6 +104,7 @@ const lastUpdated = computed(() => {
   
   const date = new Date(store.lastScrapedAt)
   return date.toLocaleString('fr-CA', {
+    timeZone: 'America/New_York',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -116,6 +117,7 @@ const formatDate = (isoDate) => {
   if (!isoDate) return ''
   const date = new Date(isoDate)
   return date.toLocaleDateString('fr-CA', {
+    timeZone: 'America/New_York',
     month: 'short',
     day: 'numeric'
   })

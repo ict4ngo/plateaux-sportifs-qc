@@ -44,6 +44,7 @@ const lastUpdated = computed(() => {
   if (store.isOfflineMode && store.lastExportedAt) {
     const date = new Date(store.lastExportedAt)
     return date.toLocaleString('fr-CA', {
+      timeZone: 'America/New_York',
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -56,6 +57,7 @@ const lastUpdated = computed(() => {
   if (store.lastScrapedAt) {
     const date = new Date(store.lastScrapedAt)
     return date.toLocaleString('fr-CA', {
+      timeZone: 'America/New_York',
       year: 'numeric',
       month: 'long',
       day: 'numeric',
