@@ -2,8 +2,8 @@
   <div class="dashboard">
     <!-- Hero Section -->
     <section class="hero">
-      <p class="eyebrow">Ville de Québec</p>
-      <h1>Horaires des installations sportives</h1>
+      <p class="eyebrow">{{ activityStore.activityLabel }} — Ville de Québec</p>
+      <h1>Horaires des {{ activityStore.activityLabel.toLowerCase() }}</h1>
       <p class="lede">Consultez et filtrez les horaires. Sélectionnez plusieurs installations ou jours.</p>
       <p v-if="lastUpdated" class="last-updated">
         <span v-if="store.isOfflineMode" class="offline-badge">Hors ligne</span>
@@ -33,10 +33,12 @@
 <script setup>
 import { ref, onMounted, watch, computed } from 'vue'
 import { useScheduleStore } from '../stores/schedules'
+import { useActivityStore } from '../stores/activity'
 import FilterBar from '../components/FilterBar.vue'
 import ScheduleTable from '../components/ScheduleTable.vue'
 
 const store = useScheduleStore()
+const activityStore = useActivityStore()
 
 // Compute last updated from the last scrape time or exported_at
 const lastUpdated = computed(() => {

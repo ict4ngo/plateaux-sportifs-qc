@@ -1,9 +1,9 @@
 <template>
   <div class="changes">
     <section class="hero">
-      <p class="eyebrow">Mises à jour</p>
+      <p class="eyebrow">{{ activityStore.activityLabel }} — Mises à jour</p>
       <h1>Changements récents</h1>
-      <p class="lede">Historique des modifications détectées dans les horaires.</p>
+      <p class="lede">Historique des modifications détectées dans les horaires des {{ activityStore.activityLabel.toLowerCase() }}.</p>
     </section>
 
     <!-- Loading State -->
@@ -19,12 +19,12 @@
 
     <!-- Changes Feed -->
     <section v-else class="changes-list">
-      <div v-if="store.changes.length === 0" class="empty">
-        <p>Aucun changement récent.</p>
+      <div v-if="store.currentActivityChanges.length === 0" class="empty">
+        <p>Aucun changement récent pour les {{ activityStore.activityLabel.toLowerCase() }}.</p>
       </div>
 
-      <div 
-        v-for="change in store.changes" 
+      <div
+        v-for="change in store.currentActivityChanges"
         :key="change.id"
         class="change-card"
         :class="[change.change_type, { 'special-schedule': isSpecialSchedule(change) }]"
@@ -58,8 +58,10 @@
 <script setup>
 import { onMounted } from 'vue'
 import { useScheduleStore } from '../stores/schedules'
+import { useActivityStore } from '../stores/activity'
 
 const store = useScheduleStore()
+const activityStore = useActivityStore()
 
 const loadChanges = async () => {
   await store.fetchChanges()

@@ -9,14 +9,14 @@
         </span>
       </div>
       <div class="facility-list">
-        <label 
-          v-for="facility in store.facilities" 
+        <label
+          v-for="facility in store.currentActivityFacilities"
           :key="facility.id"
           class="facility-checkbox"
           :class="{ active: store.filters.facility_ids.includes(facility.id) }"
         >
-          <input 
-            type="checkbox" 
+          <input
+            type="checkbox"
             :value="facility.id"
             :checked="store.filters.facility_ids.includes(facility.id)"
             @change="store.toggleFacility(facility.id)"
@@ -49,7 +49,7 @@
     </div>
 
     <!-- Activities Multi-Select -->
-    <div class="filter-section" v-if="store.activities.length > 0">
+    <div class="filter-section" v-if="store.currentActivityActivities.length > 0">
       <div class="filter-header">
         <label>Activités</label>
         <span class="filter-count" v-if="store.filters.activities.length > 0">
@@ -57,14 +57,14 @@
         </span>
       </div>
       <div class="activity-list">
-        <label 
-          v-for="activity in store.activities" 
+        <label
+          v-for="activity in store.currentActivityActivities"
           :key="activity"
           class="activity-checkbox"
           :class="{ active: store.filters.activities.includes(activity) }"
         >
-          <input 
-            type="checkbox" 
+          <input
+            type="checkbox"
             :value="activity"
             :checked="store.filters.activities.includes(activity)"
             @change="store.toggleActivity(activity)"

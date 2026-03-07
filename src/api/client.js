@@ -98,7 +98,15 @@ export async function getFacilities(params = {}) {
 export async function getSchedules(params = {}) {
   const data = await fetchWithFallback("/api/schedules/", (snapshot) => {
     let schedules = snapshot.schedules || [];
-    
+
+    // Filter by facility_type if specified
+    if (params.facility_type) {
+      const facilityIds = (snapshot.facilities || [])
+        .filter(f => f.facility_type === params.facility_type)
+        .map(f => f.id);
+      schedules = schedules.filter(s => facilityIds.includes(s.facility_id));
+    }
+
     // Apply filters from params
     if (params.facility_id) {
       // Single facility filter (used by FacilityView)
@@ -109,17 +117,17 @@ export async function getSchedules(params = {}) {
       const ids = params.facility_ids.split(',').map(Number);
       schedules = schedules.filter(s => ids.includes(s.facility_id));
     }
-    
+
     if (params.days) {
       const days = params.days.split(',');
       schedules = schedules.filter(s => days.includes(s.day_of_week));
     }
-    
+
     if (params.activities) {
       const activities = params.activities.split(',');
       schedules = schedules.filter(s => activities.includes(s.activity));
     }
-    
+
     return schedules;
   });
   return data;
@@ -128,17 +136,25 @@ export async function getSchedules(params = {}) {
 export async function getChanges(params = {}) {
   const data = await fetchWithFallback("/api/changes/", (snapshot) => {
     let changes = snapshot.changes || [];
-    
+
+    // Filter by facility_type if specified
+    if (params.facility_type) {
+      const facilityIds = (snapshot.facilities || [])
+        .filter(f => f.facility_type === params.facility_type)
+        .map(f => f.id);
+      changes = changes.filter(c => facilityIds.includes(c.facility_id));
+    }
+
     // Apply facility_id filter if specified
     if (params.facility_id) {
       changes = changes.filter(c => c.facility_id === parseInt(params.facility_id));
     }
-    
+
     // Apply limit
     if (params.limit) {
       changes = changes.slice(0, parseInt(params.limit));
     }
-    
+
     return changes;
   });
   return data;

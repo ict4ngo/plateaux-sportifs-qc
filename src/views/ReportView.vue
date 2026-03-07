@@ -1,10 +1,10 @@
 <template>
   <div class="report">
     <section class="hero">
-      <router-link to="/" class="back-link">← Retour aux horaires</router-link>
-      <p class="eyebrow">Aidez-nous à améliorer</p>
+      <router-link :to="{ name: `${activityStore.currentActivity}-schedules` }" class="back-link">← Retour aux horaires</router-link>
+      <p class="eyebrow">{{ activityStore.activityLabel }} — Aidez-nous à améliorer</p>
       <h1>Signaler une erreur</h1>
-      <p class="lede">Vous avez remarqué un horaire incorrect? Faites-le nous savoir.</p>
+      <p class="lede">Vous avez remarqué un horaire incorrect pour les {{ activityStore.activityLabel.toLowerCase() }}? Faites-le nous savoir.</p>
     </section>
 
     <section class="form-section">
@@ -105,8 +105,10 @@
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { getFacilities, submitReport } from '../api/client'
+import { useActivityStore } from '../stores/activity'
 
 const route = useRoute()
+const activityStore = useActivityStore()
 
 const facilities = ref([])
 const loading = ref(false)
@@ -127,8 +129,11 @@ const isValid = computed(() => {
 const loadFacilities = async () => {
   try {
     loading.value = true
-    facilities.value = await getFacilities()
-    
+    // Charger uniquement les installations de l'activité courante
+    facilities.value = await getFacilities({
+      facility_type: activityStore.facilityType
+    })
+
     // Pre-select facility if passed in URL
     const preselectedFacility = route.query.facility
     if (preselectedFacility) {

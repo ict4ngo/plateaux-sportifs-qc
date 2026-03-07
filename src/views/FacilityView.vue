@@ -4,15 +4,15 @@
       <p>Chargement...</p>
     </div>
 
-    <div v-else-if="error" class="error">
+     <div v-else-if="error" class="error">
       <p>{{ error }}</p>
-      <router-link to="/">← Retour aux horaires</router-link>
+      <router-link :to="{ name: `${activityStore.currentActivity}-schedules` }">← Retour aux horaires</router-link>
     </div>
 
     <div v-else-if="facility" class="facility-content">
       <!-- Header -->
       <section class="hero">
-        <router-link to="/" class="back-link">← Retour aux horaires</router-link>
+        <router-link :to="{ name: `${activityStore.currentActivity}-schedules` }" class="back-link">← Retour aux horaires</router-link>
         <p class="eyebrow">{{ facility.facility_type }}</p>
         <h1>{{ facility.name }}</h1>
         <a 
@@ -57,7 +57,7 @@
             <span class="date">{{ formatDate(change.created_at) }}</span>
           </div>
         </div>
-        <router-link to="/changes" class="view-all">
+        <router-link :to="{ name: `${activityStore.currentActivity}-changes` }" class="view-all">
           Voir tous les changements →
         </router-link>
       </section>
@@ -66,8 +66,8 @@
       <section class="report-section">
         <h2>Signaler une erreur</h2>
         <p>Vous constatez un horaire incorrect? Signalez-le nous.</p>
-        <router-link 
-          :to="`/report?facility=${facility.id}`" 
+        <router-link
+          :to="{ name: `${activityStore.currentActivity}-report`, query: { facility: facility.id } }"
           class="btn-report"
         >
           Signaler un problème
@@ -77,20 +77,23 @@
 
     <div v-else class="not-found">
       <h2>Installation non trouvée</h2>
-      <router-link to="/">← Retour aux horaires</router-link>
+      <router-link :to="{ name: `${activityStore.currentActivity}-schedules` }">← Retour aux horaires</router-link>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useScheduleStore } from '../stores/schedules'
+import { useActivityStore } from '../stores/activity'
 import { getFacilities, getSchedules, getChanges } from '../api/client'
 import ScheduleTable from '../components/ScheduleTable.vue'
 
 const route = useRoute()
+const router = useRouter()
 const store = useScheduleStore()
+const activityStore = useActivityStore()
 
 const facility = ref(null)
 const facilitySchedules = ref([])
