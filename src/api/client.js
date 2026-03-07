@@ -17,6 +17,9 @@ const client = axios.create({
 let usingFallback = false;
 let lastExportedAt = null;
 
+// Cache the snapshot to avoid redundant fetches
+let cachedSnapshot = null;
+
 export function isUsingFallback() {
   return usingFallback;
 }
@@ -37,6 +40,18 @@ function setFallbackState(snapshot) {
   lastExportedAt = snapshot.exported_at || null;
 }
 
+// Fetch snapshot with caching (only fetch once per session)
+async function getSnapshot() {
+  if (cachedSnapshot) return cachedSnapshot;
+
+  const response = await fetch(snapshotUrl);
+  if (!response.ok) {
+    throw new Error(`Snapshot not available: ${response.status}`);
+  }
+  cachedSnapshot = await response.json();
+  return cachedSnapshot;
+}
+
 // Fetch with automatic fallback to static snapshot
 async function fetchWithFallback(apiPath, transformSnapshot = null) {
   try {
@@ -49,12 +64,7 @@ async function fetchWithFallback(apiPath, transformSnapshot = null) {
     
     // Fallback to static snapshot
     try {
-      const response = await fetch(snapshotUrl);
-      if (!response.ok) {
-        throw new Error(`Snapshot not available: ${response.status}`);
-      }
-      
-      const snapshot = await response.json();
+      const snapshot = await getSnapshot();
       setFallbackState(snapshot);
       
       // Transform snapshot data to match API format if needed
@@ -90,7 +100,12 @@ export async function getSchedules(params = {}) {
     let schedules = snapshot.schedules || [];
     
     // Apply filters from params
-    if (params.facility_ids) {
+    if (params.facility_id) {
+      // Single facility filter (used by FacilityView)
+      const id = parseInt(params.facility_id);
+      schedules = schedules.filter(s => s.facility_id === id);
+    } else if (params.facility_ids) {
+      // Multi facility filter (comma-separated, used by DashboardView)
       const ids = params.facility_ids.split(',').map(Number);
       schedules = schedules.filter(s => ids.includes(s.facility_id));
     }

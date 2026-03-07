@@ -60,39 +60,8 @@ export const useScheduleStore = defineStore("schedules", {
       const params = {};
       if (this.filters.facility_type) params.facility_type = this.filters.facility_type;
       const facilities = await getFacilities(params);
-      // Add short names for display
-      this.facilities = facilities.map(f => ({
-        ...f,
-        short_name: this.getShortName(f.name)
-      }));
+      this.facilities = facilities;
       this.updateFallbackState();
-    },
-    
-    getShortName(fullName) {
-      // Mapping of long names to short display names
-      const shortNames = {
-        "Centre communautaire Ferland": "Ferland",
-        "Centre communautaire Lucien-Borne": "Lucien-Borne",
-        "Centre communautaire Michel-Labadie": "Labadie",
-        "Centre municipal Monseigneur-De Laval": "De Laval",
-        "Complexe Jean-Paul-Nolin": "Nolin",
-        "Pavillon de l'éducation physique et des sports de l'Université Laval (PEPS)": "PEPS",
-        "Piscine A. Couture (Collège François-de-Laval)": "A. Couture",
-        "Piscine Jacques-Amyot": "Jacques-Amyot",
-        "Piscine Jos.-A.-Lachance": "Jos.-A.-Lachance",
-        "Piscine Jules-Dallaire - Patro Roc-Amadour": "Jules-Dallaire",
-        "Piscine Lucien-Flamand (centre Wilbrod-Bhérer)": "Lucien-Flamand",
-        "Piscine Sylvie-Bernier": "Sylvie-Bernier",
-        "Piscine Wilfrid-Hamel": "Wilfrid-Hamel",
-        "Piscine de l'école L'Odyssée": "L'Odyssée",
-        "Piscine de l'édifice Denis-Giguère": "Denis-Giguère",
-        "Piscine du Campus Notre-Dame-de-Foy": "ND de Foy",
-        "Piscine municipale du Bourg-Royal": "Bourg-Royal",
-        "YMCA St-Roch": "YMCA St-Roch",
-        "YWCA Québec": "YWCA",
-        "École secondaire de La Seigneurie": "La Seigneurie"
-      };
-      return shortNames[fullName] || fullName;
     },
     
     updateFallbackState() {
@@ -131,8 +100,17 @@ export const useScheduleStore = defineStore("schedules", {
       }
     },
     async fetchChanges() {
-      this.changes = await getChanges({ limit: 50 });
-      this.updateFallbackState();
+      this.loading = true;
+      this.error = null;
+      try {
+        this.changes = await getChanges({ limit: 50 });
+        this.updateFallbackState();
+      } catch (e) {
+        this.error = "Erreur de chargement des changements.";
+        console.error(e);
+      } finally {
+        this.loading = false;
+      }
     },
     
     // Multi-select helpers

@@ -74,26 +74,20 @@ const badgeText = (type) => {
   return texts[type] || type.toUpperCase()
 }
 
-// Keywords that indicate special schedules
+// Keywords that indicate special schedules (French only -- backend generates French descriptions)
 const specialScheduleKeywords = [
-  'march break',
-  'spring break',
   'vacances',
-  'holiday',
   'férié',
   'congé',
   'fermé',
   'noël',
-  'christmas',
   'pâques',
-  'easter',
   'été',
-  'summer',
   'hiver',
-  'winter',
   'construction',
   'rénovation',
-  'exception'
+  'exception',
+  'relâche',
 ]
 
 const isSpecialSchedule = (change) => {

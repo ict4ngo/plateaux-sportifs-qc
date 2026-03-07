@@ -83,7 +83,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useScheduleStore } from '../stores/schedules'
 import { getFacilities, getSchedules, getChanges } from '../api/client'
@@ -97,24 +97,6 @@ const facilitySchedules = ref([])
 const facilityChanges = ref([])
 const loading = ref(true)
 const error = ref(null)
-
-const schedulesByDay = computed(() => {
-  const days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
-  const grouped = {}
-  
-  days.forEach(day => {
-    const daySlots = facilitySchedules.value.filter(s => s.day_of_week === day)
-    if (daySlots.length > 0) {
-      grouped[day] = daySlots.sort((a, b) => {
-        if (!a.start_time) return 1
-        if (!b.start_time) return -1
-        return a.start_time.localeCompare(b.start_time)
-      })
-    }
-  })
-  
-  return grouped
-})
 
 // Compute last updated from the most recent schedule
 const lastUpdated = computed(() => {
@@ -260,52 +242,6 @@ h2 {
   color: var(--muted);
   background: var(--card);
   border-radius: 8px;
-}
-
-.week-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 16px;
-}
-
-.day-card {
-  background: var(--card);
-  border-radius: 8px;
-  padding: 16px;
-}
-
-.day-card h3 {
-  font-size: 14px;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--border);
-}
-
-.day-card ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.day-card li {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.activity {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.time {
-  font-size: 12px;
-  color: var(--muted);
-  font-family: monospace;
 }
 
 .mini-changes {
