@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-09T12:16:39.248037+00:00",
+  "exported_at": "2026-03-09T16:00:01.993977+00:00",
   "facilities": [
     {
       "id": 1,
@@ -5471,39 +5471,6 @@
       "valid_from": "2026-03-03"
     },
     {
-      "id": 474,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "day_of_week": "Lundi",
-      "activity": "Tous",
-      "start_time": "13:30",
-      "end_time": "14:55",
-      "raw_text": "13 h 30 à 14 h 55",
-      "valid_from": "2026-03-03"
-    },
-    {
-      "id": 475,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "day_of_week": "Mercredi",
-      "activity": "Tous",
-      "start_time": "13:30",
-      "end_time": "14:55",
-      "raw_text": "13 h 30 à 14 h 55",
-      "valid_from": "2026-03-03"
-    },
-    {
-      "id": 476,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "day_of_week": "Vendredi",
-      "activity": "Tous",
-      "start_time": "13:30",
-      "end_time": "14:55",
-      "raw_text": "13 h 30 à 14 h 55",
-      "valid_from": "2026-03-03"
-    },
-    {
       "id": 477,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
@@ -5633,39 +5600,6 @@
       "start_time": "12:30",
       "end_time": "13:55",
       "raw_text": "12 h 30 à 13 h 55",
-      "valid_from": "2026-03-03"
-    },
-    {
-      "id": 489,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "day_of_week": "Lundi",
-      "activity": "Tous",
-      "start_time": "13:30",
-      "end_time": "14:55",
-      "raw_text": "13 h 30 à 14 h 55",
-      "valid_from": "2026-03-03"
-    },
-    {
-      "id": 490,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "day_of_week": "Mercredi",
-      "activity": "Tous",
-      "start_time": "13:30",
-      "end_time": "14:55",
-      "raw_text": "13 h 30 à 14 h 55",
-      "valid_from": "2026-03-03"
-    },
-    {
-      "id": 491,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "day_of_week": "Vendredi",
-      "activity": "Tous",
-      "start_time": "13:30",
-      "end_time": "14:55",
-      "raw_text": "13 h 30 à 14 h 55",
       "valid_from": "2026-03-03"
     },
     {
@@ -7618,6 +7552,39 @@
   ],
   "changes": [
     {
+      "id": 378,
+      "facility_id": 21,
+      "facility_name": "YWCA Québec",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Tous 13:30-14:55",
+      "new_value": null,
+      "description": "YWCA Québec: retrait Tous le Lundi (13:30-14:55)",
+      "created_at": "2026-03-09T16:00:01"
+    },
+    {
+      "id": 379,
+      "facility_id": 21,
+      "facility_name": "YWCA Québec",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Mercredi Tous 13:30-14:55",
+      "new_value": null,
+      "description": "YWCA Québec: retrait Tous le Mercredi (13:30-14:55)",
+      "created_at": "2026-03-09T16:00:01"
+    },
+    {
+      "id": 380,
+      "facility_id": 21,
+      "facility_name": "YWCA Québec",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Vendredi Tous 13:30-14:55",
+      "new_value": null,
+      "description": "YWCA Québec: retrait Tous le Vendredi (13:30-14:55)",
+      "created_at": "2026-03-09T16:00:01"
+    },
+    {
       "id": 232,
       "facility_id": 22,
       "facility_name": "Aréna Bardy",
@@ -8682,39 +8649,6 @@
       "old_value": null,
       "new_value": "Jeudi Patinage libre 10:00-11:50",
       "description": "Centre communautaire Michel-Labadie: ajout Patinage libre le Jeudi (10:00-11:50)",
-      "created_at": "2026-03-07T15:06:04"
-    },
-    {
-      "id": 329,
-      "facility_id": 29,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 14:30-15:20",
-      "description": "Centre communautaire Michel-Labadie: ajout Famille le Lundi (14:30-15:20)",
-      "created_at": "2026-03-07T15:06:04"
-    },
-    {
-      "id": 330,
-      "facility_id": 29,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 16:30-17:20",
-      "description": "Centre communautaire Michel-Labadie: ajout Famille le Lundi (16:30-17:20)",
-      "created_at": "2026-03-07T15:06:04"
-    },
-    {
-      "id": 331,
-      "facility_id": 29,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Famille 13:30-14:20",
-      "description": "Centre communautaire Michel-Labadie: ajout Famille le Mardi (13:30-14:20)",
       "created_at": "2026-03-07T15:06:04"
     }
   ]
