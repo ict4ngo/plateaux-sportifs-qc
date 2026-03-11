@@ -75,6 +75,7 @@ const lastUpdated = computed(() => {
 const loadData = async () => {
   store.fetchHealthStatus()  // fire-and-forget, non-blocking
   await store.fetchFacilities()
+  await store.fetchNotices()  // Load notices for dashboard badges
   await store.fetchSchedules()
 }
 

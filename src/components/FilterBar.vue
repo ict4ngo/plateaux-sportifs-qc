@@ -13,7 +13,11 @@
           v-for="facility in store.currentActivityFacilities"
           :key="facility.id"
           class="facility-checkbox"
-          :class="{ active: store.filters.facility_ids.includes(facility.id) }"
+          :class="{ 
+            active: store.filters.facility_ids.includes(facility.id),
+            'has-notice': store.facilitiesWithNotices.includes(facility.id)
+          }"
+          :title="getNoticeTooltip(facility.id)"
         >
           <input
             type="checkbox"
@@ -23,6 +27,9 @@
           />
           <span class="checkmark">✓</span>
           <span class="label">{{ facility.name }}</span>
+          <span v-if="store.facilitiesWithNotices.includes(facility.id)" class="notice-badge">
+            {{ getNoticeIcon(facility.id) }}
+          </span>
         </label>
       </div>
     </div>
@@ -89,6 +96,22 @@
 import { useScheduleStore } from '../stores/schedules'
 
 const store = useScheduleStore()
+
+const getNoticeIcon = (facilityId) => {
+  const noticeTypes = store.getFacilityNoticeTypes(facilityId)
+  if (noticeTypes.includes('cancellation')) return '⚠️'
+  if (noticeTypes.includes('closure_temporary')) return '🚫'
+  if (noticeTypes.includes('closure_holiday')) return '🎉'
+  return 'ℹ️'
+}
+
+const getNoticeTooltip = (facilityId) => {
+  const noticeTypes = store.getFacilityNoticeTypes(facilityId)
+  if (noticeTypes.includes('cancellation')) return 'Annulation(s) en cours - cliquez pour voir les détails'
+  if (noticeTypes.includes('closure_temporary')) return 'Fermeture temporaire'
+  if (noticeTypes.includes('closure_holiday')) return 'Fermetures à venir'
+  return ''
+}
 </script>
 
 <style scoped>
@@ -175,6 +198,22 @@ const store = useScheduleStore()
 
 .facility-checkbox.active .checkmark {
   display: inline;
+}
+
+.notice-badge {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+/* Highlight facilities with notices */
+.facility-checkbox.has-notice:not(.active) {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.facility-checkbox.has-notice:not(.active):hover {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.2);
 }
 
 /* Day Toggle Buttons */

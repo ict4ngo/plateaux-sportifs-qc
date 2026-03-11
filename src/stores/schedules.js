@@ -7,6 +7,7 @@ export const useScheduleStore = defineStore("schedules", {
     facilities: [],
     schedules: [],
     changes: [],
+    notices: [],
     loading: false,
     error: null,
     usingFallback: false,
@@ -94,6 +95,32 @@ export const useScheduleStore = defineStore("schedules", {
     isOfflineMode(state) {
       return state.usingFallback;
     },
+
+    // Facilities with active notices (for dashboard badges)
+    facilitiesWithNotices(state) {
+      const activityStore = useActivityStore();
+      const facilityType = activityStore.facilityType;
+      const facilityIds = state.facilities
+        .filter(f => f.facility_type === facilityType)
+        .map(f => f.id);
+
+      const facilityIdsWithNotices = new Set(
+        state.notices
+          .filter(n => n.notice_type !== 'closure_seasonal') // Don't show seasonal closures as prominently
+          .map(n => n.facility_id)
+      );
+
+      return facilityIds.filter(id => facilityIdsWithNotices.has(id));
+    },
+
+    // Get notice types for a specific facility
+    getFacilityNoticeTypes: (state) => (facilityId) => {
+      const types = new Set();
+      state.notices
+        .filter(n => n.facility_id === facilityId && n.notice_type !== 'closure_seasonal')
+        .forEach(n => types.add(n.notice_type));
+      return Array.from(types);
+    },
   },
 
   actions: {
@@ -152,6 +179,30 @@ export const useScheduleStore = defineStore("schedules", {
         console.error(e);
       } finally {
         this.loading = false;
+      }
+    },
+
+    async fetchNotices() {
+      // Fetch notices from snapshot - they're included in the schedules API response
+      // when using fallback, or we need to fetch them separately
+      try {
+        const activityStore = useActivityStore();
+
+        // Get snapshot data which includes notices
+        const snapshot = await fetch('https://raw.githubusercontent.com/ict4ngo/plateaux-sportifs-qc/main/public/data/snapshot.json')
+          .then(r => r.json())
+          .catch(() => ({ notices: [] }));
+
+        // Filter notices by facility type
+        const facilityIds = this.facilities
+          .filter(f => f.facility_type === activityStore.facilityType)
+          .map(f => f.id);
+
+        this.notices = (snapshot.notices || [])
+          .filter(n => facilityIds.includes(n.facility_id));
+      } catch (e) {
+        console.error('Error fetching notices:', e);
+        this.notices = [];
       }
     },
 
