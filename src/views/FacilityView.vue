@@ -26,6 +26,22 @@
         </a>
       </section>
 
+      <!-- Notices -->
+      <section v-if="facilityNotices.length > 0" class="notices-section">
+        <div
+          v-for="notice in facilityNotices"
+          :key="notice.id"
+          class="notice-banner"
+          :class="notice.notice_type"
+        >
+          <div class="notice-header">
+            <span class="notice-icon">{{ getNoticeIcon(notice.notice_type) }}</span>
+            <h3 v-if="notice.title" class="notice-title">{{ notice.title }}</h3>
+          </div>
+          <pre class="notice-body">{{ notice.body }}</pre>
+        </div>
+      </section>
+
       <!-- Weekly Schedule -->
       <section class="schedule-section">
         <h2>Horaire hebdomadaire</h2>
@@ -87,7 +103,7 @@ import { ref, onMounted, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useScheduleStore } from '../stores/schedules'
 import { useActivityStore } from '../stores/activity'
-import { getFacilities, getSchedules, getChanges } from '../api/client'
+import { getFacilities, getSchedules, getChanges, getFacilityNotices } from '../api/client'
 import ScheduleTable from '../components/ScheduleTable.vue'
 
 const route = useRoute()
@@ -98,6 +114,7 @@ const activityStore = useActivityStore()
 const facility = ref(null)
 const facilitySchedules = ref([])
 const facilityChanges = ref([])
+const facilityNotices = ref([])
 const loading = ref(true)
 const error = ref(null)
 
@@ -126,6 +143,17 @@ const formatDate = (isoDate) => {
   })
 }
 
+const getNoticeIcon = (noticeType) => {
+  const icons = {
+    'cancellation': '⚠️',
+    'closure_temporary': '🚫',
+    'closure_seasonal': '❄️',
+    'closure_holiday': '🎉',
+    'general': 'ℹ️'
+  }
+  return icons[noticeType] || 'ℹ️'
+}
+
 const loadFacility = async () => {
   const facilityId = parseInt(route.params.id)
   
@@ -152,7 +180,11 @@ const loadFacility = async () => {
     // Load recent changes
     const changes = await getChanges({ facility_id: facilityId, limit: 10 })
     facilityChanges.value = changes
-    
+
+    // Load notices for this facility
+    const notices = await getFacilityNotices(facilityId)
+    facilityNotices.value = notices
+
   } catch (e) {
     error.value = "Erreur de chargement des données"
     console.error(e)
@@ -337,5 +369,68 @@ h2 {
 
 .btn-report:hover {
   opacity: 0.9;
+}
+
+/* Notices */
+.notices-section {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notice-banner {
+  padding: 16px 20px;
+  border-radius: 8px;
+  border-left: 4px solid;
+  background: var(--card);
+}
+
+.notice-banner.cancellation {
+  border-left-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.notice-banner.closure_temporary,
+.notice-banner.closure_seasonal {
+  border-left-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.notice-banner.closure_holiday {
+  border-left-color: #8b5cf6;
+  background: rgba(139, 92, 246, 0.1);
+}
+
+.notice-banner.general {
+  border-left-color: var(--accent);
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.notice-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.notice-icon {
+  font-size: 20px;
+}
+
+.notice-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text);
+}
+
+.notice-body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+  white-space: pre-wrap;
+  font-family: inherit;
 }
 </style>

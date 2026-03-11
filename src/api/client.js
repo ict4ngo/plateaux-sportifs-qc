@@ -175,3 +175,12 @@ export async function submitReport(report) {
   const { data } = await client.post("/api/reports/", report);
   return data;
 }
+
+export async function getFacilityNotices(facilityId) {
+  const data = await fetchWithFallback(`/api/facilities/${facilityId}/notices`, (snapshot) => {
+    // Filter notices from snapshot for this facility
+    const notices = snapshot.notices || [];
+    return notices.filter(n => n.facility_id === facilityId);
+  });
+  return data;
+}
