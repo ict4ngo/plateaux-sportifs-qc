@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-11T17:52:05.929149+00:00",
+  "exported_at": "2026-03-11T23:18:42.822386+00:00",
   "facilities": [
     {
       "id": 1,
@@ -2592,56 +2592,6 @@
       "last_seen_at": "2026-03-11T17:46:51"
     },
     {
-      "id": 2,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Vendredi 27 mars 2026\nBain longueurs 19 h 45 à 21 h 45\nSamedi 28 mars 2026\nBain tous 14 h 30 à 17 h",
-      "first_seen_at": "2026-03-11T17:51:21",
-      "last_seen_at": "2026-03-11T17:51:21"
-    },
-    {
-      "id": 3,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Mercredi 11 mars Bain Tous \t13 h 15 à 14 h 55\nMercredi 11 mars Bain Aînés \t15 h 15 à 16 h 15\nJeudi 12 mars Bain Adultes 7 h 15 à 8 h 40",
-      "first_seen_at": "2026-03-11T17:51:21",
-      "last_seen_at": "2026-03-11T17:51:21"
-    },
-    {
-      "id": 4,
-      "facility_id": 7,
-      "facility_name": "École secondaire de La Seigneurie",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Mardi 10 mars 2026\nBain longueurs 19 h 30 à 21 h 30\nDimanche 22 mars\nBain tous 13 h à 15h\nBain longueurs 15 h 15 à 16 h 45\nSamedi 28 mars\nBains longueurs 7 h à 8 h 30\nBain tous 13 h à 15h\nBain longueurs 15 h 15 à 16 h 45",
-      "first_seen_at": "2026-03-11T17:51:21",
-      "last_seen_at": "2026-03-11T17:51:21"
-    },
-    {
-      "id": 5,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Veuillez prendre note que le bain longueurs mercredi 11 mars 12 h à 13 h 30 ainsi que le bain aînés prévu de 15 h à 16 h30 sont annulés.",
-      "first_seen_at": "2026-03-11T17:51:21",
-      "last_seen_at": "2026-03-11T17:51:21"
-    },
-    {
-      "id": 6,
-      "facility_id": 13,
-      "facility_name": "Piscine Jacques-Amyot",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Bain longueurs, de 11 h 55 à 12 h\n45\n5 et 19 février\n12 et 24 mars\nAVIS IMPORTANT\nLa porte 5 n'est plus accessible en raison de travaux. La porte 1 doit maintenant être utilisée en tout temps pour vous diriger à la piscine. Prendre note que pour les bains du midi en semaine, la porte 1 sera accessible seulement à partir de 11 h 30.",
-      "first_seen_at": "2026-03-11T17:51:21",
-      "last_seen_at": "2026-03-11T17:51:21"
-    },
-    {
       "id": 7,
       "facility_id": 15,
       "facility_name": "Piscine Jules-Dallaire - Patro Roc-Amadour",
@@ -2662,14 +2612,274 @@
       "last_seen_at": "2026-03-11T17:51:22"
     },
     {
-      "id": 9,
+      "id": 10,
+      "facility_id": 1,
+      "facility_name": "Arpidrome",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 11,
+      "facility_id": 1,
+      "facility_name": "Arpidrome",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques\npour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h\nVendredi 27 mars 2026\nBain longueurs 19 h 45 à 21 h 45\nSamedi 28 mars 2026\nBain tous 14 h 30 à 17 h",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 12,
+      "facility_id": 2,
+      "facility_name": "Centre communautaire Ferland",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 13,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 14,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 11h45",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 15,
+      "facility_id": 4,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 16,
+      "facility_id": 4,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 11h45",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 17,
+      "facility_id": 5,
+      "facility_name": "Centre municipal Monseigneur-De Laval",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 18,
+      "facility_id": 5,
+      "facility_name": "Centre municipal Monseigneur-De Laval",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 19,
+      "facility_id": 6,
+      "facility_name": "Complexe Jean-Paul-Nolin",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 20,
+      "facility_id": 6,
+      "facility_name": "Complexe Jean-Paul-Nolin",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h\nMercredi 11 mars Bain Tous \t13 h 15 à 14 h 55\nMercredi 11 mars Bain Aînés \t15 h 15 à 16 h 15\nJeudi 12 mars Bain Adultes 7 h 15 à 8 h 40",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 21,
+      "facility_id": 7,
+      "facility_name": "École secondaire de La Seigneurie",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 22,
+      "facility_id": 7,
+      "facility_name": "École secondaire de La Seigneurie",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h\nDimanche 22 mars\nBain tous 13 h à 15h\nBain longueurs 15 h 15 à 16 h 45\nSamedi 28 mars\nBains longueurs 7 h à 8 h 30\nBain tous 13 h à 15h\nBain longueurs 15 h 15 à 16 h 45",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 23,
+      "facility_id": 10,
+      "facility_name": "Piscine de l'école L'Odyssée",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 24,
+      "facility_id": 10,
+      "facility_name": "Piscine de l'école L'Odyssée",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h",
+      "first_seen_at": "2026-03-11T23:18:41",
+      "last_seen_at": "2026-03-11T23:18:41"
+    },
+    {
+      "id": 25,
+      "facility_id": 11,
+      "facility_name": "Piscine de l'édifice Denis-Giguère",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 26,
+      "facility_id": 11,
+      "facility_name": "Piscine de l'édifice Denis-Giguère",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 27,
+      "facility_id": 13,
+      "facility_name": "Piscine Jacques-Amyot",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 28,
+      "facility_id": 13,
+      "facility_name": "Piscine Jacques-Amyot",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques\npour aujourd’hui 11 mars à partir de 16h sont annulées.\nBain longueurs, de 11 h 55 à 12 h\n45\n12 et 24 mars\nAVIS IMPORTANT\nLa porte 5 n'est plus accessible en raison de travaux. La porte 1 doit maintenant être utilisée en tout temps pour vous diriger à la piscine. Prendre note que pour les bains du midi en semaine, la porte 1 sera accessible seulement à partir de 11 h 30.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 29,
+      "facility_id": 16,
+      "facility_name": "Piscine Lucien-Flamand (centre Wilbrod-Bhérer)",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 30,
+      "facility_id": 16,
+      "facility_name": "Piscine Lucien-Flamand (centre Wilbrod-Bhérer)",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques\npour aujourd’hui 11 mars à partir de 16h sont annulées.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 31,
+      "facility_id": 17,
+      "facility_name": "Piscine municipale du Bourg-Royal",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 32,
+      "facility_id": 17,
+      "facility_name": "Piscine municipale du Bourg-Royal",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 11h45",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 33,
+      "facility_id": 18,
+      "facility_name": "Piscine Sylvie-Bernier",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 34,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "notice_type": "cancellation",
       "title": "Annulations",
-      "body": "Samedi 28 mars\nBain tous 13 h 30 à 15 h 55",
-      "first_seen_at": "2026-03-11T17:51:22",
-      "last_seen_at": "2026-03-11T17:51:22"
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h\nAinsi que samedi 28 mars\nBain tous 13 h 30 à 15 h 55",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 35,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "notice_type": "closure_temporary",
+      "title": "Fermeture temporaire",
+      "body": "fermée temporairement.",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
+    },
+    {
+      "id": 36,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 11 mars à partir de 16h sont annulées jusqu'au jeudi 12 mars 12h",
+      "first_seen_at": "2026-03-11T23:18:42",
+      "last_seen_at": "2026-03-11T23:18:42"
     }
   ]
 }
