@@ -121,6 +121,55 @@ export const useScheduleStore = defineStore("schedules", {
         .forEach(n => types.add(n.notice_type));
       return Array.from(types);
     },
+
+    // Check if a specific schedule slot is cancelled
+    isScheduleCancelled: (state) => (schedule) => {
+      // Get cancellation notices for this facility
+      const cancellationNotices = state.notices.filter(
+        n => n.facility_id === schedule.facility_id && 
+             n.notice_type === 'cancellation'
+      );
+
+      if (cancellationNotices.length === 0) return false;
+
+      // Parse notice bodies to check for matching day/activity/time
+      const scheduleDay = schedule.day_of_week.toLowerCase();
+      const scheduleActivity = schedule.activity.toLowerCase();
+      
+      for (const notice of cancellationNotices) {
+        const body = notice.body.toLowerCase();
+        
+        // Check if day matches
+        const dayMatches = body.includes(scheduleDay);
+        
+        // Check if activity matches (handle variations like "bain longueurs" vs "longueurs")
+        let activityMatches = body.includes(scheduleActivity);
+        if (!activityMatches && scheduleActivity === 'longueurs') {
+          activityMatches = body.includes('bain longueurs');
+        }
+        
+        // Check if time matches (if start_time exists)
+        let timeMatches = true;
+        if (schedule.start_time) {
+          // Convert HH:MM to various formats found in notices
+          const [hours, minutes] = schedule.start_time.split(':');
+          const timeFormats = [
+            `${parseInt(hours)}h`,
+            `${hours}h`,
+            `${parseInt(hours)}h${minutes}`,
+            `${hours}h${minutes}`,
+            `${hours}:${minutes}`
+          ];
+          timeMatches = timeFormats.some(fmt => body.includes(fmt));
+        }
+        
+        if (dayMatches && activityMatches && timeMatches) {
+          return true;
+        }
+      }
+      
+      return false;
+    },
   },
 
   actions: {

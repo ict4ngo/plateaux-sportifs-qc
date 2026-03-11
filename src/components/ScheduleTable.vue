@@ -28,15 +28,19 @@
           :key="slot.id"
           @click="goToFacility(slot.facility_id)"
           class="clickable"
+          :class="{ cancelled: store.isScheduleCancelled(slot) }"
         >
           <td class="facility installation-col" v-if="!isSingleFacility">
             <span class="full-name">{{ slot.facility_name }}</span>
             <span class="short-name">{{ getShortName(slot.facility_name) }}</span>
           </td>
           <td class="day">{{ slot.day_of_week }}</td>
-          <td class="activity">{{ slot.activity }}</td>
+          <td class="activity">
+            {{ slot.activity }}
+            <span v-if="store.isScheduleCancelled(slot)" class="cancelled-badge">ANNULÉ</span>
+          </td>
           <td class="time">
-            <span v-if="slot.start_time">
+            <span v-if="slot.start_time" :class="{ 'cancelled-time': store.isScheduleCancelled(slot) }">
               {{ slot.start_time }} - {{ slot.end_time }}
             </span>
             <span v-else class="raw">{{ slot.raw_text }}</span>
@@ -55,12 +59,14 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { useScheduleStore } from '../stores/schedules'
 
 const props = defineProps({ 
   schedules: Array,
   isSingleFacility: { type: Boolean, default: false }
 })
 const router = useRouter()
+const store = useScheduleStore()
 
 // Short name mapping based on location/neighborhood
 const shortNames = {
@@ -236,6 +242,33 @@ const goToFacility = (id) => {
 .time .raw {
   color: var(--muted);
   font-style: italic;
+}
+
+/* Cancelled schedule styling */
+.schedule-table tr.cancelled {
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.schedule-table tr.cancelled:hover {
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.cancelled-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 6px;
+  background: #ef4444;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cancelled-time {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
 
 .empty {
