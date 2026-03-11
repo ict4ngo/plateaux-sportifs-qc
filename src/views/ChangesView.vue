@@ -19,22 +19,25 @@
 
     <!-- Changes Feed -->
     <section v-else class="changes-list">
-      <div v-if="store.currentActivityChanges.length === 0" class="empty">
+      <div v-if="allChanges.length === 0" class="empty">
         <p>Aucun changement récent pour les {{ activityStore.activityLabel.toLowerCase() }}.</p>
       </div>
 
       <div
-        v-for="change in store.currentActivityChanges"
+        v-for="change in allChanges"
         :key="change.id"
         class="change-card"
-        :class="[change.change_type, { 'special-schedule': isSpecialSchedule(change) }]"
+        :class="[change.change_type, { 'special-schedule': isSpecialSchedule(change), 'notice': change.is_notice }]"
       >
         <div class="change-header">
           <span class="badge" :class="change.change_type">
-            {{ badgeText(change.change_type) }}
+            {{ badgeText(change.change_type, change.is_notice) }}
           </span>
           <span v-if="isSpecialSchedule(change)" class="special-badge">
             ⚠️ Special
+          </span>
+          <span v-if="change.is_notice" class="notice-badge">
+            📢 Avis
           </span>
           <span class="facility">{{ change.facility_name }}</span>
           <span class="date">{{ formatDate(change.created_at) }}</span>
@@ -56,7 +59,7 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, computed } from 'vue'
 import { useScheduleStore } from '../stores/schedules'
 import { useActivityStore } from '../stores/activity'
 
@@ -65,9 +68,43 @@ const activityStore = useActivityStore()
 
 const loadChanges = async () => {
   await store.fetchChanges()
+  await store.fetchNotices() // Also load notices for the changes feed
 }
 
-const badgeText = (type) => {
+// Combine regular changes with notice changes
+const allChanges = computed(() => {
+  const changes = [...store.currentActivityChanges]
+  
+  // Convert notices to change format
+  const noticeChanges = store.notices
+    .filter(n => n.notice_type === 'cancellation' || n.notice_type === 'closure_temporary')
+    .map(n => ({
+      id: `notice-${n.id}`,
+      facility_name: n.facility_name,
+      change_type: n.notice_type === 'cancellation' ? 'removed' : 'modified',
+      description: n.title ? `${n.title}: ${n.body}` : n.body,
+      created_at: n.first_seen_at,
+      is_notice: true,
+      old_value: null,
+      new_value: null
+    }))
+  
+  // Combine and sort by date (newest first)
+  const combined = [...changes, ...noticeChanges]
+  combined.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+  
+  return combined.slice(0, 50) // Limit to 50 most recent
+})
+
+const badgeText = (type, isNotice = false) => {
+  if (isNotice) {
+    const noticeTexts = {
+      'removed': 'ANNULATION',
+      'modified': 'FERMETURE'
+    }
+    return noticeTexts[type] || 'AVIS'
+  }
+  
   const texts = {
     'added': 'AJOUT',
     'removed': 'RETRAIT',
@@ -282,5 +319,25 @@ h1 {
 
 .diff .new {
   color: #22c55e;
+}
+
+/* Notice change styling */
+.change-card.notice {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, var(--card) 100%);
+  border-left-color: #f59e0b;
+}
+
+.change-card.notice.removed {
+  border-left-color: #ef4444;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.08) 0%, var(--card) 100%);
+}
+
+.notice-badge {
+  background: rgba(245, 158, 11, 0.2);
+  color: #f59e0b;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
 }
 </style>
