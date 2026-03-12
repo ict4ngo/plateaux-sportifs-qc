@@ -123,35 +123,36 @@ export const useScheduleStore = defineStore("schedules", {
     },
 
     // Check if a specific schedule slot is cancelled
+    // Uses backend is_cancelled field if available, falls back to client-side parsing for snapshot data
     isScheduleCancelled: (state) => (schedule) => {
-      // Get cancellation notices for this facility
+      // Prefer backend field if available
+      if (typeof schedule.is_cancelled === 'boolean') {
+        return schedule.is_cancelled;
+      }
+
+      // Fallback: client-side parsing for snapshot data without new fields
       const cancellationNotices = state.notices.filter(
-        n => n.facility_id === schedule.facility_id && 
+        n => n.facility_id === schedule.facility_id &&
              n.notice_type === 'cancellation'
       );
 
       if (cancellationNotices.length === 0) return false;
 
-      // Parse notice bodies to check for matching day/activity/time
       const scheduleDay = schedule.day_of_week.toLowerCase();
       const scheduleActivity = schedule.activity.toLowerCase();
-      
+
       for (const notice of cancellationNotices) {
         const body = notice.body.toLowerCase();
-        
-        // Check if day matches
+
         const dayMatches = body.includes(scheduleDay);
-        
-        // Check if activity matches (handle variations like "bain longueurs" vs "longueurs")
+
         let activityMatches = body.includes(scheduleActivity);
         if (!activityMatches && scheduleActivity === 'longueurs') {
           activityMatches = body.includes('bain longueurs');
         }
-        
-        // Check if time matches (if start_time exists)
+
         let timeMatches = true;
         if (schedule.start_time) {
-          // Convert HH:MM to various formats found in notices
           const [hours, minutes] = schedule.start_time.split(':');
           const timeFormats = [
             `${parseInt(hours)}h`,
@@ -162,12 +163,12 @@ export const useScheduleStore = defineStore("schedules", {
           ];
           timeMatches = timeFormats.some(fmt => body.includes(fmt));
         }
-        
+
         if (dayMatches && activityMatches && timeMatches) {
           return true;
         }
       }
-      
+
       return false;
     },
   },
