@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-16T15:00:10.771973+00:00",
+  "exported_at": "2026-03-16T18:00:04.594122+00:00",
   "facilities": [
     {
       "id": 1,
@@ -3179,26 +3179,6 @@
       "notice_type": "cancellation",
       "title": "Annulations",
       "body": "Dimanche 22 mars\nBain tous 13 h à 15h\nBain longueurs 15 h 15 à 16 h 45\nSamedi 28 mars\nBains longueurs 7 h à 8 h 30\nBain tous 13 h à 15h\nBain longueurs 15 h 15 à 16 h 45",
-      "first_seen_at": "2026-03-15T15:36:23",
-      "last_seen_at": "2026-03-15T15:36:24"
-    },
-    {
-      "id": 5,
-      "facility_id": 10,
-      "facility_name": "Piscine de l'école L'Odyssée",
-      "notice_type": "closure_temporary",
-      "title": "Fermeture temporaire",
-      "body": "fermée temporairement.",
-      "first_seen_at": "2026-03-15T15:36:23",
-      "last_seen_at": "2026-03-15T15:36:24"
-    },
-    {
-      "id": 6,
-      "facility_id": 10,
-      "facility_name": "Piscine de l'école L'Odyssée",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Veuillez prendre note que toutes les activités aquatiques pour aujourd’hui 12 mars sont annulées pour la journée",
       "first_seen_at": "2026-03-15T15:36:23",
       "last_seen_at": "2026-03-15T15:36:24"
     },
