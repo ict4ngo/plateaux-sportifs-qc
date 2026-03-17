@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-17T18:00:01.729003+00:00",
+  "exported_at": "2026-03-17T18:00:04.898137+00:00",
   "facilities": [
     {
       "id": 1,
@@ -364,17 +364,6 @@
       "start_time": null,
       "end_time": null,
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-11"
-    },
-    {
-      "id": 871,
-      "facility_id": 23,
-      "facility_name": "Aréna des Deux Glaces",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": null,
-      "end_time": null,
-      "raw_text": "14 h 15 à 15 h 05",
       "valid_from": "2026-03-11"
     },
     {
@@ -782,28 +771,6 @@
       "start_time": null,
       "end_time": null,
       "raw_text": "11 h 30 à 12 h 50",
-      "valid_from": "2026-03-11"
-    },
-    {
-      "id": 909,
-      "facility_id": 32,
-      "facility_name": "Centre sportif Marc-Simoneau",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": null,
-      "end_time": null,
-      "raw_text": "13 h 30 à 14 h 20",
-      "valid_from": "2026-03-11"
-    },
-    {
-      "id": 910,
-      "facility_id": 32,
-      "facility_name": "Centre sportif Marc-Simoneau",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": null,
-      "end_time": null,
-      "raw_text": "14 h 30 à 15 h 20",
       "valid_from": "2026-03-11"
     },
     {
@@ -1479,6 +1446,39 @@
     }
   ],
   "changes": [
+    {
+      "id": 1643,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Famille 14 h 15 à 15 h 05",
+      "new_value": null,
+      "description": "Aréna des Deux Glaces: retrait Famille le Lundi (14 h 15 à 15 h 05)",
+      "created_at": "2026-03-17T18:00:04"
+    },
+    {
+      "id": 1644,
+      "facility_id": 32,
+      "facility_name": "Centre sportif Marc-Simoneau",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Famille 13 h 30 à 14 h 20",
+      "new_value": null,
+      "description": "Centre sportif Marc-Simoneau: retrait Famille le Lundi (13 h 30 à 14 h 20)",
+      "created_at": "2026-03-17T18:00:04"
+    },
+    {
+      "id": 1645,
+      "facility_id": 32,
+      "facility_name": "Centre sportif Marc-Simoneau",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Patinage libre 14 h 30 à 15 h 20",
+      "new_value": null,
+      "description": "Centre sportif Marc-Simoneau: retrait Patinage libre le Lundi (14 h 30 à 15 h 20)",
+      "created_at": "2026-03-17T18:00:04"
+    },
     {
       "id": 1551,
       "facility_id": 15,
@@ -2544,39 +2544,6 @@
       "old_value": "Dimanche Longueurs 07:00-08:30",
       "new_value": null,
       "description": "Arpidrome: retrait Longueurs le Dimanche (07:00-08:30)",
-      "created_at": "2026-03-17T18:00:00"
-    },
-    {
-      "id": 1411,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Lundi Longueurs 19:45-21:45",
-      "new_value": null,
-      "description": "Arpidrome: retrait Longueurs le Lundi (19:45-21:45)",
-      "created_at": "2026-03-17T18:00:00"
-    },
-    {
-      "id": 1412,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Mardi Aînés 07:00-08:30",
-      "new_value": null,
-      "description": "Arpidrome: retrait Aînés le Mardi (07:00-08:30)",
-      "created_at": "2026-03-17T18:00:00"
-    },
-    {
-      "id": 1413,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Mardi Longueurs 11:30-13:00",
-      "new_value": null,
-      "description": "Arpidrome: retrait Longueurs le Mardi (11:30-13:00)",
       "created_at": "2026-03-17T18:00:00"
     }
   ],
