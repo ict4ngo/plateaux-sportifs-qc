@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { getFacilities, getSchedules, getChanges, getHealthStatus, isUsingFallback, getLastExportedAt } from "../api/client";
+import { getFacilities, getSchedules, getChanges, getHealthStatus, isUsingFallback, getLastExportedAt, getFacilityNotices } from "../api/client";
 import { useActivityStore } from "./activity";
 
 export const useScheduleStore = defineStore("schedules", {
@@ -233,23 +233,19 @@ export const useScheduleStore = defineStore("schedules", {
     },
 
     async fetchNotices() {
-      // Fetch notices from snapshot - they're included in the schedules API response
-      // when using fallback, or we need to fetch them separately
       try {
         const activityStore = useActivityStore();
-
-        // Get snapshot data which includes notices
-        const snapshot = await fetch('https://raw.githubusercontent.com/ict4ngo/plateaux-sportifs-qc/main/public/data/snapshot.json')
-          .then(r => r.json())
-          .catch(() => ({ notices: [] }));
-
-        // Filter notices by facility type
         const facilityIds = this.facilities
           .filter(f => f.facility_type === activityStore.facilityType)
           .map(f => f.id);
 
-        this.notices = (snapshot.notices || [])
-          .filter(n => facilityIds.includes(n.facility_id));
+        const allNotices = [];
+        for (const fid of facilityIds) {
+          const notices = await getFacilityNotices(fid);
+          allNotices.push(...notices);
+        }
+
+        this.notices = allNotices;
       } catch (e) {
         console.error('Error fetching notices:', e);
         this.notices = [];
