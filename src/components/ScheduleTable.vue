@@ -28,7 +28,8 @@
           :key="slot.id"
           @click="goToFacility(slot.facility_id)"
           class="clickable"
-          :class="{ cancelled: store.isScheduleCancelled(slot) }"
+          :class="{ cancelled: slot.is_cancelled }"
+          :title="slot.override_reason || ''"
         >
           <td class="facility installation-col" v-if="!isSingleFacility">
             <span class="full-name">{{ slot.facility_name }}</span>
@@ -37,10 +38,11 @@
           <td class="day">{{ slot.day_of_week }}</td>
           <td class="activity">
             {{ slot.activity }}
-            <span v-if="store.isScheduleCancelled(slot)" class="cancelled-badge">ANNULÉ</span>
+            <span v-if="slot.is_cancelled" class="cancelled-badge">ANNULÉ</span>
+            <span v-else-if="slot.is_modified" class="modified-badge">MODIFIÉ</span>
           </td>
           <td class="time">
-            <span v-if="slot.start_time" :class="{ 'cancelled-time': store.isScheduleCancelled(slot) }">
+            <span v-if="slot.start_time" :class="{ 'cancelled-time': slot.is_cancelled }">
               {{ slot.start_time }} - {{ slot.end_time }}
             </span>
             <span v-else class="raw">{{ slot.raw_text }}</span>
@@ -59,14 +61,12 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { useScheduleStore } from '../stores/schedules'
 
-const props = defineProps({ 
+const props = defineProps({
   schedules: Array,
   isSingleFacility: { type: Boolean, default: false }
 })
 const router = useRouter()
-const store = useScheduleStore()
 
 // Short name mapping based on location/neighborhood
 const shortNames = {
@@ -258,6 +258,19 @@ const goToFacility = (id) => {
   margin-left: 8px;
   padding: 2px 6px;
   background: #ef4444;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.modified-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 6px;
+  background: #f59e0b;
   color: white;
   font-size: 10px;
   font-weight: 700;
