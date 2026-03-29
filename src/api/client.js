@@ -53,10 +53,10 @@ async function getSnapshot() {
 }
 
 // Fetch with automatic fallback to static snapshot
-async function fetchWithFallback(apiPath, transformSnapshot = null) {
+async function fetchWithFallback(apiPath, params = {}, transformSnapshot = null) {
   try {
     // Try API first
-    const response = await client.get(apiPath);
+    const response = await client.get(apiPath, { params });
     resetFallbackState();
     return response.data;
   } catch (error) {
@@ -84,7 +84,7 @@ export default client;
 
 // Convenience functions with fallback support
 export async function getFacilities(params = {}) {
-  const data = await fetchWithFallback("/api/facilities/", (snapshot) => {
+  const data = await fetchWithFallback("/api/facilities/", params, (snapshot) => {
     // Filter by facility_type if specified
     let facilities = snapshot.facilities || [];
     if (params.facility_type) {
@@ -96,7 +96,7 @@ export async function getFacilities(params = {}) {
 }
 
 export async function getSchedules(params = {}) {
-  const data = await fetchWithFallback("/api/schedules/", (snapshot) => {
+  const data = await fetchWithFallback("/api/schedules/", params, (snapshot) => {
     let schedules = snapshot.schedules || [];
 
     // Filter by facility_type if specified
@@ -134,7 +134,7 @@ export async function getSchedules(params = {}) {
 }
 
 export async function getChanges(params = {}) {
-  const data = await fetchWithFallback("/api/changes/", (snapshot) => {
+  const data = await fetchWithFallback("/api/changes/", params, (snapshot) => {
     let changes = snapshot.changes || [];
 
     // Filter by facility_type if specified
