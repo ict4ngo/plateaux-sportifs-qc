@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-30T21:25:03.356796+00:00",
+  "exported_at": "2026-03-30T21:25:06.047488+00:00",
   "facilities": [
     {
       "id": 1,
@@ -2897,61 +2897,6 @@
       "valid_from": "2026-03-17"
     },
     {
-      "id": 1435,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "13:30",
-      "end_time": "14:05",
-      "raw_text": "13 h 30 à 14 h 05",
-      "valid_from": "2026-03-17"
-    },
-    {
-      "id": 1436,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Mardi",
-      "activity": "Famille",
-      "start_time": "14:30",
-      "end_time": "15:20",
-      "raw_text": "14 h 30 à 15 h 20",
-      "valid_from": "2026-03-17"
-    },
-    {
-      "id": 1437,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Jeudi",
-      "activity": "Famille",
-      "start_time": "14:30",
-      "end_time": "15:20",
-      "raw_text": "14 h 30 à 15 h 20",
-      "valid_from": "2026-03-17"
-    },
-    {
-      "id": 1438,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-17"
-    },
-    {
-      "id": 1439,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-17"
-    },
-    {
       "id": 1440,
       "facility_id": 27,
       "facility_name": "Aréna Réjean-Lemelin",
@@ -3953,17 +3898,6 @@
       "valid_from": "2026-03-17"
     },
     {
-      "id": 1531,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-17"
-    },
-    {
       "id": 1532,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -4632,17 +4566,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-17"
-    },
-    {
-      "id": 1593,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-17"
     },
     {
@@ -5317,17 +5240,6 @@
       "valid_from": "2026-03-18"
     },
     {
-      "id": 1655,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
       "id": 1656,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -5996,17 +5908,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
-      "id": 1717,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-18"
     },
     {
@@ -6681,17 +6582,6 @@
       "valid_from": "2026-03-18"
     },
     {
-      "id": 1779,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
       "id": 1780,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -7360,17 +7250,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
-      "id": 1841,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-18"
     },
     {
@@ -8045,17 +7924,6 @@
       "valid_from": "2026-03-18"
     },
     {
-      "id": 1903,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
       "id": 1904,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -8724,17 +8592,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
-      "id": 1965,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-18"
     },
     {
@@ -9409,17 +9266,6 @@
       "valid_from": "2026-03-18"
     },
     {
-      "id": 2027,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
       "id": 2028,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -10088,17 +9934,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-18"
-    },
-    {
-      "id": 2089,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-18"
     },
     {
@@ -10773,17 +10608,6 @@
       "valid_from": "2026-03-19"
     },
     {
-      "id": 2151,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-19"
-    },
-    {
       "id": 2152,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -11452,17 +11276,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-19"
-    },
-    {
-      "id": 2213,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-19"
     },
     {
@@ -12137,17 +11950,6 @@
       "valid_from": "2026-03-19"
     },
     {
-      "id": 2275,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-19"
-    },
-    {
       "id": 2276,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -12816,17 +12618,6 @@
       "start_time": "12:30",
       "end_time": "13:50",
       "raw_text": "12 h 30 à 13 h 50",
-      "valid_from": "2026-03-19"
-    },
-    {
-      "id": 2337,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
       "valid_from": "2026-03-19"
     },
     {
@@ -13501,17 +13292,6 @@
       "valid_from": "2026-03-19"
     },
     {
-      "id": 2399,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-19"
-    },
-    {
       "id": 2400,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -14183,17 +13963,6 @@
       "valid_from": "2026-03-19"
     },
     {
-      "id": 2461,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-19"
-    },
-    {
       "id": 2462,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -14371,6 +14140,237 @@
     }
   ],
   "changes": [
+    {
+      "id": 3081,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 15:30-16:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (15:30-16:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3082,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Patinage libre 15:30-16:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Samedi (15:30-16:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3083,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Famille 13:30-14:05",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Famille le Lundi (13:30-14:05)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3084,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Mardi Famille 14:30-15:20",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Famille le Mardi (14:30-15:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3085,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Jeudi Famille 14:30-15:20",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Famille le Jeudi (14:30-15:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3086,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Patinage libre 10:40-11:50",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Patinage libre le Lundi (10:40-11:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3087,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3088,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 15:30-16:20",
+      "description": "Arpidrome: ajout Famille le Lundi (15:30-16:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3089,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Famille 15:00-15:50",
+      "description": "Arpidrome: ajout Famille le Mardi (15:00-15:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3090,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 12:15-13:05",
+      "description": "Arpidrome: ajout Famille le Jeudi (12:15-13:05)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3091,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 14:30-15:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (14:30-15:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3092,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 13:20-14:50",
+      "description": "Arpidrome: ajout Patinage libre le Jeudi (13:20-14:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3093,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 16:30-17:20",
+      "description": "Centre communautaire Michel-Labadie: ajout Famille le Lundi (16:30-17:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3094,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Famille 15:30-16:20",
+      "description": "Centre communautaire Michel-Labadie: ajout Famille le Mardi (15:30-16:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3095,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 14:00-15:05",
+      "description": "Centre communautaire Michel-Labadie: ajout Famille le Jeudi (14:00-15:05)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3096,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 15:30-16:20",
+      "description": "Centre communautaire Michel-Labadie: ajout Patinage libre le Lundi (15:30-16:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3097,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Patinage libre 14:30-15:20",
+      "description": "Centre communautaire Michel-Labadie: ajout Patinage libre le Mardi (14:30-15:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3098,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 13:00-13:50",
+      "description": "Centre communautaire Michel-Labadie: ajout Patinage libre le Jeudi (13:00-13:50)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3099,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:15-16:20",
+      "description": "Centre communautaire Michel-Labadie: ajout Patinage libre le Jeudi (15:15-16:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3100,
+      "facility_id": 29,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Patinage libre 15:30-16:20",
+      "description": "Centre communautaire Michel-Labadie: ajout Patinage libre le Vendredi (15:30-16:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
+    {
+      "id": 3101,
+      "facility_id": 32,
+      "facility_name": "Centre sportif Marc-Simoneau",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Patinage libre 16:30-18:20",
+      "description": "Centre sportif Marc-Simoneau: ajout Patinage libre le Mardi (16:30-18:20)",
+      "created_at": "2026-03-30T21:25:05"
+    },
     {
       "id": 3077,
       "facility_id": 21,
@@ -15239,237 +15239,6 @@
       "new_value": "Dimanche Tous 14:45-16:15",
       "description": "Piscine Wilfrid-Hamel: ajout Tous le Dimanche (14:45-16:15)",
       "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 3011,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 17:15-18:15",
-      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Mercredi (17:15-18:15)",
-      "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 3012,
-      "facility_id": 20,
-      "facility_name": "YMCA St-Roch",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:30-21:00",
-      "description": "YMCA St-Roch: ajout Longueurs le Mardi (19:30-21:00)",
-      "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 3013,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Lundi (17:00-17:55)",
-      "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 3014,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 20:00-20:55",
-      "description": "YWCA Québec: ajout Longueurs le Mardi (20:00-20:55)",
-      "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 3015,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Mercredi (17:00-17:55)",
-      "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 3016,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 20:00-20:55",
-      "description": "YWCA Québec: ajout Longueurs le Jeudi (20:00-20:55)",
-      "created_at": "2026-03-19T21:00:01"
-    },
-    {
-      "id": 2973,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:30-13:20",
-      "description": "Arpidrome: ajout Longueurs le Mercredi (11:30-13:20)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2974,
-      "facility_id": 2,
-      "facility_name": "Centre communautaire Ferland",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:25",
-      "description": "Centre communautaire Ferland: ajout Tous le Samedi (19:00-20:25)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2975,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (19:00-20:45)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2976,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:45-13:30)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2977,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:45-13:30)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2978,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:45-13:30)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2979,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:45-13:30)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2980,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:45-13:30)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2981,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (19:00-20:45)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2982,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Mardi (19:00-20:25)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2983,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Jeudi (19:00-20:25)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2984,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 17:30-19:00",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Lundi (17:30-19:00)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2985,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Adultes 19:30-20:30",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Mercredi (19:30-20:30)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2986,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 17:30-19:15",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Mercredi (17:30-19:15)",
-      "created_at": "2026-03-19T21:00:00"
-    },
-    {
-      "id": 2987,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Adultes 19:30-20:30",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Vendredi (19:30-20:30)",
-      "created_at": "2026-03-19T21:00:00"
     }
   ],
   "notices": [
