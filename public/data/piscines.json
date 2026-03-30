@@ -585,17 +585,6 @@
   {
     "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
     "ent_id": 15,
-    "day": "Dimanche",
-    "activity": "Longueurs",
-    "start": "07:00",
-    "end": "08:25",
-    "raw_time": "7 h à 8 h 25",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
-    "ent_id": 15,
     "day": "Lundi",
     "activity": "Longueurs",
     "start": "17:00",
@@ -33425,6 +33414,17 @@
     "start": "12:00",
     "end": "12:55",
     "raw_time": "12 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-30"
+  },
+  {
+    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "ent_id": 15,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:25",
+    "raw_time": "7 h à 8 h 25",
     "source_url": null,
     "fetched_at": "2026-03-30"
   }
