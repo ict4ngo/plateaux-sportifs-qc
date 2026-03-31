@@ -8,7 +8,7 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Arpidrome",
@@ -19,7 +19,7 @@
     "end": "21:45",
     "raw_time": "19 h 45 à 21 h 45",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Arpidrome",
@@ -30,7 +30,7 @@
     "end": "13:00",
     "raw_time": "11 h 30 à 13 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Arpidrome",
@@ -41,7 +41,29 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Arpidrome",
@@ -49,10 +71,109 @@
     "day": "Vendredi",
     "activity": "Longueurs",
     "start": "11:30",
-    "end": "13:19",
-    "raw_time": "11 h 30 à 13 h 19",
+    "end": "13:00",
+    "raw_time": "11 h 30 à 13 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:30",
+    "end": "13:00",
+    "raw_time": "11 h 30 à 13 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "19:45",
+    "end": "21:45",
+    "raw_time": "19 h 45 à 21 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:30",
+    "end": "13:00",
+    "raw_time": "11 h 30 à 13 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:30",
+    "end": "13:00",
+    "raw_time": "11 h 30 à 13 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "20:00",
+    "end": "21:30",
+    "raw_time": "20 h à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:30",
+    "end": "13:00",
+    "raw_time": "11 h 30 à 13 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "19:45",
+    "end": "21:45",
+    "raw_time": "19 h 45 à 21 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Ferland",
@@ -63,7 +184,7 @@
     "end": "13:20",
     "raw_time": "12 h à 13 h 20",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Ferland",
@@ -74,7 +195,7 @@
     "end": "13:20",
     "raw_time": "12 h à 13 h 20",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Ferland",
@@ -85,7 +206,7 @@
     "end": "13:20",
     "raw_time": "12 h à 13 h 20",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Ferland",
@@ -96,7 +217,51 @@
     "end": "13:20",
     "raw_time": "12 h à 13 h 20",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Ferland",
+    "ent_id": 2,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:20",
+    "raw_time": "12 h à 13 h 20",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Ferland",
+    "ent_id": 2,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:20",
+    "raw_time": "12 h à 13 h 20",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Ferland",
+    "ent_id": 2,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:20",
+    "raw_time": "12 h à 13 h 20",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Ferland",
+    "ent_id": 2,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:20",
+    "raw_time": "12 h à 13 h 20",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Lucien-Borne",
@@ -107,7 +272,18 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Lucien-Borne",
@@ -118,7 +294,18 @@
     "end": "08:25",
     "raw_time": "7 h à 8 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:25",
+    "raw_time": "7 h à 8 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Lucien-Borne",
@@ -129,7 +316,18 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Lucien-Borne",
@@ -140,7 +338,18 @@
     "end": "08:25",
     "raw_time": "7 h à 8 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:25",
+    "raw_time": "7 h à 8 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Lucien-Borne",
@@ -151,7 +360,128 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:25",
+    "raw_time": "7 h à 8 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:25",
+    "raw_time": "7 h à 8 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Lucien-Borne",
+    "ent_id": 3,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Michel-Labadie",
@@ -162,7 +492,7 @@
     "end": "13:15",
     "raw_time": "11 h 45 à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Michel-Labadie",
@@ -173,7 +503,18 @@
     "end": "13:15",
     "raw_time": "12 h à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:15",
+    "raw_time": "12 h à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Michel-Labadie",
@@ -184,7 +525,18 @@
     "end": "13:15",
     "raw_time": "11 h 45 à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Centre communautaire Michel-Labadie",
@@ -195,7 +547,73 @@
     "end": "13:15",
     "raw_time": "11 h 50 à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:15",
+    "raw_time": "12 h à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "19:00",
+    "end": "20:25",
+    "raw_time": "19 h à 20 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "19:00",
+    "end": "20:25",
+    "raw_time": "19 h à 20 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:50",
+    "end": "13:15",
+    "raw_time": "11 h 50 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -206,7 +624,18 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -217,7 +646,7 @@
     "end": "21:30",
     "raw_time": "20 h 30 à 21 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -228,7 +657,7 @@
     "end": "21:30",
     "raw_time": "19 h 30 à 21 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -239,7 +668,7 @@
     "end": "21:30",
     "raw_time": "19 h 30 à 21 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -250,7 +679,7 @@
     "end": "21:30",
     "raw_time": "19 h 30 à 21 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -261,7 +690,7 @@
     "end": "21:30",
     "raw_time": "19 h 30 à 21 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "École secondaire de La Seigneurie",
@@ -272,7 +701,117 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Samedi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "15:15",
+    "end": "16:45",
+    "raw_time": "15 h 15 à 16 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "20:30",
+    "end": "21:30",
+    "raw_time": "20 h 30 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "19:30",
+    "end": "21:30",
+    "raw_time": "19 h 30 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "19:30",
+    "end": "21:30",
+    "raw_time": "19 h 30 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "19:30",
+    "end": "21:30",
+    "raw_time": "19 h 30 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "19:30",
+    "end": "21:30",
+    "raw_time": "19 h 30 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Samedi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "École secondaire de La Seigneurie",
+    "ent_id": 7,
+    "day": "Samedi",
+    "activity": "Longueurs",
+    "start": "15:15",
+    "end": "16:45",
+    "raw_time": "15 h 15 à 16 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'école L'Odyssée",
@@ -283,7 +822,7 @@
     "end": "21:45",
     "raw_time": "20 h 15 à 21 h 45",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'école L'Odyssée",
@@ -294,7 +833,7 @@
     "end": "08:00",
     "raw_time": "6 h 30 à 8 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'école L'Odyssée",
@@ -305,7 +844,40 @@
     "end": "21:45",
     "raw_time": "20 h 15 à 21 h 45",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'école L'Odyssée",
+    "ent_id": 10,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "20:15",
+    "end": "21:45",
+    "raw_time": "20 h 15 à 21 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'école L'Odyssée",
+    "ent_id": 10,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'école L'Odyssée",
+    "ent_id": 10,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "20:15",
+    "end": "21:45",
+    "raw_time": "20 h 15 à 21 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -316,7 +888,7 @@
     "end": "16:00",
     "raw_time": "15 h à 16 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -327,7 +899,7 @@
     "end": "13:25",
     "raw_time": "12 h à 13 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -338,7 +910,18 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -349,7 +932,7 @@
     "end": "13:30",
     "raw_time": "12 h à 13 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -360,7 +943,29 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -371,7 +976,7 @@
     "end": "13:25",
     "raw_time": "12 h à 13 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine de l'édifice Denis-Giguère",
@@ -382,7 +987,117 @@
     "end": "16:00",
     "raw_time": "15 h à 16 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "15:00",
+    "end": "16:00",
+    "raw_time": "15 h à 16 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:25",
+    "raw_time": "12 h à 13 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:30",
+    "raw_time": "12 h à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:30",
+    "raw_time": "12 h à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:30",
+    "raw_time": "12 h à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "20:00",
+    "end": "21:00",
+    "raw_time": "20 h à 21 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:25",
+    "raw_time": "12 h à 13 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine de l'édifice Denis-Giguère",
+    "ent_id": 11,
+    "day": "Samedi",
+    "activity": "Longueurs",
+    "start": "15:00",
+    "end": "16:00",
+    "raw_time": "15 h à 16 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jacques-Amyot",
@@ -393,7 +1108,7 @@
     "end": "09:30",
     "raw_time": "8 h à 9 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jacques-Amyot",
@@ -404,7 +1119,18 @@
     "end": "12:45",
     "raw_time": "11 h 55 à 12 h 45",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:55",
+    "end": "12:45",
+    "raw_time": "11 h 55 à 12 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jacques-Amyot",
@@ -415,7 +1141,73 @@
     "end": "12:45",
     "raw_time": "11 h 55 à 12 h 45",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "11:55",
+    "end": "12:45",
+    "raw_time": "11 h 55 à 12 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "08:00",
+    "end": "09:30",
+    "raw_time": "8 h à 9 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:55",
+    "end": "12:45",
+    "raw_time": "11 h 55 à 12 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "20:15",
+    "end": "21:30",
+    "raw_time": "20 h 15 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "11:55",
+    "end": "12:45",
+    "raw_time": "11 h 55 à 12 h 45",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jacques-Amyot",
+    "ent_id": 13,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "20:15",
+    "end": "21:30",
+    "raw_time": "20 h 15 à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
@@ -426,18 +1218,18 @@
     "end": "18:25",
     "raw_time": "17 h à 18 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
     "ent_id": 15,
     "day": "Mardi",
     "activity": "Longueurs",
-    "start": "07:00",
-    "end": "08:25",
-    "raw_time": "7 h à 8 h 25",
+    "start": "12:00",
+    "end": "13:25",
+    "raw_time": "12 h à 13 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
@@ -448,7 +1240,7 @@
     "end": "18:25",
     "raw_time": "17 h à 18 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
@@ -459,7 +1251,51 @@
     "end": "13:25",
     "raw_time": "12 h à 13 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "ent_id": 15,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "17:00",
+    "end": "18:25",
+    "raw_time": "17 h à 18 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "ent_id": 15,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:25",
+    "raw_time": "12 h à 13 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "ent_id": 15,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "17:00",
+    "end": "18:25",
+    "raw_time": "17 h à 18 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "ent_id": 15,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:25",
+    "raw_time": "12 h à 13 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine municipale du Bourg-Royal",
@@ -470,7 +1306,7 @@
     "end": "13:30",
     "raw_time": "11 h 45 à 13 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine municipale du Bourg-Royal",
@@ -478,10 +1314,32 @@
     "day": "Mardi",
     "activity": "Longueurs",
     "start": "06:30",
-    "end": "08:11",
-    "raw_time": "6 h 30 à 8 h 11",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine municipale du Bourg-Royal",
@@ -492,7 +1350,7 @@
     "end": "13:30",
     "raw_time": "11 h 45 à 13 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine municipale du Bourg-Royal",
@@ -500,10 +1358,32 @@
     "day": "Jeudi",
     "activity": "Longueurs",
     "start": "06:30",
-    "end": "08:11",
-    "raw_time": "6 h 30 à 8 h 11",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine municipale du Bourg-Royal",
@@ -514,7 +1394,106 @@
     "end": "13:30",
     "raw_time": "12 h à 13 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "20:00",
+    "end": "21:30",
+    "raw_time": "20 h à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:00",
+    "raw_time": "6 h 30 à 8 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:30",
+    "raw_time": "11 h 45 à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "20:00",
+    "end": "21:30",
+    "raw_time": "20 h à 21 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine municipale du Bourg-Royal",
+    "ent_id": 17,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "13:30",
+    "raw_time": "12 h à 13 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Sylvie-Bernier",
@@ -525,7 +1504,7 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Sylvie-Bernier",
@@ -536,7 +1515,29 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Sylvie-Bernier",
@@ -547,7 +1548,18 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Sylvie-Bernier",
@@ -558,7 +1570,7 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Sylvie-Bernier",
@@ -569,7 +1581,95 @@
     "end": "08:30",
     "raw_time": "6 h 30 à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "17:00",
+    "end": "18:20",
+    "raw_time": "17 h à 18 h 20",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "21:00",
+    "end": "22:30",
+    "raw_time": "21 h à 22 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "18:30",
+    "end": "19:55",
+    "raw_time": "18 h 30 à 19 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Sylvie-Bernier",
+    "ent_id": 18,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Wilfrid-Hamel",
@@ -577,10 +1677,21 @@
     "day": "Dimanche",
     "activity": "Longueurs",
     "start": "07:30",
-    "end": "09:13",
-    "raw_time": "7 h 30 à 9 h 13",
+    "end": "09:00",
+    "raw_time": "7 h 30 à 9 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "07:30",
+    "end": "09:00",
+    "raw_time": "7 h 30 à 9 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Wilfrid-Hamel",
@@ -591,7 +1702,7 @@
     "end": "13:15",
     "raw_time": "11 h 45 à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Wilfrid-Hamel",
@@ -602,7 +1713,18 @@
     "end": "13:15",
     "raw_time": "11 h 45 à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Wilfrid-Hamel",
@@ -613,7 +1735,7 @@
     "end": "21:00",
     "raw_time": "19 h 40 à 21 h",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Wilfrid-Hamel",
@@ -624,7 +1746,7 @@
     "end": "13:15",
     "raw_time": "11 h 45 à 13 h 15",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "Piscine Wilfrid-Hamel",
@@ -635,7 +1757,95 @@
     "end": "14:30",
     "raw_time": "13 h à 14 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "07:30",
+    "end": "09:00",
+    "raw_time": "7 h 30 à 9 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "13:00",
+    "end": "14:30",
+    "raw_time": "13 h à 14 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "17:15",
+    "end": "18:15",
+    "raw_time": "17 h 15 à 18 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "19:40",
+    "end": "21:00",
+    "raw_time": "19 h 40 à 21 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Wilfrid-Hamel",
+    "ent_id": 19,
+    "day": "Samedi",
+    "activity": "Longueurs",
+    "start": "13:00",
+    "end": "14:30",
+    "raw_time": "13 h à 14 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YMCA St-Roch",
@@ -646,7 +1856,7 @@
     "end": "12:55",
     "raw_time": "11 h à 12 h 55",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YMCA St-Roch",
@@ -657,7 +1867,18 @@
     "end": "08:55",
     "raw_time": "7 h 25 à 8 h 55",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "07:25",
+    "end": "08:55",
+    "raw_time": "7 h 25 à 8 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YMCA St-Roch",
@@ -668,7 +1889,7 @@
     "end": "12:55",
     "raw_time": "11 h à 12 h 55",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YMCA St-Roch",
@@ -679,7 +1900,7 @@
     "end": "08:55",
     "raw_time": "7 h 25 à 8 h 55",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YMCA St-Roch",
@@ -690,7 +1911,73 @@
     "end": "12:30",
     "raw_time": "11 h à 12 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "11:00",
+    "end": "12:55",
+    "raw_time": "11 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "07:25",
+    "end": "08:55",
+    "raw_time": "7 h 25 à 8 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "19:30",
+    "end": "21:00",
+    "raw_time": "19 h 30 à 21 h",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:00",
+    "end": "12:55",
+    "raw_time": "11 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "07:25",
+    "end": "08:55",
+    "raw_time": "7 h 25 à 8 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YMCA St-Roch",
+    "ent_id": 20,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:00",
+    "end": "12:30",
+    "raw_time": "11 h à 12 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YWCA Québec",
@@ -701,7 +1988,18 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YWCA Québec",
@@ -712,7 +2010,18 @@
     "end": "12:55",
     "raw_time": "12 h à 12 h 55",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:55",
+    "raw_time": "12 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YWCA Québec",
@@ -723,7 +2032,18 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YWCA Québec",
@@ -734,7 +2054,18 @@
     "end": "12:55",
     "raw_time": "12 h à 12 h 55",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:55",
+    "raw_time": "12 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
   },
   {
     "pool": "YWCA Québec",
@@ -745,7 +2076,117 @@
     "end": "08:30",
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
-    "fetched_at": "2026-03-17"
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "17:00",
+    "end": "17:55",
+    "raw_time": "17 h à 17 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:55",
+    "raw_time": "12 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "20:00",
+    "end": "20:55",
+    "raw_time": "20 h à 20 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "17:00",
+    "end": "17:55",
+    "raw_time": "17 h à 17 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:55",
+    "raw_time": "12 h à 12 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "20:00",
+    "end": "20:55",
+    "raw_time": "20 h à 20 h 55",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "YWCA Québec",
+    "ent_id": 21,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:30",
+    "raw_time": "7 h à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-03-03"
+  },
+  {
+    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "ent_id": 15,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "08:25",
+    "raw_time": "7 h à 8 h 25",
+    "source_url": null,
+    "fetched_at": "2026-03-11"
   },
   {
     "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
@@ -756,6 +2197,6 @@
     "end": "08:25",
     "raw_time": "7 h à 8 h 25",
     "source_url": null,
-    "fetched_at": "2026-03-30"
+    "fetched_at": "2026-03-31"
   }
 ]
