@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-03-31T22:23:30.839547+00:00",
+  "exported_at": "2026-03-31T22:23:41.149509+00:00",
   "facilities": [
     {
       "id": 1,
@@ -5845,61 +5845,6 @@
       "valid_from": "2026-03-13"
     },
     {
-      "id": 515,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "13:30",
-      "end_time": "14:05",
-      "raw_text": "13 h 30 à 14 h 05",
-      "valid_from": "2026-03-13"
-    },
-    {
-      "id": 516,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Mardi",
-      "activity": "Famille",
-      "start_time": "14:30",
-      "end_time": "15:20",
-      "raw_text": "14 h 30 à 15 h 20",
-      "valid_from": "2026-03-13"
-    },
-    {
-      "id": 517,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Jeudi",
-      "activity": "Famille",
-      "start_time": "14:30",
-      "end_time": "15:20",
-      "raw_text": "14 h 30 à 15 h 20",
-      "valid_from": "2026-03-13"
-    },
-    {
-      "id": 518,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "10:40",
-      "end_time": "11:50",
-      "raw_text": "10 h 40 à 11 h 50",
-      "valid_from": "2026-03-13"
-    },
-    {
-      "id": 519,
-      "facility_id": 26,
-      "facility_name": "Aréna Patrick-Poulin",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "14:15",
-      "end_time": "14:50",
-      "raw_text": "14 h 15 à 14 h 50",
-      "valid_from": "2026-03-13"
-    },
-    {
       "id": 520,
       "facility_id": 27,
       "facility_name": "Aréna Réjean-Lemelin",
@@ -6506,6 +6451,61 @@
     }
   ],
   "changes": [
+    {
+      "id": 306,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Famille 13:30-14:05",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Famille le Lundi (13:30-14:05)",
+      "created_at": "2026-03-31T22:23:39"
+    },
+    {
+      "id": 307,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Mardi Famille 14:30-15:20",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Famille le Mardi (14:30-15:20)",
+      "created_at": "2026-03-31T22:23:39"
+    },
+    {
+      "id": 308,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Jeudi Famille 14:30-15:20",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Famille le Jeudi (14:30-15:20)",
+      "created_at": "2026-03-31T22:23:39"
+    },
+    {
+      "id": 309,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Patinage libre 10:40-11:50",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Patinage libre le Lundi (10:40-11:50)",
+      "created_at": "2026-03-31T22:23:39"
+    },
+    {
+      "id": 310,
+      "facility_id": 26,
+      "facility_name": "Aréna Patrick-Poulin",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Patinage libre 14:15-14:50",
+      "new_value": null,
+      "description": "Aréna Patrick-Poulin: retrait Patinage libre le Lundi (14:15-14:50)",
+      "created_at": "2026-03-31T22:23:39"
+    },
     {
       "id": 304,
       "facility_id": 15,
@@ -7549,61 +7549,6 @@
       "old_value": null,
       "new_value": "Vendredi Longueurs 12:00-13:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Vendredi (12:00-13:30)",
-      "created_at": "2026-03-03T00:56:29"
-    },
-    {
-      "id": 166,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 13:45-15:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Tous le Vendredi (13:45-15:30)",
-      "created_at": "2026-03-03T00:56:29"
-    },
-    {
-      "id": 167,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 13:00-16:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Tous le Samedi (13:00-16:30)",
-      "created_at": "2026-03-03T00:56:29"
-    },
-    {
-      "id": 168,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 09:00-10:45",
-      "description": "Piscine municipale du Bourg-Royal: ajout Tous le Mardi (09:00-10:45)",
-      "created_at": "2026-03-03T00:56:29"
-    },
-    {
-      "id": 169,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 09:00-10:45",
-      "description": "Piscine municipale du Bourg-Royal: ajout Tous le Vendredi (09:00-10:45)",
-      "created_at": "2026-03-03T00:56:29"
-    },
-    {
-      "id": 170,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Adultes 20:00-21:30",
-      "description": "Piscine Sylvie-Bernier: ajout Adultes le Dimanche (20:00-21:30)",
       "created_at": "2026-03-03T00:56:29"
     }
   ]
