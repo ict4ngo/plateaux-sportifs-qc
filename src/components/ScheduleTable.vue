@@ -71,7 +71,7 @@ const router = useRouter()
 // Short name mapping based on location/neighborhood
 const shortNames = {
   "Centre communautaire Ferland": "Ferland",
-  "Centre communautaire Lucien-Borne": "Maizerets",
+  "Centre communautaire Lucien-Borne": "Lucien-Borne",
   "Centre communautaire Michel-Labadie": "Duberger",
   "Centre municipal Monseigneur-De Laval": "St-Sauveur",
   "Complexe Jean-Paul-Nolin": "Vanier",
