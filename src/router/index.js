@@ -19,6 +19,14 @@ export const ACTIVITIES = {
     icon: "⛸️",
     isDefault: false,
   },
+  piscine_exterieure: {
+    key: "piscine_exterieure",
+    label: "Piscines extérieures",
+    type: "piscine_exterieure",
+    color: "#06b6d4",
+    icon: "🏖️",
+    isDefault: false,
+  },
 };
 
 // Fonction utilitaire pour créer les routes d'une activité
