@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-19T21:00:05.748389+00:00",
+  "exported_at": "2026-05-19T21:00:14.606637+00:00",
   "facilities": [
     {
       "id": 1,
@@ -6173,6 +6173,138 @@
   ],
   "changes": [
     {
+      "id": 32557,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 15:30-16:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (15:30-16:50)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32558,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32559,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32560,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Lundi (15:30-16:20)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32561,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32562,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32563,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-18:05",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-18:05)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32564,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:15-17:05",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:15-17:05)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32565,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 16:00-16:50",
+      "description": "Arpidrome: ajout Famille le Lundi (16:00-16:50)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32566,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 15:00-15:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (15:00-15:50)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32567,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
+      "id": 32568,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-19T21:00:11"
+    },
+    {
       "id": 32523,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -7138,138 +7270,6 @@
       "old_value": null,
       "new_value": "Lundi Aînés 11:00-11:50",
       "description": "Piscine Yvette-Cloutier: ajout Aînés le Lundi (11:00-11:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32454,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 06:30-08:00",
-      "description": "Piscine Yvette-Cloutier: ajout Longueurs le Lundi (06:30-08:00)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32455,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 12:00-12:50",
-      "description": "Piscine Yvette-Cloutier: ajout Tous le Lundi (12:00-12:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32456,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 15:00-18:50",
-      "description": "Piscine Yvette-Cloutier: ajout Tous le Lundi (15:00-18:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32457,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Camps de jour 13:00-15:00",
-      "description": "Piscine Yvette-Cloutier: ajout Camps de jour le Lundi (13:00-15:00)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32458,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Bains combinés 19:00-19:50",
-      "description": "Piscine Yvette-Cloutier: ajout Bains combinés le Lundi (19:00-19:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32459,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Aînés 11:00-11:50",
-      "description": "Piscine Yvette-Cloutier: ajout Aînés le Mardi (11:00-11:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32460,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 12:00-19:50",
-      "description": "Piscine Yvette-Cloutier: ajout Tous le Mardi (12:00-19:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32461,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Aînés 11:00-11:50",
-      "description": "Piscine Yvette-Cloutier: ajout Aînés le Mercredi (11:00-11:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32462,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 06:30-08:00",
-      "description": "Piscine Yvette-Cloutier: ajout Longueurs le Mercredi (06:30-08:00)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32463,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 12:00-12:50",
-      "description": "Piscine Yvette-Cloutier: ajout Tous le Mercredi (12:00-12:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32464,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 15:00-18:50",
-      "description": "Piscine Yvette-Cloutier: ajout Tous le Mercredi (15:00-18:50)",
-      "created_at": "2026-05-19T18:00:28"
-    },
-    {
-      "id": 32465,
-      "facility_id": 71,
-      "facility_name": "Piscine Yvette-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Camps de jour 13:00-15:00",
-      "description": "Piscine Yvette-Cloutier: ajout Camps de jour le Mercredi (13:00-15:00)",
       "created_at": "2026-05-19T18:00:28"
     }
   ],
