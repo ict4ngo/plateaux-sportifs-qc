@@ -757,5 +757,115 @@
     "raw_time": "7 h à 8 h 25",
     "source_url": null,
     "fetched_at": "2026-03-30"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Dimanche",
+    "activity": "Longueurs",
+    "start": "08:00",
+    "end": "10:00",
+    "raw_time": "8 h à 10 h",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:50",
+    "raw_time": "12 h à 12 h 50",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:50",
+    "raw_time": "12 h à 12 h 50",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "12:00",
+    "end": "12:50",
+    "raw_time": "12 h à 12 h 50",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Base de plein air La Découverte",
+    "ent_id": 34,
+    "day": "Samedi",
+    "activity": "Longueurs",
+    "start": "08:00",
+    "end": "10:00",
+    "raw_time": "8 h à 10 h",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Parc Réal-Cloutier",
+    "ent_id": 54,
+    "day": "Lundi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Parc Réal-Cloutier",
+    "ent_id": 54,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
+  },
+  {
+    "pool": "Parc Réal-Cloutier",
+    "ent_id": 54,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "06:30",
+    "end": "08:30",
+    "raw_time": "6 h 30 à 8 h 30",
+    "source_url": null,
+    "fetched_at": "2026-05-19"
   }
 ]
