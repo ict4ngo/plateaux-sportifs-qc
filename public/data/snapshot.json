@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-20T18:00:06.024101+00:00",
+  "exported_at": "2026-05-20T18:00:16.125748+00:00",
   "facilities": [
     {
       "id": 1,
@@ -6624,6 +6624,138 @@
   ],
   "changes": [
     {
+      "id": 33230,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33231,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-18:05",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-18:05)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33232,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:15-17:05",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:15-17:05)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33233,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 16:00-16:50",
+      "description": "Arpidrome: ajout Famille le Lundi (16:00-16:50)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33234,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 15:00-15:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (15:00-15:50)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33235,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33236,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-20T18:00:13"
+    },
+    {
+      "id": 33225,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 15:30-16:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (15:30-16:50)",
+      "created_at": "2026-05-20T18:00:12"
+    },
+    {
+      "id": 33226,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-05-20T18:00:12"
+    },
+    {
+      "id": 33227,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-05-20T18:00:12"
+    },
+    {
+      "id": 33228,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Lundi (15:30-16:20)",
+      "created_at": "2026-05-20T18:00:12"
+    },
+    {
+      "id": 33229,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-20T18:00:12"
+    },
+    {
       "id": 33221,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
@@ -7589,138 +7721,6 @@
       "old_value": null,
       "new_value": "Mardi Adultes 06:30-08:30",
       "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Adultes le Mardi (06:30-08:30)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33119,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Adultes 19:00-20:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Adultes le Mardi (19:00-20:50)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33120,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Aînés 11:00-12:00",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Aînés le Mardi (11:00-12:00)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33121,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Bains combinés 12:00-13:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Bains combinés le Mardi (12:00-13:50)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33122,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Bains combinés 14:00-18:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Bains combinés le Mardi (14:00-18:50)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33123,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Adultes 06:30-08:30",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Adultes le Mercredi (06:30-08:30)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33124,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Adultes 19:00-20:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Adultes le Mercredi (19:00-20:50)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33125,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Aînés 11:00-12:00",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Aînés le Mercredi (11:00-12:00)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33126,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Camps de jour 13:00-15:00",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Camps de jour le Mercredi (13:00-15:00)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33127,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Bains combinés 12:00-13:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Bains combinés le Mercredi (12:00-13:50)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33128,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Bains combinés 15:10-18:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Bains combinés le Mercredi (15:10-18:50)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33129,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Adultes 06:30-08:30",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Adultes le Jeudi (06:30-08:30)",
-      "created_at": "2026-05-20T15:00:27"
-    },
-    {
-      "id": 33130,
-      "facility_id": 56,
-      "facility_name": "Parc Saint-Charles-Garnier (piscine Gérard-Guay)",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Adultes 19:00-20:50",
-      "description": "Parc Saint-Charles-Garnier (piscine Gérard-Guay): ajout Adultes le Jeudi (19:00-20:50)",
       "created_at": "2026-05-20T15:00:27"
     }
   ],
