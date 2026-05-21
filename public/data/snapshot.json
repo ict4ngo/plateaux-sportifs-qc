@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-21T00:00:13.509215+00:00",
+  "exported_at": "2026-05-21T00:00:27.051249+00:00",
   "facilities": [
     {
       "id": 1,
@@ -7768,6 +7768,138 @@
   ],
   "changes": [
     {
+      "id": 33507,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33508,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-18:05",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-18:05)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33509,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:15-17:05",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:15-17:05)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33510,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 16:00-16:50",
+      "description": "Arpidrome: ajout Famille le Lundi (16:00-16:50)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33511,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 15:00-15:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (15:00-15:50)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33512,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33513,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-21T00:00:24"
+    },
+    {
+      "id": 33502,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 15:30-16:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (15:30-16:50)",
+      "created_at": "2026-05-21T00:00:23"
+    },
+    {
+      "id": 33503,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-05-21T00:00:23"
+    },
+    {
+      "id": 33504,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-05-21T00:00:23"
+    },
+    {
+      "id": 33505,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Lundi (15:30-16:20)",
+      "created_at": "2026-05-21T00:00:23"
+    },
+    {
+      "id": 33506,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-21T00:00:23"
+    },
+    {
       "id": 33495,
       "facility_id": 19,
       "facility_name": "Piscine Wilfrid-Hamel",
@@ -8733,138 +8865,6 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 06:30-08:30",
       "description": "Parc Saint-Benoît: ajout Longueurs le Mardi (06:30-08:30)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33388,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 12:00-12:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Mardi (12:00-12:50)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33389,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Bains combinés 14:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Bains combinés le Mardi (14:00-19:50)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33390,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Aînés 11:00-12:00",
-      "description": "Parc Saint-Benoît: ajout Aînés le Mercredi (11:00-12:00)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33391,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 06:30-08:30",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Mercredi (06:30-08:30)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33392,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 12:00-12:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Mercredi (12:00-12:50)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33393,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Bains combinés 14:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Bains combinés le Mercredi (14:00-19:50)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33394,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Aînés 11:00-12:00",
-      "description": "Parc Saint-Benoît: ajout Aînés le Jeudi (11:00-12:00)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33395,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 06:30-08:30",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Jeudi (06:30-08:30)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33396,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 12:00-12:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Jeudi (12:00-12:50)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33397,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Bains combinés 14:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Bains combinés le Jeudi (14:00-19:50)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33398,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Aînés 11:00-12:00",
-      "description": "Parc Saint-Benoît: ajout Aînés le Vendredi (11:00-12:00)",
-      "created_at": "2026-05-20T21:00:23"
-    },
-    {
-      "id": 33399,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 06:30-08:30",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Vendredi (06:30-08:30)",
       "created_at": "2026-05-20T21:00:23"
     }
   ],
