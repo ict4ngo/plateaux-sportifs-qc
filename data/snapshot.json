@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-26T21:00:05.821153+00:00",
+  "exported_at": "2026-05-26T21:00:15.090827+00:00",
   "facilities": [
     {
       "id": 1,
@@ -12069,6 +12069,83 @@
   ],
   "changes": [
     {
+      "id": 38598,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 16:00-16:50",
+      "description": "Arpidrome: ajout Famille le Lundi (16:00-16:50)",
+      "created_at": "2026-05-26T21:00:12"
+    },
+    {
+      "id": 38599,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 15:00-15:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (15:00-15:50)",
+      "created_at": "2026-05-26T21:00:12"
+    },
+    {
+      "id": 38600,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-05-26T21:00:12"
+    },
+    {
+      "id": 38601,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-05-26T21:00:12"
+    },
+    {
+      "id": 38602,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-26T21:00:12"
+    },
+    {
+      "id": 38596,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-05-26T21:00:11"
+    },
+    {
+      "id": 38597,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-05-26T21:00:11"
+    },
+    {
       "id": 38566,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -13090,83 +13167,6 @@
       "new_value": "18:50",
       "description": "Parc Saint-Benoît: Bains combinés le Jeudi fin changee 19:50 -> 18:50",
       "created_at": "2026-05-26T18:00:28"
-    },
-    {
-      "id": 38517,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "18:50",
-      "description": "Parc Saint-Benoît: Bains combinés le Vendredi fin changee 19:50 -> 18:50",
-      "created_at": "2026-05-26T18:00:28"
-    },
-    {
-      "id": 38495,
-      "facility_id": 23,
-      "facility_name": "Aréna des Deux Glaces",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Famille 16:30-17:20",
-      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
-      "created_at": "2026-05-26T18:00:15"
-    },
-    {
-      "id": 38496,
-      "facility_id": 23,
-      "facility_name": "Aréna des Deux Glaces",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Patinage libre 15:30-16:20",
-      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
-      "created_at": "2026-05-26T18:00:15"
-    },
-    {
-      "id": 38497,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 16:00-16:50",
-      "description": "Arpidrome: ajout Famille le Lundi (16:00-16:50)",
-      "created_at": "2026-05-26T18:00:15"
-    },
-    {
-      "id": 38498,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Patinage libre 15:00-15:50",
-      "description": "Arpidrome: ajout Patinage libre le Lundi (15:00-15:50)",
-      "created_at": "2026-05-26T18:00:15"
-    },
-    {
-      "id": 38499,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Patinage libre 16:00-16:50",
-      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
-      "created_at": "2026-05-26T18:00:15"
-    },
-    {
-      "id": 38500,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 17:30-18:20",
-      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
-      "created_at": "2026-05-26T18:00:15"
     }
   ],
   "notices": [
