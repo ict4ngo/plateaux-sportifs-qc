@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-26T15:00:19.396384+00:00",
+  "exported_at": "2026-05-26T15:00:33.257824+00:00",
   "facilities": [
     {
       "id": 1,
@@ -12069,6 +12069,182 @@
   ],
   "changes": [
     {
+      "id": 38401,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38402,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38403,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "18:50",
+      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38404,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38405,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Dimanche (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38406,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Lundi (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38407,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Mardi (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38408,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Mercredi (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38409,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Jeudi (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38410,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Vendredi (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38411,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Samedi (19:00-19:50)",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38412,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Lundi fin changee 19:50 -> 18:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38413,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Mardi fin changee 19:50 -> 18:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38414,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Mercredi fin changee 19:50 -> 18:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38415,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Jeudi fin changee 19:50 -> 18:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
+      "id": 38416,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Vendredi fin changee 19:50 -> 18:50",
+      "created_at": "2026-05-26T15:00:28"
+    },
+    {
       "id": 38394,
       "facility_id": 23,
       "facility_name": "Aréna des Deux Glaces",
@@ -12991,182 +13167,6 @@
       "new_value": "Mercredi Longueurs 11:30-13:20",
       "description": "Arpidrome: ajout Longueurs le Mercredi (11:30-13:20)",
       "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38312,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 12:05-12:50",
-      "description": "Arpidrome: ajout Tous le Lundi (12:05-12:50)",
-      "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38313,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 12:05-12:50",
-      "description": "Arpidrome: ajout Tous le Mardi (12:05-12:50)",
-      "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38314,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 12:05-12:50",
-      "description": "Arpidrome: ajout Tous le Mercredi (12:05-12:50)",
-      "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38315,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Tous 12:05-12:50",
-      "description": "Arpidrome: ajout Tous le Jeudi (12:05-12:50)",
-      "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38316,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 12:05-12:50",
-      "description": "Arpidrome: ajout Tous le Vendredi (12:05-12:50)",
-      "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38317,
-      "facility_id": 2,
-      "facility_name": "Centre communautaire Ferland",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:25",
-      "description": "Centre communautaire Ferland: ajout Tous le Samedi (19:00-20:25)",
-      "created_at": "2026-05-26T15:00:00"
-    },
-    {
-      "id": 38295,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38296,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38297,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "18:50",
-      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38298,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38299,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Longueurs 19:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Dimanche (19:00-19:50)",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38300,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Lundi (19:00-19:50)",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38301,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Mardi (19:00-19:50)",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38302,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Mercredi (19:00-19:50)",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38303,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Jeudi (19:00-19:50)",
-      "created_at": "2026-05-26T12:00:24"
-    },
-    {
-      "id": 38304,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Benoît: ajout Longueurs le Vendredi (19:00-19:50)",
-      "created_at": "2026-05-26T12:00:24"
     }
   ],
   "notices": [
