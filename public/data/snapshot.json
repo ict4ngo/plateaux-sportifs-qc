@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-27T21:00:09.348111+00:00",
+  "exported_at": "2026-05-27T21:00:20.117338+00:00",
   "facilities": [
     {
       "id": 1,
@@ -2703,50 +2703,6 @@
       "start_time": "16:00",
       "end_time": "16:50",
       "raw_text": "16 h à 16 h 50",
-      "valid_from": "2026-05-04"
-    },
-    {
-      "id": 8217,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "raw_text": "17 h à 17 h 50",
-      "valid_from": "2026-05-04"
-    },
-    {
-      "id": 8218,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "raw_text": "17 h à 17 h 50",
-      "valid_from": "2026-05-04"
-    },
-    {
-      "id": 8219,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "raw_text": "17 h à 17 h 50",
-      "valid_from": "2026-05-04"
-    },
-    {
-      "id": 8220,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "raw_text": "17 h à 17 h 50",
       "valid_from": "2026-05-04"
     },
     {
@@ -7579,83 +7535,6 @@
       "valid_from": "2026-05-21"
     },
     {
-      "id": 8667,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:15",
-      "end_time": "18:05",
-      "raw_text": "17 h 15 à 18 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
-      "id": 8668,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "16:15",
-      "end_time": "17:05",
-      "raw_text": "16 h 15 à 17 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
-      "id": 8669,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:15",
-      "end_time": "18:05",
-      "raw_text": "17 h 15 à 18 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
-      "id": 8670,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "16:15",
-      "end_time": "17:05",
-      "raw_text": "16 h 15 à 17 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
-      "id": 8671,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "16:15",
-      "end_time": "17:05",
-      "raw_text": "16 h 15 à 17 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
-      "id": 8672,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Famille",
-      "start_time": "17:15",
-      "end_time": "18:05",
-      "raw_text": "17 h 15 à 18 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
-      "id": 8673,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "day_of_week": "Lundi",
-      "activity": "Patinage libre",
-      "start_time": "16:15",
-      "end_time": "17:05",
-      "raw_text": "16 h 15 à 17 h 05",
-      "valid_from": "2026-05-21"
-    },
-    {
       "id": 8674,
       "facility_id": 36,
       "facility_name": "Marina Saint-Roch",
@@ -12120,9 +11999,163 @@
       "end_time": "20:25",
       "raw_text": "19 h à 20 h 25",
       "valid_from": "2026-05-27"
+    },
+    {
+      "id": 9080,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Famille",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "raw_text": "16 h à 16 h 50",
+      "valid_from": "2026-05-27"
+    },
+    {
+      "id": 9081,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Patinage libre",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "raw_text": "15 h à 15 h 50",
+      "valid_from": "2026-05-27"
+    },
+    {
+      "id": 9082,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Patinage libre",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "raw_text": "15 h à 15 h 50",
+      "valid_from": "2026-05-27"
+    },
+    {
+      "id": 9083,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Famille",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "raw_text": "16 h à 16 h 50",
+      "valid_from": "2026-05-27"
+    },
+    {
+      "id": 9084,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Patinage libre",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "raw_text": "15 h à 15 h 50",
+      "valid_from": "2026-05-27"
     }
   ],
   "changes": [
+    {
+      "id": 39474,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 16:00-16:50",
+      "description": "Arpidrome: ajout Famille le Lundi (16:00-16:50)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39475,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 15:00-15:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (15:00-15:50)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39476,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39477,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39478,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39479,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Famille 17:15-18:05",
+      "new_value": null,
+      "description": "Arpidrome: retrait Famille le Lundi (17:15-18:05)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39480,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "removed",
+      "field": "slot",
+      "old_value": "Lundi Patinage libre 16:15-17:05",
+      "new_value": null,
+      "description": "Arpidrome: retrait Patinage libre le Lundi (16:15-17:05)",
+      "created_at": "2026-05-27T21:00:17"
+    },
+    {
+      "id": 39472,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-05-27T21:00:16"
+    },
+    {
+      "id": 39473,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-05-27T21:00:16"
+    },
     {
       "id": 39446,
       "facility_id": 18,
@@ -13123,105 +13156,6 @@
       "new_value": "Samedi Tous 18:30-20:30",
       "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (18:30-20:30)",
       "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39395,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "20:00",
-      "new_value": "20:30",
-      "description": "Centre communautaire Lucien-Borne: Tous le Lundi fin changee 20:00 -> 20:30",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39396,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "08:30",
-      "new_value": "08:25",
-      "description": "Centre communautaire Lucien-Borne: Longueurs le Mercredi fin changee 08:30 -> 08:25",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39397,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Mardi (19:00-20:25)",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39398,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Jeudi (19:00-20:25)",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39399,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 17:30-19:00",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Lundi (17:30-19:00)",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39400,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Adultes 19:30-20:30",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Mercredi (19:30-20:30)",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39401,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 17:30-19:15",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Mercredi (17:30-19:15)",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39402,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Adultes 19:30-20:30",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Vendredi (19:30-20:30)",
-      "created_at": "2026-05-27T21:00:01"
-    },
-    {
-      "id": 39357,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
-      "created_at": "2026-05-27T18:00:29"
     }
   ],
   "notices": [
