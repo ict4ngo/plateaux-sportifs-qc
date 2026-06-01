@@ -55,50 +55,6 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Centre communautaire Ferland",
-    "ent_id": 2,
-    "day": "Lundi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "13:20",
-    "raw_time": "12 h à 13 h 20",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Centre communautaire Ferland",
-    "ent_id": 2,
-    "day": "Mardi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "13:20",
-    "raw_time": "12 h à 13 h 20",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Centre communautaire Ferland",
-    "ent_id": 2,
-    "day": "Mercredi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "13:20",
-    "raw_time": "12 h à 13 h 20",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Centre communautaire Ferland",
-    "ent_id": 2,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "13:20",
-    "raw_time": "12 h à 13 h 20",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
     "pool": "Centre communautaire Lucien-Borne",
     "ent_id": 3,
     "day": "Lundi",
@@ -418,7 +374,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "pool": "Patro Roc-Amadour",
     "ent_id": 15,
     "day": "Lundi",
     "activity": "Longueurs",
@@ -429,7 +385,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "pool": "Patro Roc-Amadour",
     "ent_id": 15,
     "day": "Mardi",
     "activity": "Longueurs",
@@ -440,7 +396,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "pool": "Patro Roc-Amadour",
     "ent_id": 15,
     "day": "Mercredi",
     "activity": "Longueurs",
@@ -451,7 +407,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "pool": "Patro Roc-Amadour",
     "ent_id": 15,
     "day": "Jeudi",
     "activity": "Longueurs",
@@ -638,7 +594,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "YMCA St-Roch",
+    "pool": "YMCA Saint-Roch",
     "ent_id": 20,
     "day": "Lundi",
     "activity": "Longueurs",
@@ -649,7 +605,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "YMCA St-Roch",
+    "pool": "YMCA Saint-Roch",
     "ent_id": 20,
     "day": "Mardi",
     "activity": "Longueurs",
@@ -660,7 +616,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "YMCA St-Roch",
+    "pool": "YMCA Saint-Roch",
     "ent_id": 20,
     "day": "Mercredi",
     "activity": "Longueurs",
@@ -671,7 +627,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "YMCA St-Roch",
+    "pool": "YMCA Saint-Roch",
     "ent_id": 20,
     "day": "Jeudi",
     "activity": "Longueurs",
@@ -682,7 +638,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "YMCA St-Roch",
+    "pool": "YMCA Saint-Roch",
     "ent_id": 20,
     "day": "Vendredi",
     "activity": "Longueurs",
@@ -748,7 +704,7 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Piscine Jules-Dallaire - Patro Roc-Amadour",
+    "pool": "Patro Roc-Amadour",
     "ent_id": 15,
     "day": "Jeudi",
     "activity": "Longueurs",
