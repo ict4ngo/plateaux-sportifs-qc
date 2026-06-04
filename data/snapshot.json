@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-04T00:00:06.481262+00:00",
+  "exported_at": "2026-06-04T00:00:16.096367+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11926,6 +11926,72 @@
   ],
   "changes": [
     {
+      "id": 46468,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-04T00:00:13"
+    },
+    {
+      "id": 46469,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-04T00:00:13"
+    },
+    {
+      "id": 46470,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-04T00:00:13"
+    },
+    {
+      "id": 46471,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-04T00:00:13"
+    },
+    {
+      "id": 46466,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-06-04T00:00:12"
+    },
+    {
+      "id": 46467,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-06-04T00:00:12"
+    },
+    {
       "id": 46436,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
@@ -12957,72 +13023,6 @@
       "old_value": null,
       "new_value": "Mercredi Tous 18:30-20:30",
       "description": "Centre communautaire Lucien-Borne: ajout Tous le Mercredi (18:30-20:30)",
-      "created_at": "2026-06-04T00:00:01"
-    },
-    {
-      "id": 46381,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Adultes 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Jeudi (18:30-20:30)",
-      "created_at": "2026-06-04T00:00:01"
-    },
-    {
-      "id": 46382,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:30-12:45)",
-      "created_at": "2026-06-04T00:00:01"
-    },
-    {
-      "id": 46383,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Aînés 13:00-15:00",
-      "description": "Centre communautaire Lucien-Borne: ajout Aînés le Vendredi (13:00-15:00)",
-      "created_at": "2026-06-04T00:00:01"
-    },
-    {
-      "id": 46384,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:30-12:45)",
-      "created_at": "2026-06-04T00:00:01"
-    },
-    {
-      "id": 46385,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Vendredi (18:30-20:30)",
-      "created_at": "2026-06-04T00:00:01"
-    },
-    {
-      "id": 46386,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (18:30-20:30)",
       "created_at": "2026-06-04T00:00:01"
     }
   ],
