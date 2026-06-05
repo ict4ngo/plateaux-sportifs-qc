@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-05T06:00:06.107130+00:00",
+  "exported_at": "2026-06-05T06:00:15.667361+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11926,6 +11926,72 @@
   ],
   "changes": [
     {
+      "id": 47716,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 16:30-17:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (16:30-17:20)",
+      "created_at": "2026-06-05T06:00:12"
+    },
+    {
+      "id": 47717,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Patinage libre 15:30-16:20",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Jeudi (15:30-16:20)",
+      "created_at": "2026-06-05T06:00:12"
+    },
+    {
+      "id": 47718,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-05T06:00:12"
+    },
+    {
+      "id": 47719,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-05T06:00:12"
+    },
+    {
+      "id": 47720,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-05T06:00:12"
+    },
+    {
+      "id": 47721,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-05T06:00:12"
+    },
+    {
       "id": 47712,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
@@ -12957,72 +13023,6 @@
       "old_value": null,
       "new_value": "Vendredi Adultes 19:30-20:30",
       "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Vendredi (19:30-20:30)",
-      "created_at": "2026-06-05T06:00:01"
-    },
-    {
-      "id": 47645,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:25",
-      "new_value": "15:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Dimanche fin changee 16:25 -> 15:25",
-      "created_at": "2026-06-05T06:00:01"
-    },
-    {
-      "id": 47646,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:15",
-      "new_value": "14:55",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Lundi fin changee 16:15 -> 14:55",
-      "created_at": "2026-06-05T06:00:01"
-    },
-    {
-      "id": 47647,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "20:55",
-      "new_value": "20:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Mardi fin changee 20:55 -> 20:25",
-      "created_at": "2026-06-05T06:00:01"
-    },
-    {
-      "id": 47648,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "20:55",
-      "new_value": "20:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Jeudi fin changee 20:55 -> 20:25",
-      "created_at": "2026-06-05T06:00:01"
-    },
-    {
-      "id": 47649,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:25",
-      "new_value": "15:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Samedi fin changee 16:25 -> 15:25",
-      "created_at": "2026-06-05T06:00:01"
-    },
-    {
-      "id": 47650,
-      "facility_id": 7,
-      "facility_name": "École secondaire de La Seigneurie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Longueurs 15:15-16:45",
-      "description": "École secondaire de La Seigneurie: ajout Longueurs le Dimanche (15:15-16:45)",
       "created_at": "2026-06-05T06:00:01"
     }
   ],
