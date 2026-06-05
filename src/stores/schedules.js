@@ -22,10 +22,15 @@ export const useScheduleStore = defineStore("schedules", {
 
   getters: {
     // Installations filtrées par activité courante
+    // Only shows facilities that have schedule data (hides closed/seasonal without published schedules)
     currentActivityFacilities(state) {
       const activityStore = useActivityStore();
       const facilityType = activityStore.facilityType;
-      return state.facilities.filter(f => f.facility_type === facilityType);
+      const facilityIdsWithSchedules = new Set(state.schedules.map(s => s.facility_id));
+      return state.facilities.filter(f =>
+        f.facility_type === facilityType &&
+        facilityIdsWithSchedules.has(f.id)
+      );
     },
 
     // Activités disponibles pour l'activité courante
