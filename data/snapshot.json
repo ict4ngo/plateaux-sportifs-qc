@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-05T12:00:17.948128+00:00",
+  "exported_at": "2026-06-05T12:00:32.500828+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11926,6 +11926,182 @@
   ],
   "changes": [
     {
+      "id": 47972,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47973,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47974,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "18:50",
+      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47975,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47976,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Dimanche (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47977,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Lundi (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47978,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Mardi (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47979,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Mercredi (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47980,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Jeudi (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47981,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Vendredi (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47982,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Samedi (19:00-19:50)",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47983,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Lundi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47984,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Mardi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47985,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Mercredi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47986,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Jeudi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
+      "id": 47987,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Vendredi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-05T12:00:27"
+    },
+    {
       "id": 47968,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -12847,182 +13023,6 @@
       "old_value": null,
       "new_value": "Jeudi Longueurs 11:45-13:30",
       "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:45-13:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47872,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:45-13:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47873,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (19:00-20:45)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47874,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (18:30-20:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47875,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:30-12:45)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47876,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Adultes 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Mardi (18:30-20:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47877,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:30-12:45)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47878,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 13:00-15:00",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Mardi (13:00-15:00)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47879,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:30-12:45)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47880,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Mercredi (18:30-20:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47881,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Adultes 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Jeudi (18:30-20:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47882,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:30-12:45)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47883,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Aînés 13:00-15:00",
-      "description": "Centre communautaire Lucien-Borne: ajout Aînés le Vendredi (13:00-15:00)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47884,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:30-12:45)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47885,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Vendredi (18:30-20:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47886,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (18:30-20:30)",
-      "created_at": "2026-06-05T12:00:01"
-    },
-    {
-      "id": 47887,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "20:00",
-      "new_value": "20:30",
-      "description": "Centre communautaire Lucien-Borne: Tous le Lundi fin changee 20:00 -> 20:30",
       "created_at": "2026-06-05T12:00:01"
     }
   ],
