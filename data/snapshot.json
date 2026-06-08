@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-08T03:00:05.983676+00:00",
+  "exported_at": "2026-06-08T03:00:15.684959+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11904,6 +11904,50 @@
   ],
   "changes": [
     {
+      "id": 50575,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-08T03:00:12"
+    },
+    {
+      "id": 50576,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-08T03:00:12"
+    },
+    {
+      "id": 50577,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-08T03:00:12"
+    },
+    {
+      "id": 50578,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-08T03:00:12"
+    },
+    {
       "id": 50536,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
@@ -12957,50 +13001,6 @@
       "old_value": null,
       "new_value": "Vendredi Adultes 19:30-20:30",
       "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Vendredi (19:30-20:30)",
-      "created_at": "2026-06-08T03:00:01"
-    },
-    {
-      "id": 50504,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:25",
-      "new_value": "15:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Dimanche fin changee 16:25 -> 15:25",
-      "created_at": "2026-06-08T03:00:01"
-    },
-    {
-      "id": 50505,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:15",
-      "new_value": "14:55",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Lundi fin changee 16:15 -> 14:55",
-      "created_at": "2026-06-08T03:00:01"
-    },
-    {
-      "id": 50506,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "20:55",
-      "new_value": "20:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Mardi fin changee 20:55 -> 20:25",
-      "created_at": "2026-06-08T03:00:01"
-    },
-    {
-      "id": 50507,
-      "facility_id": 6,
-      "facility_name": "Complexe Jean-Paul-Nolin",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "20:55",
-      "new_value": "20:25",
-      "description": "Complexe Jean-Paul-Nolin: Tous le Jeudi fin changee 20:55 -> 20:25",
       "created_at": "2026-06-08T03:00:01"
     }
   ],
