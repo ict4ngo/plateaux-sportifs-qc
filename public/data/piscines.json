@@ -860,28 +860,6 @@
   {
     "pool": "Parc Paul-Émile-Beaulieu",
     "ent_id": 52,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "09:00",
-    "end": "10:50",
-    "raw_time": "9 h à 10 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
-    "pool": "Parc Paul-Émile-Beaulieu",
-    "ent_id": 52,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "19:00",
-    "end": "19:50",
-    "raw_time": "19 h à 19 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
-    "pool": "Parc Paul-Émile-Beaulieu",
-    "ent_id": 52,
     "day": "Lundi",
     "activity": "Longueurs",
     "start": "19:00",
@@ -942,28 +920,6 @@
     "start": "19:00",
     "end": "19:50",
     "raw_time": "19 h à 19 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
-    "pool": "Piscine de Courville",
-    "ent_id": 65,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "12:50",
-    "raw_time": "12 h à 12 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
-    "pool": "Piscine de Courville",
-    "ent_id": 65,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "16:00",
-    "end": "19:50",
-    "raw_time": "16 h à 19 h 50",
     "source_url": null,
     "fetched_at": "2026-05-19"
   },
