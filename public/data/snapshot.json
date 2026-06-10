@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-10T06:00:06.198804+00:00",
+  "exported_at": "2026-06-10T06:00:16.497981+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11893,6 +11893,50 @@
   ],
   "changes": [
     {
+      "id": 52713,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-10T06:00:13"
+    },
+    {
+      "id": 52714,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-10T06:00:13"
+    },
+    {
+      "id": 52715,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-10T06:00:13"
+    },
+    {
+      "id": 52716,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-10T06:00:13"
+    },
+    {
       "id": 52702,
       "facility_id": 19,
       "facility_name": "Piscine Wilfrid-Hamel",
@@ -12946,50 +12990,6 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 19:00-20:25",
       "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Mardi (19:00-20:25)",
-      "created_at": "2026-06-10T06:00:01"
-    },
-    {
-      "id": 52631,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Jeudi (19:00-20:25)",
-      "created_at": "2026-06-10T06:00:01"
-    },
-    {
-      "id": 52632,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 17:30-19:00",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Lundi (17:30-19:00)",
-      "created_at": "2026-06-10T06:00:01"
-    },
-    {
-      "id": 52633,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Adultes 19:30-20:30",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Mercredi (19:30-20:30)",
-      "created_at": "2026-06-10T06:00:01"
-    },
-    {
-      "id": 52634,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 17:30-19:15",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Mercredi (17:30-19:15)",
       "created_at": "2026-06-10T06:00:01"
     }
   ],
