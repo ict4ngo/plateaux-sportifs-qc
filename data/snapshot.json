@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-11T15:00:16.621013+00:00",
+  "exported_at": "2026-06-11T15:00:31.311556+00:00",
   "facilities": [
     {
       "id": 1,
@@ -523,7 +523,7 @@
     },
     {
       "id": 66,
-      "name": "Piscine de Giffard",
+      "name": "Giffard",
       "external_id": "188",
       "facility_type": "piscine_exterieure",
       "source_url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/installations_sportives/piscines_exterieures/piscines_exterieures_fiche.aspx?entID=188",
@@ -547,7 +547,7 @@
     },
     {
       "id": 69,
-      "name": "Piscine du Centre de plein air de Beauport",
+      "name": "Centre de plein air de Beauport",
       "external_id": "182",
       "facility_type": "piscine_exterieure",
       "source_url": "https://www.ville.quebec.qc.ca/citoyens/loisirs_sports/installations_sportives/piscines_exterieures/piscines_exterieures_fiche.aspx?entID=182",
@@ -4358,7 +4358,7 @@
     {
       "id": 8401,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Dimanche",
       "activity": "Longueurs",
       "start_time": "08:00",
@@ -4369,7 +4369,7 @@
     {
       "id": 8402,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Dimanche",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4380,7 +4380,7 @@
     {
       "id": 8403,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Dimanche",
       "activity": "Tous",
       "start_time": "11:00",
@@ -4391,7 +4391,7 @@
     {
       "id": 8404,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Lundi",
       "activity": "Aînés",
       "start_time": "11:00",
@@ -4402,7 +4402,7 @@
     {
       "id": 8405,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Lundi",
       "activity": "Longueurs",
       "start_time": "12:00",
@@ -4413,7 +4413,7 @@
     {
       "id": 8406,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Lundi",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4424,7 +4424,7 @@
     {
       "id": 8407,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Lundi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4435,7 +4435,7 @@
     {
       "id": 8408,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Aînés",
       "start_time": "11:00",
@@ -4446,7 +4446,7 @@
     {
       "id": 8409,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Longueurs",
       "start_time": "06:30",
@@ -4457,7 +4457,7 @@
     {
       "id": 8410,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Longueurs",
       "start_time": "12:00",
@@ -4468,7 +4468,7 @@
     {
       "id": 8411,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4479,7 +4479,7 @@
     {
       "id": 8412,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4490,7 +4490,7 @@
     {
       "id": 8413,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Aînés",
       "start_time": "11:00",
@@ -4501,7 +4501,7 @@
     {
       "id": 8414,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Longueurs",
       "start_time": "06:30",
@@ -4512,7 +4512,7 @@
     {
       "id": 8415,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Longueurs",
       "start_time": "12:00",
@@ -4523,7 +4523,7 @@
     {
       "id": 8416,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4534,7 +4534,7 @@
     {
       "id": 8417,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4545,7 +4545,7 @@
     {
       "id": 8418,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Aînés",
       "start_time": "11:00",
@@ -4556,7 +4556,7 @@
     {
       "id": 8419,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Longueurs",
       "start_time": "06:30",
@@ -4567,7 +4567,7 @@
     {
       "id": 8420,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Longueurs",
       "start_time": "12:00",
@@ -4578,7 +4578,7 @@
     {
       "id": 8421,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4589,7 +4589,7 @@
     {
       "id": 8422,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4600,7 +4600,7 @@
     {
       "id": 8423,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Vendredi",
       "activity": "Aînés",
       "start_time": "11:00",
@@ -4611,7 +4611,7 @@
     {
       "id": 8424,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Vendredi",
       "activity": "Longueurs",
       "start_time": "12:00",
@@ -4622,7 +4622,7 @@
     {
       "id": 8425,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Vendredi",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4633,7 +4633,7 @@
     {
       "id": 8426,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Vendredi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4644,7 +4644,7 @@
     {
       "id": 8427,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Samedi",
       "activity": "Longueurs",
       "start_time": "08:00",
@@ -4655,7 +4655,7 @@
     {
       "id": 8428,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Samedi",
       "activity": "Longueurs",
       "start_time": "19:00",
@@ -4666,7 +4666,7 @@
     {
       "id": 8429,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Samedi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -4677,7 +4677,7 @@
     {
       "id": 8430,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Dimanche",
       "activity": "Tous",
       "start_time": "11:00",
@@ -4688,7 +4688,7 @@
     {
       "id": 8431,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Dimanche",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -4699,7 +4699,7 @@
     {
       "id": 8432,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Lundi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4710,7 +4710,7 @@
     {
       "id": 8433,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Lundi",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -4721,7 +4721,7 @@
     {
       "id": 8434,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4732,7 +4732,7 @@
     {
       "id": 8435,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mardi",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -4743,7 +4743,7 @@
     {
       "id": 8436,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4754,7 +4754,7 @@
     {
       "id": 8437,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Mercredi",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -4765,7 +4765,7 @@
     {
       "id": 8438,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4776,7 +4776,7 @@
     {
       "id": 8439,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Jeudi",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -4787,7 +4787,7 @@
     {
       "id": 8440,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Vendredi",
       "activity": "Tous",
       "start_time": "13:00",
@@ -4798,7 +4798,7 @@
     {
       "id": 8441,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Vendredi",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -4809,7 +4809,7 @@
     {
       "id": 8442,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Samedi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -4820,7 +4820,7 @@
     {
       "id": 8443,
       "facility_id": 66,
-      "facility_name": "Piscine de Giffard",
+      "facility_name": "Giffard",
       "day_of_week": "Samedi",
       "activity": "Bains combinés",
       "start_time": "18:00",
@@ -5150,7 +5150,7 @@
     {
       "id": 8473,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Dimanche",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5161,7 +5161,7 @@
     {
       "id": 8474,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Lundi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5172,7 +5172,7 @@
     {
       "id": 8475,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Mardi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5183,7 +5183,7 @@
     {
       "id": 8476,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Mercredi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5194,7 +5194,7 @@
     {
       "id": 8477,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Jeudi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5205,7 +5205,7 @@
     {
       "id": 8478,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Vendredi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5216,7 +5216,7 @@
     {
       "id": 8479,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Samedi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5227,7 +5227,7 @@
     {
       "id": 8480,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Dimanche",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5238,7 +5238,7 @@
     {
       "id": 8481,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Lundi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5249,7 +5249,7 @@
     {
       "id": 8482,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Mardi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5260,7 +5260,7 @@
     {
       "id": 8483,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Mercredi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5271,7 +5271,7 @@
     {
       "id": 8484,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Jeudi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5282,7 +5282,7 @@
     {
       "id": 8485,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Vendredi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -5293,7 +5293,7 @@
     {
       "id": 8486,
       "facility_id": 69,
-      "facility_name": "Piscine du Centre de plein air de Beauport",
+      "facility_name": "Centre de plein air de Beauport",
       "day_of_week": "Samedi",
       "activity": "Tous",
       "start_time": "11:00",
@@ -11893,6 +11893,281 @@
   ],
   "changes": [
     {
+      "id": 54182,
+      "facility_id": 65,
+      "facility_name": "Piscine de Courville",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 12:00-12:50",
+      "description": "Piscine de Courville: ajout Longueurs le Vendredi (12:00-12:50)",
+      "created_at": "2026-06-11T15:00:28"
+    },
+    {
+      "id": 54165,
+      "facility_id": 52,
+      "facility_name": "Parc Paul-Émile-Beaulieu",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 19:00-19:50",
+      "description": "Parc Paul-Émile-Beaulieu: ajout Longueurs le Vendredi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54166,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54167,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54168,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "18:50",
+      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54169,
+      "facility_id": 54,
+      "facility_name": "Parc Réal-Cloutier",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "17:00",
+      "new_value": "16:50",
+      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54170,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Dimanche (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54171,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Lundi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54172,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Mardi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54173,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Mercredi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54174,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Jeudi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54175,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Vendredi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54176,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Longueurs 19:00-19:50",
+      "description": "Parc Saint-Benoît: ajout Longueurs le Samedi (19:00-19:50)",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54177,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Lundi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54178,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Mardi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54179,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Mercredi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54180,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Jeudi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54181,
+      "facility_id": 55,
+      "facility_name": "Parc Saint-Benoît",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "18:50",
+      "description": "Parc Saint-Benoît: Bains combinés le Vendredi fin changee 19:50 -> 18:50",
+      "created_at": "2026-06-11T15:00:26"
+    },
+    {
+      "id": 54158,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Dimanche fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
+      "id": 54159,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Vendredi fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
+      "id": 54160,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Samedi fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
+      "id": 54161,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Lundi fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
+      "id": 54162,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Mardi fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
+      "id": 54163,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Mercredi fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
+      "id": 54164,
+      "facility_id": 40,
+      "facility_name": "Parc de Saint-Sacrement",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:50",
+      "new_value": "16:16",
+      "description": "Parc de Saint-Sacrement: Tous le Jeudi fin changee 19:50 -> 16:16",
+      "created_at": "2026-06-11T15:00:24"
+    },
+    {
       "id": 54154,
       "facility_id": 28,
       "facility_name": "Arpidrome",
@@ -12716,281 +12991,6 @@
       "new_value": "Vendredi Longueurs 11:00-12:45",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Vendredi (11:00-12:45)",
       "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54100,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 19:40-21:00",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Vendredi (19:40-21:00)",
-      "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54101,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 18:00-19:30",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Vendredi (18:00-19:30)",
-      "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54102,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Longueurs 08:30-09:50",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Samedi (08:30-09:50)",
-      "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54103,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 10:00-12:00",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Samedi (10:00-12:00)",
-      "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54104,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:55",
-      "new_value": "19:30",
-      "description": "Piscine de l'édifice Denis-Giguère: Tous le Mardi fin changee 19:55 -> 19:30",
-      "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54105,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:55",
-      "new_value": "19:30",
-      "description": "Piscine de l'édifice Denis-Giguère: Tous le Jeudi fin changee 19:55 -> 19:30",
-      "created_at": "2026-06-11T15:00:02"
-    },
-    {
-      "id": 54046,
-      "facility_id": 20,
-      "facility_name": "YMCA Saint-Roch",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:30-21:00",
-      "description": "YMCA Saint-Roch: ajout Longueurs le Mardi (19:30-21:00)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54047,
-      "facility_id": 15,
-      "facility_name": "Patro Roc-Amadour",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 12:00-13:25",
-      "description": "Patro Roc-Amadour: ajout Longueurs le Mardi (12:00-13:25)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54048,
-      "facility_id": 15,
-      "facility_name": "Patro Roc-Amadour",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Tous 18:00-19:25",
-      "description": "Patro Roc-Amadour: ajout Tous le Jeudi (18:00-19:25)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54049,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (19:00-20:45)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54050,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:45-13:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54051,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:45-13:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54052,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:45-13:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54053,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:45-13:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54054,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:45-13:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54055,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (19:00-20:45)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54056,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (18:30-20:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54057,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:30-12:45)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54058,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Adultes 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Mardi (18:30-20:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54059,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:30-12:45)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54060,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 13:00-15:00",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Mardi (13:00-15:00)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54061,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:30-12:45)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54062,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Mercredi (18:30-20:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54063,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Adultes 18:30-20:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Jeudi (18:30-20:30)",
-      "created_at": "2026-06-11T15:00:01"
-    },
-    {
-      "id": 54064,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:30-12:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:30-12:45)",
-      "created_at": "2026-06-11T15:00:01"
     }
   ],
   "notices": [
@@ -13073,16 +13073,6 @@
       "body": "Lundi 18 mai 2026 - Fête des Patriotes",
       "first_seen_at": "2026-04-28T15:00:02",
       "last_seen_at": "2026-04-28T15:00:06"
-    },
-    {
-      "id": 93,
-      "facility_id": 64,
-      "facility_name": "Piscine Chevalier",
-      "notice_type": "closure_seasonal",
-      "title": "Fermeture",
-      "body": "fermée pour la saison.",
-      "first_seen_at": "2026-05-14T21:07:41",
-      "last_seen_at": "2026-05-14T21:07:45"
     },
     {
       "id": 101,
