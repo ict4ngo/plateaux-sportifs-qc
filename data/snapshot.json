@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-12T03:00:06.227510+00:00",
+  "exported_at": "2026-06-12T03:00:16.414063+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11893,6 +11893,50 @@
   ],
   "changes": [
     {
+      "id": 54706,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-12T03:00:13"
+    },
+    {
+      "id": 54707,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-12T03:00:13"
+    },
+    {
+      "id": 54708,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-12T03:00:13"
+    },
+    {
+      "id": 54709,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-12T03:00:13"
+    },
+    {
       "id": 54695,
       "facility_id": 19,
       "facility_name": "Piscine Wilfrid-Hamel",
@@ -12946,50 +12990,6 @@
       "old_value": "20:00",
       "new_value": "20:30",
       "description": "Centre communautaire Lucien-Borne: Tous le Lundi fin changee 20:00 -> 20:30",
-      "created_at": "2026-06-12T03:00:01"
-    },
-    {
-      "id": 54622,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "08:30",
-      "new_value": "08:25",
-      "description": "Centre communautaire Lucien-Borne: Longueurs le Mercredi fin changee 08:30 -> 08:25",
-      "created_at": "2026-06-12T03:00:01"
-    },
-    {
-      "id": 54623,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Mardi (19:00-20:25)",
-      "created_at": "2026-06-12T03:00:01"
-    },
-    {
-      "id": 54624,
-      "facility_id": 4,
-      "facility_name": "Centre communautaire Michel-Labadie",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 19:00-20:25",
-      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Jeudi (19:00-20:25)",
-      "created_at": "2026-06-12T03:00:01"
-    },
-    {
-      "id": 54625,
-      "facility_id": 5,
-      "facility_name": "Centre municipal Monseigneur-De Laval",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 17:30-19:00",
-      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Lundi (17:30-19:00)",
       "created_at": "2026-06-12T03:00:01"
     }
   ],
