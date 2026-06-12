@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-12T18:00:36.230930+00:00",
+  "exported_at": "2026-06-12T21:00:09.125145+00:00",
   "facilities": [
     {
       "id": 1,
@@ -11563,337 +11563,7 @@
   ],
   "changes": [
     {
-      "id": 55434,
-      "facility_id": 65,
-      "facility_name": "Piscine de Courville",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 12:00-12:50",
-      "description": "Piscine de Courville: ajout Longueurs le Vendredi (12:00-12:50)",
-      "created_at": "2026-06-12T18:00:33"
-    },
-    {
-      "id": 55416,
-      "facility_id": 52,
-      "facility_name": "Parc Paul-Émile-Beaulieu",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 19:00-19:50",
-      "description": "Parc Paul-Émile-Beaulieu: ajout Longueurs le Vendredi (19:00-19:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55417,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55418,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55419,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "18:50",
-      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55420,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55421,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Dimanche Longueurs 08:00-10:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Longueurs le Dimanche (08:00-10:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55422,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Dimanche Tous 13:30-18:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Tous le Dimanche (13:30-18:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55423,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Dimanche Bains combinés 11:00-13:20",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Dimanche (11:00-13:20)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55424,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Lundi Bains combinés 14:00-19:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Lundi (14:00-19:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55425,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Mardi Longueurs 06:30-08:30",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Longueurs le Mardi (06:30-08:30)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55426,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Mardi Bains combinés 14:00-19:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Mardi (14:00-19:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55427,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Mercredi Bains combinés 14:00-19:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Mercredi (14:00-19:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55428,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Jeudi Longueurs 06:30-08:30",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Longueurs le Jeudi (06:30-08:30)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55429,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Jeudi Bains combinés 14:00-19:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Jeudi (14:00-19:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55430,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Vendredi Bains combinés 14:00-19:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Vendredi (14:00-19:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55431,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Samedi Longueurs 08:00-10:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Longueurs le Samedi (08:00-10:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55432,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Samedi Tous 13:30-18:50",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Tous le Samedi (13:30-18:50)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55433,
-      "facility_id": 55,
-      "facility_name": "Parc Saint-Benoît",
-      "change_type": "removed",
-      "field": "slot",
-      "old_value": "Samedi Bains combinés 11:00-13:20",
-      "new_value": null,
-      "description": "Parc Saint-Benoît: retrait Bains combinés le Samedi (11:00-13:20)",
-      "created_at": "2026-06-12T18:00:31"
-    },
-    {
-      "id": 55409,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 15:00-16:16",
-      "description": "Parc de Saint-Sacrement: ajout Tous le Lundi (15:00-16:16)",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55410,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 15:00-16:16",
-      "description": "Parc de Saint-Sacrement: ajout Tous le Mardi (15:00-16:16)",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55411,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Tous 15:00-16:16",
-      "description": "Parc de Saint-Sacrement: ajout Tous le Jeudi (15:00-16:16)",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55412,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Dimanche fin changee 19:50 -> 16:16",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55413,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Vendredi fin changee 19:50 -> 16:16",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55414,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Samedi fin changee 19:50 -> 16:16",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55415,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Mercredi fin changee 19:50 -> 16:16",
-      "created_at": "2026-06-12T18:00:29"
-    },
-    {
-      "id": 55405,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 17:00-17:50",
-      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
-      "created_at": "2026-06-12T18:00:18"
-    },
-    {
-      "id": 55406,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Patinage libre 16:00-16:50",
-      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
-      "created_at": "2026-06-12T18:00:18"
-    },
-    {
-      "id": 55407,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 17:30-18:20",
-      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
-      "created_at": "2026-06-12T18:00:18"
-    },
-    {
-      "id": 55408,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Patinage libre 16:30-17:20",
-      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
-      "created_at": "2026-06-12T18:00:18"
-    },
-    {
-      "id": 55401,
+      "id": 55540,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
       "change_type": "added",
@@ -11901,10 +11571,10 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 17:00-17:55",
       "description": "YWCA Québec: ajout Longueurs le Lundi (17:00-17:55)",
-      "created_at": "2026-06-12T18:00:07"
+      "created_at": "2026-06-12T21:00:07"
     },
     {
-      "id": 55402,
+      "id": 55541,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
       "change_type": "added",
@@ -11912,10 +11582,10 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 20:00-20:55",
       "description": "YWCA Québec: ajout Longueurs le Mardi (20:00-20:55)",
-      "created_at": "2026-06-12T18:00:07"
+      "created_at": "2026-06-12T21:00:07"
     },
     {
-      "id": 55403,
+      "id": 55542,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
       "change_type": "added",
@@ -11923,10 +11593,10 @@
       "old_value": null,
       "new_value": "Mercredi Longueurs 17:00-17:55",
       "description": "YWCA Québec: ajout Longueurs le Mercredi (17:00-17:55)",
-      "created_at": "2026-06-12T18:00:07"
+      "created_at": "2026-06-12T21:00:07"
     },
     {
-      "id": 55404,
+      "id": 55543,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
       "change_type": "added",
@@ -11934,120 +11604,10 @@
       "old_value": null,
       "new_value": "Jeudi Longueurs 20:00-20:55",
       "description": "YWCA Québec: ajout Longueurs le Jeudi (20:00-20:55)",
-      "created_at": "2026-06-12T18:00:07"
+      "created_at": "2026-06-12T21:00:07"
     },
     {
-      "id": 55394,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 14:45-16:15",
-      "description": "Piscine Wilfrid-Hamel: ajout Tous le Dimanche (14:45-16:15)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55395,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 17:15-18:15",
-      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Mercredi (17:15-18:15)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55396,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 12:00-13:00",
-      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Lundi (12:00-13:00)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55397,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 10:30-12:15",
-      "description": "Piscine Wilfrid-Hamel: ajout Tous le Mardi (10:30-12:15)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55398,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 13:00-15:00",
-      "description": "Piscine Wilfrid-Hamel: ajout Tous le Mercredi (13:00-15:00)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55399,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Tous 10:30-12:15",
-      "description": "Piscine Wilfrid-Hamel: ajout Tous le Jeudi (10:30-12:15)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55400,
-      "facility_id": 19,
-      "facility_name": "Piscine Wilfrid-Hamel",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 12:00-13:00",
-      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Vendredi (12:00-13:00)",
-      "created_at": "2026-06-12T18:00:04"
-    },
-    {
-      "id": 55357,
-      "facility_id": 13,
-      "facility_name": "Piscine Jacques-Amyot",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 14:00-16:00",
-      "description": "Piscine Jacques-Amyot: ajout Tous le Dimanche (14:00-16:00)",
-      "created_at": "2026-06-12T18:00:03"
-    },
-    {
-      "id": 55358,
-      "facility_id": 13,
-      "facility_name": "Piscine Jacques-Amyot",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 20:15-21:30",
-      "description": "Piscine Jacques-Amyot: ajout Longueurs le Mardi (20:15-21:30)",
-      "created_at": "2026-06-12T18:00:03"
-    },
-    {
-      "id": 55359,
-      "facility_id": 13,
-      "facility_name": "Piscine Jacques-Amyot",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 20:15-21:30",
-      "description": "Piscine Jacques-Amyot: ajout Longueurs le Jeudi (20:15-21:30)",
-      "created_at": "2026-06-12T18:00:03"
-    },
-    {
-      "id": 55360,
+      "id": 55499,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
       "change_type": "added",
@@ -12055,10 +11615,10 @@
       "old_value": null,
       "new_value": "Dimanche Tous 13:00-16:18",
       "description": "Piscine Jos.-A.-Lachance: ajout Tous le Dimanche (13:00-16:18)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55361,
+      "id": 55500,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
       "change_type": "added",
@@ -12066,10 +11626,10 @@
       "old_value": null,
       "new_value": "Jeudi Adultes 20:30-21:45",
       "description": "Piscine Jos.-A.-Lachance: ajout Adultes le Jeudi (20:30-21:45)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55362,
+      "id": 55501,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
       "change_type": "added",
@@ -12077,10 +11637,10 @@
       "old_value": null,
       "new_value": "Jeudi Aînés 10:30-12:15",
       "description": "Piscine Jos.-A.-Lachance: ajout Aînés le Jeudi (10:30-12:15)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55363,
+      "id": 55502,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
       "change_type": "added",
@@ -12088,10 +11648,10 @@
       "old_value": null,
       "new_value": "Samedi Tous 13:00-16:00",
       "description": "Piscine Jos.-A.-Lachance: ajout Tous le Samedi (13:00-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55364,
+      "id": 55503,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
       "change_type": "added",
@@ -12099,10 +11659,10 @@
       "old_value": null,
       "new_value": "Mardi Tous 10:30-12:15",
       "description": "Piscine Jos.-A.-Lachance: ajout Tous le Mardi (10:30-12:15)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55365,
+      "id": 55504,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12110,10 +11670,10 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 20:00-21:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Mardi (20:00-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55366,
+      "id": 55505,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12121,10 +11681,10 @@
       "old_value": null,
       "new_value": "Jeudi Longueurs 20:00-21:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Jeudi (20:00-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55367,
+      "id": 55506,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12132,10 +11692,10 @@
       "old_value": null,
       "new_value": "Mardi Tous 09:00-10:45",
       "description": "Piscine municipale du Bourg-Royal: ajout Tous le Mardi (09:00-10:45)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55368,
+      "id": 55507,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12143,10 +11703,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 09:00-10:45",
       "description": "Piscine municipale du Bourg-Royal: ajout Tous le Vendredi (09:00-10:45)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55369,
+      "id": 55508,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12154,10 +11714,10 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 07:00-08:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Lundi (07:00-08:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55370,
+      "id": 55509,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12165,10 +11725,10 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 20:00-21:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Lundi (20:00-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55371,
+      "id": 55510,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12176,10 +11736,10 @@
       "old_value": null,
       "new_value": "Mercredi Longueurs 20:00-21:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Mercredi (20:00-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55372,
+      "id": 55511,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12187,10 +11747,10 @@
       "old_value": null,
       "new_value": "Vendredi Longueurs 07:00-08:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Vendredi (07:00-08:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55373,
+      "id": 55512,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12198,10 +11758,10 @@
       "old_value": null,
       "new_value": "Vendredi Longueurs 20:00-21:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Vendredi (20:00-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55374,
+      "id": 55513,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
       "change_type": "added",
@@ -12209,10 +11769,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 18:00-19:45",
       "description": "Piscine municipale du Bourg-Royal: ajout Tous le Vendredi (18:00-19:45)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55375,
+      "id": 55514,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12220,10 +11780,10 @@
       "old_value": null,
       "new_value": "Dimanche Tous 18:30-19:55",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Dimanche (18:30-19:55)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55376,
+      "id": 55515,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12231,10 +11791,10 @@
       "old_value": null,
       "new_value": "Lundi Tous 18:15-19:10",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Lundi (18:15-19:10)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55377,
+      "id": 55516,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12242,10 +11802,10 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 17:00-18:20",
       "description": "Piscine Sylvie-Bernier: ajout Longueurs le Mardi (17:00-18:20)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55378,
+      "id": 55517,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12253,10 +11813,10 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 21:00-22:30",
       "description": "Piscine Sylvie-Bernier: ajout Longueurs le Mardi (21:00-22:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55379,
+      "id": 55518,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12264,10 +11824,10 @@
       "old_value": null,
       "new_value": "Mercredi Longueurs 18:30-19:55",
       "description": "Piscine Sylvie-Bernier: ajout Longueurs le Mercredi (18:30-19:55)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55380,
+      "id": 55519,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12275,10 +11835,10 @@
       "old_value": null,
       "new_value": "Dimanche Tous 12:00-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Dimanche (12:00-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55381,
+      "id": 55520,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12286,10 +11846,10 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 20:30-21:30",
       "description": "Piscine Sylvie-Bernier: ajout Longueurs le Lundi (20:30-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55382,
+      "id": 55521,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12297,10 +11857,10 @@
       "old_value": null,
       "new_value": "Lundi Tous 12:00-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Lundi (12:00-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55383,
+      "id": 55522,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12308,10 +11868,10 @@
       "old_value": null,
       "new_value": "Mardi Adultes 20:00-21:00",
       "description": "Piscine Sylvie-Bernier: ajout Adultes le Mardi (20:00-21:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55384,
+      "id": 55523,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12319,10 +11879,10 @@
       "old_value": null,
       "new_value": "Mardi Tous 15:10-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Mardi (15:10-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55385,
+      "id": 55524,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12330,10 +11890,10 @@
       "old_value": null,
       "new_value": "Mercredi Longueurs 20:30-21:30",
       "description": "Piscine Sylvie-Bernier: ajout Longueurs le Mercredi (20:30-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55386,
+      "id": 55525,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12341,10 +11901,10 @@
       "old_value": null,
       "new_value": "Mercredi Tous 12:00-12:50",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Mercredi (12:00-12:50)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55387,
+      "id": 55526,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12352,10 +11912,10 @@
       "old_value": null,
       "new_value": "Mercredi Tous 15:10-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Mercredi (15:10-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55388,
+      "id": 55527,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12363,10 +11923,10 @@
       "old_value": null,
       "new_value": "Jeudi Adultes 20:00-21:00",
       "description": "Piscine Sylvie-Bernier: ajout Adultes le Jeudi (20:00-21:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55389,
+      "id": 55528,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12374,10 +11934,10 @@
       "old_value": null,
       "new_value": "Vendredi Longueurs 20:30-21:30",
       "description": "Piscine Sylvie-Bernier: ajout Longueurs le Vendredi (20:30-21:30)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55390,
+      "id": 55529,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12385,10 +11945,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 12:00-12:50",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Vendredi (12:00-12:50)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55391,
+      "id": 55530,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12396,10 +11956,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 15:10-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Vendredi (15:10-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55392,
+      "id": 55531,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "added",
@@ -12407,10 +11967,10 @@
       "old_value": null,
       "new_value": "Samedi Tous 12:00-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Samedi (12:00-16:00)",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55393,
+      "id": 55532,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
       "change_type": "modified",
@@ -12418,32 +11978,87 @@
       "old_value": "16:18",
       "new_value": "16:00",
       "description": "Piscine Sylvie-Bernier: Tous le Jeudi fin changee 16:18 -> 16:00",
-      "created_at": "2026-06-12T18:00:03"
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55333,
-      "facility_id": 7,
-      "facility_name": "École secondaire de La Seigneurie",
+      "id": 55533,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
       "change_type": "added",
       "field": "slot",
       "old_value": null,
-      "new_value": "Dimanche Longueurs 15:15-16:45",
-      "description": "École secondaire de La Seigneurie: ajout Longueurs le Dimanche (15:15-16:45)",
-      "created_at": "2026-06-12T18:00:02"
+      "new_value": "Dimanche Tous 14:45-16:15",
+      "description": "Piscine Wilfrid-Hamel: ajout Tous le Dimanche (14:45-16:15)",
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55334,
-      "facility_id": 7,
-      "facility_name": "École secondaire de La Seigneurie",
+      "id": 55534,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
       "change_type": "added",
       "field": "slot",
       "old_value": null,
-      "new_value": "Samedi Longueurs 15:15-16:45",
-      "description": "École secondaire de La Seigneurie: ajout Longueurs le Samedi (15:15-16:45)",
-      "created_at": "2026-06-12T18:00:02"
+      "new_value": "Mercredi Longueurs 17:15-18:15",
+      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Mercredi (17:15-18:15)",
+      "created_at": "2026-06-12T21:00:03"
     },
     {
-      "id": 55335,
+      "id": 55535,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Longueurs 12:00-13:00",
+      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Lundi (12:00-13:00)",
+      "created_at": "2026-06-12T21:00:03"
+    },
+    {
+      "id": 55536,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Tous 10:30-12:15",
+      "description": "Piscine Wilfrid-Hamel: ajout Tous le Mardi (10:30-12:15)",
+      "created_at": "2026-06-12T21:00:03"
+    },
+    {
+      "id": 55537,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Tous 13:00-15:00",
+      "description": "Piscine Wilfrid-Hamel: ajout Tous le Mercredi (13:00-15:00)",
+      "created_at": "2026-06-12T21:00:03"
+    },
+    {
+      "id": 55538,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Tous 10:30-12:15",
+      "description": "Piscine Wilfrid-Hamel: ajout Tous le Jeudi (10:30-12:15)",
+      "created_at": "2026-06-12T21:00:03"
+    },
+    {
+      "id": 55539,
+      "facility_id": 19,
+      "facility_name": "Piscine Wilfrid-Hamel",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 12:00-13:00",
+      "description": "Piscine Wilfrid-Hamel: ajout Longueurs le Vendredi (12:00-13:00)",
+      "created_at": "2026-06-12T21:00:03"
+    },
+    {
+      "id": 55474,
       "facility_id": 10,
       "facility_name": "Piscine de l'école L'Odyssée",
       "change_type": "added",
@@ -12451,10 +12066,10 @@
       "old_value": null,
       "new_value": "Mercredi Tous 11:35-12:40",
       "description": "Piscine de l'école L'Odyssée: ajout Tous le Mercredi (11:35-12:40)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55336,
+      "id": 55475,
       "facility_id": 10,
       "facility_name": "Piscine de l'école L'Odyssée",
       "change_type": "added",
@@ -12462,10 +12077,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 11:35-12:40",
       "description": "Piscine de l'école L'Odyssée: ajout Tous le Vendredi (11:35-12:40)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55337,
+      "id": 55476,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12473,10 +12088,10 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 12:00-13:30",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mardi (12:00-13:30)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55338,
+      "id": 55477,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12484,10 +12099,10 @@
       "old_value": null,
       "new_value": "Jeudi Longueurs 12:00-13:30",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (12:00-13:30)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55339,
+      "id": 55478,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12495,10 +12110,10 @@
       "old_value": null,
       "new_value": "Jeudi Longueurs 20:00-21:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (20:00-21:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55340,
+      "id": 55479,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12506,10 +12121,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 19:00-20:30",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Vendredi (19:00-20:30)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55341,
+      "id": 55480,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12517,10 +12132,10 @@
       "old_value": null,
       "new_value": "Dimanche Longueurs 08:30-09:50",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Dimanche (08:30-09:50)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55342,
+      "id": 55481,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12528,10 +12143,10 @@
       "old_value": null,
       "new_value": "Dimanche Tous 10:00-12:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Dimanche (10:00-12:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55343,
+      "id": 55482,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12539,10 +12154,10 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 11:00-12:45",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Lundi (11:00-12:45)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55344,
+      "id": 55483,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12550,10 +12165,10 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 19:40-21:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Lundi (19:40-21:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55345,
+      "id": 55484,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12561,10 +12176,10 @@
       "old_value": null,
       "new_value": "Lundi Tous 13:00-15:18",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Lundi (13:00-15:18)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55346,
+      "id": 55485,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12572,10 +12187,10 @@
       "old_value": null,
       "new_value": "Mardi Longueurs 19:40-21:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mardi (19:40-21:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55347,
+      "id": 55486,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12583,10 +12198,10 @@
       "old_value": null,
       "new_value": "Mercredi Longueurs 11:00-12:45",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mercredi (11:00-12:45)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55348,
+      "id": 55487,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12594,10 +12209,10 @@
       "old_value": null,
       "new_value": "Mercredi Longueurs 19:40-21:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mercredi (19:40-21:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55349,
+      "id": 55488,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12605,10 +12220,10 @@
       "old_value": null,
       "new_value": "Jeudi Longueurs 19:40-21:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (19:40-21:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55350,
+      "id": 55489,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12616,10 +12231,10 @@
       "old_value": null,
       "new_value": "Vendredi Longueurs 11:00-12:45",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Vendredi (11:00-12:45)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55351,
+      "id": 55490,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12627,10 +12242,10 @@
       "old_value": null,
       "new_value": "Vendredi Longueurs 19:40-21:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Vendredi (19:40-21:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55352,
+      "id": 55491,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12638,10 +12253,10 @@
       "old_value": null,
       "new_value": "Vendredi Tous 18:00-19:30",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Vendredi (18:00-19:30)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55353,
+      "id": 55492,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12649,10 +12264,10 @@
       "old_value": null,
       "new_value": "Samedi Longueurs 08:30-09:50",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Samedi (08:30-09:50)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
     },
     {
-      "id": 55354,
+      "id": 55493,
       "facility_id": 11,
       "facility_name": "Piscine de l'édifice Denis-Giguère",
       "change_type": "added",
@@ -12660,7 +12275,392 @@
       "old_value": null,
       "new_value": "Samedi Tous 10:00-12:00",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Samedi (10:00-12:00)",
-      "created_at": "2026-06-12T18:00:02"
+      "created_at": "2026-06-12T21:00:02"
+    },
+    {
+      "id": 55494,
+      "facility_id": 11,
+      "facility_name": "Piscine de l'édifice Denis-Giguère",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:55",
+      "new_value": "19:30",
+      "description": "Piscine de l'édifice Denis-Giguère: Tous le Mardi fin changee 19:55 -> 19:30",
+      "created_at": "2026-06-12T21:00:02"
+    },
+    {
+      "id": 55495,
+      "facility_id": 11,
+      "facility_name": "Piscine de l'édifice Denis-Giguère",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "19:55",
+      "new_value": "19:30",
+      "description": "Piscine de l'édifice Denis-Giguère: Tous le Jeudi fin changee 19:55 -> 19:30",
+      "created_at": "2026-06-12T21:00:02"
+    },
+    {
+      "id": 55496,
+      "facility_id": 13,
+      "facility_name": "Piscine Jacques-Amyot",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Tous 14:00-16:00",
+      "description": "Piscine Jacques-Amyot: ajout Tous le Dimanche (14:00-16:00)",
+      "created_at": "2026-06-12T21:00:02"
+    },
+    {
+      "id": 55497,
+      "facility_id": 13,
+      "facility_name": "Piscine Jacques-Amyot",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 20:15-21:30",
+      "description": "Piscine Jacques-Amyot: ajout Longueurs le Mardi (20:15-21:30)",
+      "created_at": "2026-06-12T21:00:02"
+    },
+    {
+      "id": 55498,
+      "facility_id": 13,
+      "facility_name": "Piscine Jacques-Amyot",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 20:15-21:30",
+      "description": "Piscine Jacques-Amyot: ajout Longueurs le Jeudi (20:15-21:30)",
+      "created_at": "2026-06-12T21:00:02"
+    },
+    {
+      "id": 55436,
+      "facility_id": 20,
+      "facility_name": "YMCA Saint-Roch",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 19:30-21:00",
+      "description": "YMCA Saint-Roch: ajout Longueurs le Mardi (19:30-21:00)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55437,
+      "facility_id": 15,
+      "facility_name": "Patro Roc-Amadour",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 12:00-13:25",
+      "description": "Patro Roc-Amadour: ajout Longueurs le Mardi (12:00-13:25)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55438,
+      "facility_id": 15,
+      "facility_name": "Patro Roc-Amadour",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Tous 18:00-19:25",
+      "description": "Patro Roc-Amadour: ajout Tous le Jeudi (18:00-19:25)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55439,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Tous 19:00-20:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (19:00-20:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55440,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Longueurs 11:45-13:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:45-13:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55441,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 11:45-13:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:45-13:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55442,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Longueurs 11:45-13:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:45-13:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55443,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 11:45-13:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:45-13:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55444,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 11:45-13:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:45-13:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55445,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Tous 19:00-20:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (19:00-20:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55446,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Tous 18:30-20:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (18:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55447,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Longueurs 11:30-12:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:30-12:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55448,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Adultes 18:30-20:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Mardi (18:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55449,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 11:30-12:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:30-12:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55450,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Tous 13:00-15:00",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Mardi (13:00-15:00)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55451,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Longueurs 11:30-12:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:30-12:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55452,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Tous 18:30-20:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Mercredi (18:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55453,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Adultes 18:30-20:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Adultes le Jeudi (18:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55454,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 11:30-12:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:30-12:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55455,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Aînés 13:00-15:00",
+      "description": "Centre communautaire Lucien-Borne: ajout Aînés le Vendredi (13:00-15:00)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55456,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Longueurs 11:30-12:45",
+      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:30-12:45)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55457,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Vendredi Tous 18:30-20:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Vendredi (18:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55458,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Tous 18:30-20:30",
+      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (18:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55459,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "20:00",
+      "new_value": "20:30",
+      "description": "Centre communautaire Lucien-Borne: Tous le Lundi fin changee 20:00 -> 20:30",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55460,
+      "facility_id": 3,
+      "facility_name": "Centre communautaire Lucien-Borne",
+      "change_type": "modified",
+      "field": "end_time",
+      "old_value": "08:30",
+      "new_value": "08:25",
+      "description": "Centre communautaire Lucien-Borne: Longueurs le Mercredi fin changee 08:30 -> 08:25",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55461,
+      "facility_id": 4,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Longueurs 19:00-20:25",
+      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Mardi (19:00-20:25)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55462,
+      "facility_id": 4,
+      "facility_name": "Centre communautaire Michel-Labadie",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Longueurs 19:00-20:25",
+      "description": "Centre communautaire Michel-Labadie: ajout Longueurs le Jeudi (19:00-20:25)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55463,
+      "facility_id": 5,
+      "facility_name": "Centre municipal Monseigneur-De Laval",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 17:30-19:00",
+      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Lundi (17:30-19:00)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55464,
+      "facility_id": 5,
+      "facility_name": "Centre municipal Monseigneur-De Laval",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Adultes 19:30-20:30",
+      "description": "Centre municipal Monseigneur-De Laval: ajout Adultes le Mercredi (19:30-20:30)",
+      "created_at": "2026-06-12T21:00:01"
+    },
+    {
+      "id": 55465,
+      "facility_id": 5,
+      "facility_name": "Centre municipal Monseigneur-De Laval",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mercredi Tous 17:30-19:15",
+      "description": "Centre municipal Monseigneur-De Laval: ajout Tous le Mercredi (17:30-19:15)",
+      "created_at": "2026-06-12T21:00:01"
     }
   ],
   "notices": [
@@ -12785,16 +12785,6 @@
       "last_seen_at": "2026-06-01T12:00:15"
     },
     {
-      "id": 110,
-      "facility_id": 1,
-      "facility_name": "Arpidrome",
-      "notice_type": "cancellation",
-      "title": "Annulations",
-      "body": "Samedis 6 et 13 juin\nBain tous 14 h 30 à 17 h\nDimanches 7 et 14 juin\nBain longueurs 7 h à 8h30",
-      "first_seen_at": "2026-06-01T18:00:00",
-      "last_seen_at": "2026-06-01T18:00:16"
-    },
-    {
       "id": 112,
       "facility_id": 7,
       "facility_name": "École secondaire de La Seigneurie",
@@ -12863,6 +12853,16 @@
       "body": "Veuillez prendre note qu'uniquement le bassins 25 m sera ouvert lors des bains libres samedi 13 juin et dimanche 14 juin 2026.\nVous êtes invités à aller profiter des piscines extérieures Maria-Goretti, Giffard, Gérard-Marchand et Lebourgneuf ouvertes durant ces mêmes périodes.",
       "first_seen_at": "2026-06-12T18:00:03",
       "last_seen_at": "2026-06-12T18:00:07"
+    },
+    {
+      "id": 125,
+      "facility_id": 1,
+      "facility_name": "Arpidrome",
+      "notice_type": "cancellation",
+      "title": "Annulations",
+      "body": "Vendredi 12 juin\nBain longueurs 19 h 45 à 21 h 45\nSamedi 13 juin\nBain tous 14 h 30 à 17 h\nDimanche 14 juin\nBain longueurs 7 h à 8h30",
+      "first_seen_at": "2026-06-12T21:00:00",
+      "last_seen_at": "2026-06-12T21:00:07"
     }
   ]
 }
