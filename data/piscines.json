@@ -1780,5 +1780,16 @@
     "raw_time": "7 h à 8 h 50",
     "source_url": null,
     "fetched_at": "2026-05-21"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "19:40",
+    "end": "21:00",
+    "raw_time": "19 h 40 à 21 h",
+    "source_url": null,
+    "fetched_at": "2026-06-16"
   }
 ]
