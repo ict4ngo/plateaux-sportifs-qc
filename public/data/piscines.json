@@ -1113,39 +1113,6 @@
   {
     "pool": "Parc Saint-Denys",
     "ent_id": 57,
-    "day": "Mardi",
-    "activity": "Longueurs",
-    "start": "06:30",
-    "end": "08:15",
-    "raw_time": "6 h 30 à 8 h 15",
-    "source_url": null,
-    "fetched_at": "2026-05-20"
-  },
-  {
-    "pool": "Parc Saint-Denys",
-    "ent_id": 57,
-    "day": "Mardi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "12:50",
-    "raw_time": "12 h à 12 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-20"
-  },
-  {
-    "pool": "Parc Saint-Denys",
-    "ent_id": 57,
-    "day": "Mardi",
-    "activity": "Longueurs",
-    "start": "19:00",
-    "end": "19:50",
-    "raw_time": "19 h à 19 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-20"
-  },
-  {
-    "pool": "Parc Saint-Denys",
-    "ent_id": 57,
     "day": "Mercredi",
     "activity": "Longueurs",
     "start": "12:00",
@@ -1158,39 +1125,6 @@
     "pool": "Parc Saint-Denys",
     "ent_id": 57,
     "day": "Mercredi",
-    "activity": "Longueurs",
-    "start": "19:00",
-    "end": "19:50",
-    "raw_time": "19 h à 19 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-20"
-  },
-  {
-    "pool": "Parc Saint-Denys",
-    "ent_id": 57,
-    "day": "Jeudi",
-    "activity": "Longueurs",
-    "start": "06:30",
-    "end": "08:15",
-    "raw_time": "6 h 30 à 8 h 15",
-    "source_url": null,
-    "fetched_at": "2026-05-20"
-  },
-  {
-    "pool": "Parc Saint-Denys",
-    "ent_id": 57,
-    "day": "Jeudi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "12:50",
-    "raw_time": "12 h à 12 h 50",
-    "source_url": null,
-    "fetched_at": "2026-05-20"
-  },
-  {
-    "pool": "Parc Saint-Denys",
-    "ent_id": 57,
-    "day": "Jeudi",
     "activity": "Longueurs",
     "start": "19:00",
     "end": "19:50",
@@ -1745,6 +1679,28 @@
     "start": "08:30",
     "end": "09:50",
     "raw_time": "8 h 30 à 9 h 50",
+    "source_url": null,
+    "fetched_at": "2026-06-18"
+  },
+  {
+    "pool": "Parc Saint-Denys",
+    "ent_id": 57,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "09:12",
+    "raw_time": "7 h à 9 h 12",
+    "source_url": null,
+    "fetched_at": "2026-06-18"
+  },
+  {
+    "pool": "Parc Saint-Denys",
+    "ent_id": 57,
+    "day": "Jeudi",
+    "activity": "Longueurs",
+    "start": "07:00",
+    "end": "09:12",
+    "raw_time": "7 h à 9 h 12",
     "source_url": null,
     "fetched_at": "2026-06-18"
   }
