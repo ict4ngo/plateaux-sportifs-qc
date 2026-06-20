@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-20T12:00:05.904723+00:00",
+  "exported_at": "2026-06-20T12:00:16.386382+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10793,6 +10793,50 @@
   ],
   "changes": [
     {
+      "id": 63159,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-20T12:00:13"
+    },
+    {
+      "id": 63160,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-20T12:00:13"
+    },
+    {
+      "id": 63161,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-20T12:00:13"
+    },
+    {
+      "id": 63162,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-20T12:00:13"
+    },
+    {
       "id": 63133,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -11846,50 +11890,6 @@
       "old_value": null,
       "new_value": "Vendredi Tous 15:10-16:00",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Vendredi (15:10-16:00)",
-      "created_at": "2026-06-20T09:00:03"
-    },
-    {
-      "id": 63071,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:18",
-      "new_value": "16:00",
-      "description": "Piscine Sylvie-Bernier: Tous le Jeudi fin changee 16:18 -> 16:00",
-      "created_at": "2026-06-20T09:00:03"
-    },
-    {
-      "id": 63072,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "16:19",
-      "new_value": "16:00",
-      "description": "Piscine Sylvie-Bernier: Tous le Lundi fin changee 16:19 -> 16:00",
-      "created_at": "2026-06-20T09:00:03"
-    },
-    {
-      "id": 63073,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Lundi (17:00-17:55)",
-      "created_at": "2026-06-20T09:00:03"
-    },
-    {
-      "id": 63074,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 20:00-20:55",
-      "description": "YWCA Québec: ajout Longueurs le Mardi (20:00-20:55)",
       "created_at": "2026-06-20T09:00:03"
     }
   ],
