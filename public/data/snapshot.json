@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-21T18:00:05.937143+00:00",
+  "exported_at": "2026-06-21T18:00:18.431952+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10793,6 +10793,50 @@
   ],
   "changes": [
     {
+      "id": 64095,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-21T18:00:15"
+    },
+    {
+      "id": 64096,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-21T18:00:15"
+    },
+    {
+      "id": 64097,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-21T18:00:15"
+    },
+    {
+      "id": 64098,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-21T18:00:15"
+    },
+    {
       "id": 64069,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -11846,50 +11890,6 @@
       "old_value": "16:19",
       "new_value": "16:00",
       "description": "Piscine Sylvie-Bernier: Tous le Lundi fin changee 16:19 -> 16:00",
-      "created_at": "2026-06-21T15:01:48"
-    },
-    {
-      "id": 64009,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Lundi (17:00-17:55)",
-      "created_at": "2026-06-21T15:01:48"
-    },
-    {
-      "id": 64010,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 20:00-20:55",
-      "description": "YWCA Québec: ajout Longueurs le Mardi (20:00-20:55)",
-      "created_at": "2026-06-21T15:01:48"
-    },
-    {
-      "id": 64011,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Mercredi (17:00-17:55)",
-      "created_at": "2026-06-21T15:01:48"
-    },
-    {
-      "id": 64012,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 20:00-20:55",
-      "description": "YWCA Québec: ajout Longueurs le Jeudi (20:00-20:55)",
       "created_at": "2026-06-21T15:01:48"
     }
   ],
