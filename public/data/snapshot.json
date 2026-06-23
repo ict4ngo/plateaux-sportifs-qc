@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-23T21:00:05.856079+00:00",
+  "exported_at": "2026-06-23T21:00:17.908426+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10800,9 +10800,130 @@
       "end_time": "12:50",
       "raw_text": "12 h à 12 h 50",
       "valid_from": "2026-06-23"
+    },
+    {
+      "id": 9156,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Patinage libre",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "raw_text": "16 h à 16 h 50",
+      "valid_from": "2026-06-23"
+    },
+    {
+      "id": 9157,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Patinage libre",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "raw_text": "16 h à 16 h 50",
+      "valid_from": "2026-06-23"
+    },
+    {
+      "id": 9158,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Tous",
+      "start_time": "16:30",
+      "end_time": "17:05",
+      "raw_text": "16 h 30 à 17 h 05",
+      "valid_from": "2026-06-23"
+    },
+    {
+      "id": 9159,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "day_of_week": "Lundi",
+      "activity": "Tous",
+      "start_time": "16:30",
+      "end_time": "17:05",
+      "raw_text": "16 h 30 à 17 h 05",
+      "valid_from": "2026-06-23"
     }
   ],
   "changes": [
+    {
+      "id": 65486,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-23T21:00:15"
+    },
+    {
+      "id": 65487,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-06-23T21:00:15"
+    },
+    {
+      "id": 65488,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-23T21:00:15"
+    },
+    {
+      "id": 65489,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-23T21:00:15"
+    },
+    {
+      "id": 65490,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-06-23T21:00:15"
+    },
+    {
+      "id": 65491,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:30-17:05",
+      "description": "Arpidrome: ajout Tous le Lundi (16:30-17:05)",
+      "created_at": "2026-06-23T21:00:15"
+    },
+    {
+      "id": 65492,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-06-23T21:00:15"
+    },
     {
       "id": 65460,
       "facility_id": 17,
@@ -11825,83 +11946,6 @@
       "new_value": "Jeudi Longueurs 20:00-20:55",
       "description": "YWCA Québec: ajout Longueurs le Jeudi (20:00-20:55)",
       "created_at": "2026-06-23T18:00:04"
-    },
-    {
-      "id": 65393,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Mardi (17:00-17:55)",
-      "created_at": "2026-06-23T18:00:04"
-    },
-    {
-      "id": 65394,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 12:00-12:55",
-      "description": "YWCA Québec: ajout Longueurs le Mercredi (12:00-12:55)",
-      "created_at": "2026-06-23T18:00:04"
-    },
-    {
-      "id": 65395,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Jeudi (17:00-17:55)",
-      "created_at": "2026-06-23T18:00:04"
-    },
-    {
-      "id": 65396,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 12:00-12:55",
-      "description": "YWCA Québec: ajout Longueurs le Vendredi (12:00-12:55)",
-      "created_at": "2026-06-23T18:00:04"
-    },
-    {
-      "id": 65369,
-      "facility_id": 14,
-      "facility_name": "Piscine Jos.-A.-Lachance",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 19:00-20:25",
-      "description": "Piscine Jos.-A.-Lachance: ajout Tous le Mardi (19:00-20:25)",
-      "created_at": "2026-06-23T18:00:03"
-    },
-    {
-      "id": 65370,
-      "facility_id": 14,
-      "facility_name": "Piscine Jos.-A.-Lachance",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Tous 10:30-12:15",
-      "description": "Piscine Jos.-A.-Lachance: ajout Tous le Mardi (10:30-12:15)",
-      "created_at": "2026-06-23T18:00:03"
-    },
-    {
-      "id": 65371,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 20:00-21:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Mardi (20:00-21:30)",
-      "created_at": "2026-06-23T18:00:03"
     }
   ],
   "notices": [
