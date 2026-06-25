@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-25T12:00:05.836303+00:00",
+  "exported_at": "2026-06-25T12:00:17.155818+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10848,6 +10848,61 @@
   ],
   "changes": [
     {
+      "id": 66658,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-25T12:00:14"
+    },
+    {
+      "id": 66659,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-25T12:00:14"
+    },
+    {
+      "id": 66660,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-25T12:00:14"
+    },
+    {
+      "id": 66661,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-06-25T12:00:14"
+    },
+    {
+      "id": 66662,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-06-25T12:00:14"
+    },
+    {
       "id": 66632,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -11890,61 +11945,6 @@
       "old_value": null,
       "new_value": "Lundi Longueurs 07:00-08:30",
       "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Lundi (07:00-08:30)",
-      "created_at": "2026-06-25T09:00:03"
-    },
-    {
-      "id": 66547,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 20:00-21:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Lundi (20:00-21:30)",
-      "created_at": "2026-06-25T09:00:03"
-    },
-    {
-      "id": 66548,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 20:00-21:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Mercredi (20:00-21:30)",
-      "created_at": "2026-06-25T09:00:03"
-    },
-    {
-      "id": 66549,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 07:00-08:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Vendredi (07:00-08:30)",
-      "created_at": "2026-06-25T09:00:03"
-    },
-    {
-      "id": 66550,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 20:00-21:30",
-      "description": "Piscine municipale du Bourg-Royal: ajout Longueurs le Vendredi (20:00-21:30)",
-      "created_at": "2026-06-25T09:00:03"
-    },
-    {
-      "id": 66551,
-      "facility_id": 17,
-      "facility_name": "Piscine municipale du Bourg-Royal",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 18:00-19:45",
-      "description": "Piscine municipale du Bourg-Royal: ajout Tous le Vendredi (18:00-19:45)",
       "created_at": "2026-06-25T09:00:03"
     }
   ],
