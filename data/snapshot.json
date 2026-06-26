@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-26T15:00:06.172793+00:00",
+  "exported_at": "2026-06-26T15:00:17.396318+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10771,6 +10771,61 @@
   ],
   "changes": [
     {
+      "id": 67544,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-26T15:00:14"
+    },
+    {
+      "id": 67545,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-26T15:00:14"
+    },
+    {
+      "id": 67546,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-26T15:00:14"
+    },
+    {
+      "id": 67547,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-06-26T15:00:14"
+    },
+    {
+      "id": 67548,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-06-26T15:00:14"
+    },
+    {
       "id": 67536,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
@@ -11814,61 +11869,6 @@
       "new_value": "12:00",
       "description": "Parc Saint-Denys: Aînés le Mardi fin changee 11:55 -> 12:00",
       "created_at": "2026-06-26T12:00:27"
-    },
-    {
-      "id": 67470,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "11:55",
-      "new_value": "12:00",
-      "description": "Parc Saint-Denys: Aînés le Mercredi fin changee 11:55 -> 12:00",
-      "created_at": "2026-06-26T12:00:27"
-    },
-    {
-      "id": 67471,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "11:55",
-      "new_value": "12:00",
-      "description": "Parc Saint-Denys: Aînés le Jeudi fin changee 11:55 -> 12:00",
-      "created_at": "2026-06-26T12:00:27"
-    },
-    {
-      "id": 67446,
-      "facility_id": 52,
-      "facility_name": "Parc Paul-Émile-Beaulieu",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 19:00-19:50",
-      "description": "Parc Paul-Émile-Beaulieu: ajout Longueurs le Vendredi (19:00-19:50)",
-      "created_at": "2026-06-26T12:00:26"
-    },
-    {
-      "id": 67445,
-      "facility_id": 42,
-      "facility_name": "Parc Dollard-Des Ormeaux",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 14:00-17:50",
-      "description": "Parc Dollard-Des Ormeaux: ajout Tous le Lundi (14:00-17:50)",
-      "created_at": "2026-06-26T12:00:25"
-    },
-    {
-      "id": 67438,
-      "facility_id": 37,
-      "facility_name": "Parc Bardy",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "08:50",
-      "new_value": "09:00",
-      "description": "Parc Bardy: Longueurs le Vendredi fin changee 08:50 -> 09:00",
-      "created_at": "2026-06-26T12:00:24"
     }
   ],
   "notices": [
