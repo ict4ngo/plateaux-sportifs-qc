@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-27T06:00:06.026739+00:00",
+  "exported_at": "2026-06-27T06:00:17.091364+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10771,6 +10771,61 @@
   ],
   "changes": [
     {
+      "id": 68054,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-06-27T06:00:14"
+    },
+    {
+      "id": 68055,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-06-27T06:00:14"
+    },
+    {
+      "id": 68056,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-06-27T06:00:14"
+    },
+    {
+      "id": 68057,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-06-27T06:00:14"
+    },
+    {
+      "id": 68058,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-06-27T06:00:14"
+    },
+    {
       "id": 68026,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
@@ -11814,61 +11869,6 @@
       "new_value": "16:16",
       "description": "Parc de Saint-Sacrement: Tous le Samedi fin changee 19:50 -> 16:16",
       "created_at": "2026-06-27T03:00:25"
-    },
-    {
-      "id": 67963,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Mercredi fin changee 19:50 -> 16:16",
-      "created_at": "2026-06-27T03:00:25"
-    },
-    {
-      "id": 67964,
-      "facility_id": 42,
-      "facility_name": "Parc Dollard-Des Ormeaux",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 14:00-17:50",
-      "description": "Parc Dollard-Des Ormeaux: ajout Tous le Lundi (14:00-17:50)",
-      "created_at": "2026-06-27T03:00:25"
-    },
-    {
-      "id": 67952,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 17:00-17:50",
-      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
-      "created_at": "2026-06-27T03:00:14"
-    },
-    {
-      "id": 67953,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 17:30-18:20",
-      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
-      "created_at": "2026-06-27T03:00:14"
-    },
-    {
-      "id": 67954,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Patinage libre 16:30-17:20",
-      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
-      "created_at": "2026-06-27T03:00:14"
     }
   ],
   "notices": [
