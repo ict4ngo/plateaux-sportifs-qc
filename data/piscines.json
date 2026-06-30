@@ -143,17 +143,6 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Patro Roc-Amadour",
-    "ent_id": 15,
-    "day": "Jeudi",
-    "activity": "Longueurs",
-    "start": "12:00",
-    "end": "13:25",
-    "raw_time": "12 h à 13 h 25",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
     "pool": "Piscine municipale du Bourg-Royal",
     "ent_id": 17,
     "day": "Lundi",
@@ -361,17 +350,6 @@
     "raw_time": "7 h à 8 h 30",
     "source_url": null,
     "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Patro Roc-Amadour",
-    "ent_id": 15,
-    "day": "Jeudi",
-    "activity": "Longueurs",
-    "start": "07:00",
-    "end": "08:25",
-    "raw_time": "7 h à 8 h 25",
-    "source_url": null,
-    "fetched_at": "2026-03-30"
   },
   {
     "pool": "Base de plein air La Découverte",
