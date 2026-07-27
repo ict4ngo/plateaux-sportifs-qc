@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-07-27T15:00:05.697418+00:00",
+  "exported_at": "2026-07-27T15:00:16.684418+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10562,6 +10562,61 @@
   ],
   "changes": [
     {
+      "id": 88271,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-07-27T15:00:13"
+    },
+    {
+      "id": 88272,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-07-27T15:00:13"
+    },
+    {
+      "id": 88273,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-07-27T15:00:13"
+    },
+    {
+      "id": 88274,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-07-27T15:00:13"
+    },
+    {
+      "id": 88275,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-07-27T15:00:13"
+    },
+    {
       "id": 88261,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
@@ -11605,61 +11660,6 @@
       "new_value": "Mardi Tous 15:10-16:18",
       "description": "Piscine Sylvie-Bernier: ajout Tous le Mardi (15:10-16:18)",
       "created_at": "2026-07-27T12:00:03"
-    },
-    {
-      "id": 88170,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 20:30-21:30",
-      "description": "Piscine Sylvie-Bernier: ajout Longueurs le Mercredi (20:30-21:30)",
-      "created_at": "2026-07-27T12:00:03"
-    },
-    {
-      "id": 88171,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Tous 15:10-16:19",
-      "description": "Piscine Sylvie-Bernier: ajout Tous le Mercredi (15:10-16:19)",
-      "created_at": "2026-07-27T12:00:03"
-    },
-    {
-      "id": 88172,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 20:30-21:30",
-      "description": "Piscine Sylvie-Bernier: ajout Longueurs le Vendredi (20:30-21:30)",
-      "created_at": "2026-07-27T12:00:03"
-    },
-    {
-      "id": 88173,
-      "facility_id": 18,
-      "facility_name": "Piscine Sylvie-Bernier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 15:10-16:19",
-      "description": "Piscine Sylvie-Bernier: ajout Tous le Vendredi (15:10-16:19)",
-      "created_at": "2026-07-27T12:00:03"
-    },
-    {
-      "id": 88174,
-      "facility_id": 21,
-      "facility_name": "YWCA Québec",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 17:00-17:55",
-      "description": "YWCA Québec: ajout Longueurs le Mardi (17:00-17:55)",
-      "created_at": "2026-07-27T12:00:03"
     }
   ],
   "notices": [
@@ -11692,16 +11692,6 @@
       "body": "fermée pour la saison.",
       "first_seen_at": "2026-04-07T18:00:09",
       "last_seen_at": "2026-04-07T18:00:10"
-    },
-    {
-      "id": 51,
-      "facility_id": 31,
-      "facility_name": "Centre sportif Marcel-Bédard",
-      "notice_type": "closure_seasonal",
-      "title": "Fermeture",
-      "body": "fermée pour la saison.",
-      "first_seen_at": "2026-04-13T12:00:10",
-      "last_seen_at": "2026-04-13T12:00:10"
     },
     {
       "id": 56,
