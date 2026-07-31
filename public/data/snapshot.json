@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-07-31T18:00:05.715459+00:00",
+  "exported_at": "2026-07-31T18:00:18.676527+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10562,6 +10562,72 @@
   ],
   "changes": [
     {
+      "id": 91532,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 17:30-18:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (17:30-18:20)",
+      "created_at": "2026-07-31T18:00:15"
+    },
+    {
+      "id": 91533,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-07-31T18:00:15"
+    },
+    {
+      "id": 91534,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-07-31T18:00:15"
+    },
+    {
+      "id": 91535,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-07-31T18:00:15"
+    },
+    {
+      "id": 91536,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-07-31T18:00:15"
+    },
+    {
+      "id": 91537,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-07-31T18:00:15"
+    },
+    {
       "id": 91522,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
@@ -11594,72 +11660,6 @@
       "new_value": "16:16",
       "description": "Parc de Saint-Sacrement: Tous le Samedi fin changee 19:50 -> 16:16",
       "created_at": "2026-07-31T15:00:29"
-    },
-    {
-      "id": 91439,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Mercredi fin changee 19:50 -> 16:16",
-      "created_at": "2026-07-31T15:00:29"
-    },
-    {
-      "id": 91440,
-      "facility_id": 42,
-      "facility_name": "Parc Dollard-Des Ormeaux",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 14:00-17:50",
-      "description": "Parc Dollard-Des Ormeaux: ajout Tous le Lundi (14:00-17:50)",
-      "created_at": "2026-07-31T15:00:29"
-    },
-    {
-      "id": 91433,
-      "facility_id": 37,
-      "facility_name": "Parc Bardy",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "08:50",
-      "new_value": "09:00",
-      "description": "Parc Bardy: Longueurs le Vendredi fin changee 08:50 -> 09:00",
-      "created_at": "2026-07-31T15:00:28"
-    },
-    {
-      "id": 91434,
-      "facility_id": 37,
-      "facility_name": "Parc Bardy",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "08:50",
-      "new_value": "09:00",
-      "description": "Parc Bardy: Longueurs le Lundi fin changee 08:50 -> 09:00",
-      "created_at": "2026-07-31T15:00:28"
-    },
-    {
-      "id": 91435,
-      "facility_id": 37,
-      "facility_name": "Parc Bardy",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "08:50",
-      "new_value": "09:00",
-      "description": "Parc Bardy: Longueurs le Mercredi fin changee 08:50 -> 09:00",
-      "created_at": "2026-07-31T15:00:28"
-    },
-    {
-      "id": 91428,
-      "facility_id": 28,
-      "facility_name": "Arpidrome",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Famille 17:00-17:50",
-      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
-      "created_at": "2026-07-31T15:00:15"
     }
   ],
   "notices": [
