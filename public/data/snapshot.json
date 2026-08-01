@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-01T09:00:05.974069+00:00",
+  "exported_at": "2026-08-01T09:00:16.988039+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10562,6 +10562,72 @@
   ],
   "changes": [
     {
+      "id": 92058,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-08-01T09:00:14"
+    },
+    {
+      "id": 92059,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-08-01T09:00:14"
+    },
+    {
+      "id": 92060,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-08-01T09:00:14"
+    },
+    {
+      "id": 92061,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-08-01T09:00:14"
+    },
+    {
+      "id": 92062,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-08-01T09:00:14"
+    },
+    {
+      "id": 92057,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 17:30-18:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (17:30-18:20)",
+      "created_at": "2026-08-01T09:00:13"
+    },
+    {
       "id": 92045,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -11594,72 +11660,6 @@
       "new_value": "09:00",
       "description": "Parc Bardy: Longueurs le Mercredi fin changee 08:50 -> 09:00",
       "created_at": "2026-08-01T06:00:24"
-    },
-    {
-      "id": 91961,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Dimanche fin changee 19:50 -> 16:16",
-      "created_at": "2026-08-01T06:00:24"
-    },
-    {
-      "id": 91962,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Vendredi fin changee 19:50 -> 16:16",
-      "created_at": "2026-08-01T06:00:24"
-    },
-    {
-      "id": 91963,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Samedi fin changee 19:50 -> 16:16",
-      "created_at": "2026-08-01T06:00:24"
-    },
-    {
-      "id": 91964,
-      "facility_id": 40,
-      "facility_name": "Parc de Saint-Sacrement",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:50",
-      "new_value": "16:16",
-      "description": "Parc de Saint-Sacrement: Tous le Mercredi fin changee 19:50 -> 16:16",
-      "created_at": "2026-08-01T06:00:24"
-    },
-    {
-      "id": 91965,
-      "facility_id": 42,
-      "facility_name": "Parc Dollard-Des Ormeaux",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Tous 14:00-17:50",
-      "description": "Parc Dollard-Des Ormeaux: ajout Tous le Lundi (14:00-17:50)",
-      "created_at": "2026-08-01T06:00:24"
-    },
-    {
-      "id": 91952,
-      "facility_id": 23,
-      "facility_name": "Aréna des Deux Glaces",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Famille 17:30-18:20",
-      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (17:30-18:20)",
-      "created_at": "2026-08-01T06:00:13"
     }
   ],
   "notices": [
