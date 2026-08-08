@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-08T09:00:09.546184+00:00",
+  "exported_at": "2026-08-08T09:00:25.361266+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10617,6 +10617,72 @@
   ],
   "changes": [
     {
+      "id": 98740,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-08-08T09:00:22"
+    },
+    {
+      "id": 98741,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-08-08T09:00:22"
+    },
+    {
+      "id": 98742,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-08-08T09:00:22"
+    },
+    {
+      "id": 98743,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-08-08T09:00:22"
+    },
+    {
+      "id": 98744,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-08-08T09:00:22"
+    },
+    {
+      "id": 98739,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 17:30-18:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (17:30-18:20)",
+      "created_at": "2026-08-08T09:00:21"
+    },
+    {
       "id": 98727,
       "facility_id": 17,
       "facility_name": "Piscine municipale du Bourg-Royal",
@@ -11649,72 +11715,6 @@
       "new_value": "18:00",
       "description": "Piscine de Courville: Tous le Jeudi fin changee 16:00 -> 18:00",
       "created_at": "2026-08-08T06:00:29"
-    },
-    {
-      "id": 98607,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Bains combinés 17:00-18:50",
-      "description": "Parc Réal-Cloutier: ajout Bains combinés le Dimanche (17:00-18:50)",
-      "created_at": "2026-08-08T06:00:28"
-    },
-    {
-      "id": 98608,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Bains combinés 17:00-18:50",
-      "description": "Parc Réal-Cloutier: ajout Bains combinés le Samedi (17:00-18:50)",
-      "created_at": "2026-08-08T06:00:28"
-    },
-    {
-      "id": 98609,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
-      "created_at": "2026-08-08T06:00:28"
-    },
-    {
-      "id": 98610,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
-      "created_at": "2026-08-08T06:00:28"
-    },
-    {
-      "id": 98611,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "18:50",
-      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
-      "created_at": "2026-08-08T06:00:28"
-    },
-    {
-      "id": 98612,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
-      "created_at": "2026-08-08T06:00:28"
     }
   ],
   "notices": [
