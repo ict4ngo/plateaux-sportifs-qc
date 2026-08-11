@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-11T06:00:06.189547+00:00",
+  "exported_at": "2026-08-11T06:00:19.198435+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10617,6 +10617,72 @@
   ],
   "changes": [
     {
+      "id": 102397,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-08-11T06:00:16"
+    },
+    {
+      "id": 102398,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:30-18:20",
+      "description": "Arpidrome: ajout Famille le Lundi (17:30-18:20)",
+      "created_at": "2026-08-11T06:00:16"
+    },
+    {
+      "id": 102399,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:30-17:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:30-17:20)",
+      "created_at": "2026-08-11T06:00:16"
+    },
+    {
+      "id": 102400,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-08-11T06:00:16"
+    },
+    {
+      "id": 102401,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-08-11T06:00:16"
+    },
+    {
+      "id": 102396,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 17:30-18:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (17:30-18:20)",
+      "created_at": "2026-08-11T06:00:15"
+    },
+    {
       "id": 102383,
       "facility_id": 14,
       "facility_name": "Piscine Jos.-A.-Lachance",
@@ -11649,72 +11715,6 @@
       "new_value": "Vendredi Tous 16:15-17:50",
       "description": "Piscine Monseigneur-Robert: ajout Tous le Vendredi (16:15-17:50)",
       "created_at": "2026-08-11T03:00:30"
-    },
-    {
-      "id": 102295,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Denys: ajout Longueurs le Mardi (19:00-19:50)",
-      "created_at": "2026-08-11T03:00:29"
-    },
-    {
-      "id": 102296,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 19:00-19:50",
-      "description": "Parc Saint-Denys: ajout Longueurs le Jeudi (19:00-19:50)",
-      "created_at": "2026-08-11T03:00:29"
-    },
-    {
-      "id": 102297,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "11:50",
-      "new_value": "12:00",
-      "description": "Parc Saint-Denys: Aînés le Vendredi fin changee 11:50 -> 12:00",
-      "created_at": "2026-08-11T03:00:29"
-    },
-    {
-      "id": 102298,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "11:55",
-      "new_value": "12:00",
-      "description": "Parc Saint-Denys: Aînés le Lundi fin changee 11:55 -> 12:00",
-      "created_at": "2026-08-11T03:00:29"
-    },
-    {
-      "id": 102299,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "11:55",
-      "new_value": "12:00",
-      "description": "Parc Saint-Denys: Aînés le Mardi fin changee 11:55 -> 12:00",
-      "created_at": "2026-08-11T03:00:29"
-    },
-    {
-      "id": 102300,
-      "facility_id": 57,
-      "facility_name": "Parc Saint-Denys",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "11:55",
-      "new_value": "12:00",
-      "description": "Parc Saint-Denys: Aînés le Mercredi fin changee 11:55 -> 12:00",
-      "created_at": "2026-08-11T03:00:29"
     }
   ],
   "notices": [
