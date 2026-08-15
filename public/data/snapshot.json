@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-15T15:00:05.839737+00:00",
+  "exported_at": "2026-08-15T15:00:17.239200+00:00",
   "facilities": [
     {
       "id": 1,
@@ -10496,6 +10496,61 @@
   ],
   "changes": [
     {
+      "id": 107953,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:00-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:00-17:50)",
+      "created_at": "2026-08-15T15:00:14"
+    },
+    {
+      "id": 107954,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 16:00-16:50",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (16:00-16:50)",
+      "created_at": "2026-08-15T15:00:14"
+    },
+    {
+      "id": 107955,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 17:15-17:50",
+      "description": "Arpidrome: ajout Famille le Lundi (17:15-17:50)",
+      "created_at": "2026-08-15T15:00:14"
+    },
+    {
+      "id": 107956,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Tous 16:00-16:50",
+      "description": "Arpidrome: ajout Tous le Lundi (16:00-16:50)",
+      "created_at": "2026-08-15T15:00:14"
+    },
+    {
+      "id": 107952,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Jeudi Famille 17:30-18:20",
+      "description": "Aréna des Deux Glaces: ajout Famille le Jeudi (17:30-18:20)",
+      "created_at": "2026-08-15T15:00:13"
+    },
+    {
       "id": 107942,
       "facility_id": 18,
       "facility_name": "Piscine Sylvie-Bernier",
@@ -11538,61 +11593,6 @@
       "old_value": null,
       "new_value": "Dimanche Bains combinés 17:00-18:50",
       "description": "Parc Réal-Cloutier: ajout Bains combinés le Dimanche (17:00-18:50)",
-      "created_at": "2026-08-15T12:00:36"
-    },
-    {
-      "id": 107821,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Bains combinés 17:00-18:50",
-      "description": "Parc Réal-Cloutier: ajout Bains combinés le Samedi (17:00-18:50)",
-      "created_at": "2026-08-15T12:00:36"
-    },
-    {
-      "id": 107822,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Dimanche fin changee 17:00 -> 16:50",
-      "created_at": "2026-08-15T12:00:36"
-    },
-    {
-      "id": 107823,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Mardi fin changee 17:00 -> 16:50",
-      "created_at": "2026-08-15T12:00:36"
-    },
-    {
-      "id": 107824,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "18:50",
-      "description": "Parc Réal-Cloutier: Tous le Jeudi fin changee 17:00 -> 18:50",
-      "created_at": "2026-08-15T12:00:36"
-    },
-    {
-      "id": 107825,
-      "facility_id": 54,
-      "facility_name": "Parc Réal-Cloutier",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "17:00",
-      "new_value": "16:50",
-      "description": "Parc Réal-Cloutier: Tous le Samedi fin changee 17:00 -> 16:50",
       "created_at": "2026-08-15T12:00:36"
     }
   ],
