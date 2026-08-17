@@ -1309,17 +1309,6 @@
     "fetched_at": "2026-06-18"
   },
   {
-    "pool": "YMCA Saint-Roch",
-    "ent_id": 20,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "19:00",
-    "end": "20:20",
-    "raw_time": "19 h à 20 h 20",
-    "source_url": null,
-    "fetched_at": "2026-06-19"
-  },
-  {
     "pool": "Piscine municipale du Bourg-Royal",
     "ent_id": 17,
     "day": "Lundi",
