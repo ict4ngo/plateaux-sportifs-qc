@@ -319,39 +319,6 @@
     "fetched_at": "2026-05-19"
   },
   {
-    "pool": "Parc Réal-Cloutier",
-    "ent_id": 54,
-    "day": "Lundi",
-    "activity": "Longueurs",
-    "start": "06:30",
-    "end": "08:30",
-    "raw_time": "6 h 30 à 8 h 30",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
-    "pool": "Parc Réal-Cloutier",
-    "ent_id": 54,
-    "day": "Mercredi",
-    "activity": "Longueurs",
-    "start": "06:30",
-    "end": "08:30",
-    "raw_time": "6 h 30 à 8 h 30",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
-    "pool": "Parc Réal-Cloutier",
-    "ent_id": 54,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "06:30",
-    "end": "08:30",
-    "raw_time": "6 h 30 à 8 h 30",
-    "source_url": null,
-    "fetched_at": "2026-05-19"
-  },
-  {
     "pool": "Parc Maria-Goretti",
     "ent_id": 48,
     "day": "Mardi",
