@@ -1450,5 +1450,16 @@
     "raw_time": "13 h 15 à 14 h 30",
     "source_url": null,
     "fetched_at": "2026-08-17"
+  },
+  {
+    "pool": "Arpidrome",
+    "ent_id": 1,
+    "day": "Mercredi",
+    "activity": "Longueurs",
+    "start": "11:30",
+    "end": "13:20",
+    "raw_time": "11 h 30 à 13 h 20",
+    "source_url": null,
+    "fetched_at": "2026-08-17"
   }
 ]
