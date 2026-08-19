@@ -55,39 +55,6 @@
     "fetched_at": "2026-03-17"
   },
   {
-    "pool": "Patro Roc-Amadour",
-    "ent_id": 15,
-    "day": "Lundi",
-    "activity": "Longueurs",
-    "start": "17:00",
-    "end": "18:25",
-    "raw_time": "17 h à 18 h 25",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Patro Roc-Amadour",
-    "ent_id": 15,
-    "day": "Mardi",
-    "activity": "Longueurs",
-    "start": "07:00",
-    "end": "08:25",
-    "raw_time": "7 h à 8 h 25",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
-    "pool": "Patro Roc-Amadour",
-    "ent_id": 15,
-    "day": "Mercredi",
-    "activity": "Longueurs",
-    "start": "17:00",
-    "end": "18:25",
-    "raw_time": "17 h à 18 h 25",
-    "source_url": null,
-    "fetched_at": "2026-03-17"
-  },
-  {
     "pool": "Piscine Sylvie-Bernier",
     "ent_id": 18,
     "day": "Lundi",
