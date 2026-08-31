@@ -330,17 +330,6 @@
     "fetched_at": "2026-05-19"
   },
   {
-    "pool": "Centre communautaire Michel-Labadie",
-    "ent_id": 4,
-    "day": "Mercredi",
-    "activity": "Longueurs",
-    "start": "19:40",
-    "end": "21:00",
-    "raw_time": "19 h 40 à 21 h",
-    "source_url": null,
-    "fetched_at": "2026-06-16"
-  },
-  {
     "pool": "Centre communautaire Lucien-Borne",
     "ent_id": 3,
     "day": "Mercredi",
@@ -348,28 +337,6 @@
     "start": "07:00",
     "end": "08:25",
     "raw_time": "7 h à 8 h 25",
-    "source_url": null,
-    "fetched_at": "2026-06-18"
-  },
-  {
-    "pool": "Centre communautaire Michel-Labadie",
-    "ent_id": 4,
-    "day": "Lundi",
-    "activity": "Longueurs",
-    "start": "19:40",
-    "end": "21:00",
-    "raw_time": "19 h 40 à 21 h",
-    "source_url": null,
-    "fetched_at": "2026-06-18"
-  },
-  {
-    "pool": "Centre communautaire Michel-Labadie",
-    "ent_id": 4,
-    "day": "Vendredi",
-    "activity": "Longueurs",
-    "start": "19:40",
-    "end": "21:00",
-    "raw_time": "19 h 40 à 21 h",
     "source_url": null,
     "fetched_at": "2026-06-18"
   },
@@ -471,5 +438,38 @@
     "raw_time": "11 h à 12 h 55",
     "source_url": null,
     "fetched_at": "2026-08-22"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-08-31"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Mardi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-08-31"
+  },
+  {
+    "pool": "Centre communautaire Michel-Labadie",
+    "ent_id": 4,
+    "day": "Vendredi",
+    "activity": "Longueurs",
+    "start": "11:45",
+    "end": "13:15",
+    "raw_time": "11 h 45 à 13 h 15",
+    "source_url": null,
+    "fetched_at": "2026-08-31"
   }
 ]
