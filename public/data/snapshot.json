@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-05T18:00:07.669629+00:00",
+  "exported_at": "2026-09-05T18:00:19.572693+00:00",
   "facilities": [
     {
       "id": 1,
@@ -5051,6 +5051,94 @@
   ],
   "changes": [
     {
+      "id": 124235,
+      "facility_id": 32,
+      "facility_name": "Centre sportif Marc-Simoneau",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Patinage libre 10:45-12:35",
+      "description": "Centre sportif Marc-Simoneau: ajout Patinage libre le Mardi (10:45-12:35)",
+      "created_at": "2026-09-05T18:00:17"
+    },
+    {
+      "id": 124233,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 12:00-12:50",
+      "description": "Arpidrome: ajout Famille le Lundi (12:00-12:50)",
+      "created_at": "2026-09-05T18:00:16"
+    },
+    {
+      "id": 124234,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 13:00-14:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (13:00-14:20)",
+      "created_at": "2026-09-05T18:00:16"
+    },
+    {
+      "id": 124228,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 14:30-15:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (14:30-15:50)",
+      "created_at": "2026-09-05T18:00:15"
+    },
+    {
+      "id": 124229,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Patinage libre 15:00-15:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Samedi (15:00-15:50)",
+      "created_at": "2026-09-05T18:00:15"
+    },
+    {
+      "id": 124230,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Famille 16:00-16:50",
+      "description": "Aréna des Deux Glaces: ajout Famille le Dimanche (16:00-16:50)",
+      "created_at": "2026-09-05T18:00:15"
+    },
+    {
+      "id": 124231,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Famille 16:00-16:50",
+      "description": "Aréna des Deux Glaces: ajout Famille le Samedi (16:00-16:50)",
+      "created_at": "2026-09-05T18:00:15"
+    },
+    {
+      "id": 124232,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 12:30-14:05",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Lundi (12:30-14:05)",
+      "created_at": "2026-09-05T18:00:15"
+    },
+    {
       "id": 124221,
       "facility_id": 19,
       "facility_name": "Piscine Wilfrid-Hamel",
@@ -6061,94 +6149,6 @@
       "new_value": "19:55",
       "description": "Piscine de l'édifice Denis-Giguère: Tous le Mercredi fin changee 19:30 -> 19:55",
       "created_at": "2026-09-05T15:00:03"
-    },
-    {
-      "id": 124127,
-      "facility_id": 20,
-      "facility_name": "YMCA Saint-Roch",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Lane Swim 19:30-20:55",
-      "description": "YMCA Saint-Roch: ajout Lane Swim le Mardi (19:30-20:55)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124128,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (19:00-20:45)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124129,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:45-13:30)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124130,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:45-13:30)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124131,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:45-13:30)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124132,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:45-13:30)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124133,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Vendredi (11:45-13:30)",
-      "created_at": "2026-09-05T15:00:02"
-    },
-    {
-      "id": 124134,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Samedi (19:00-20:45)",
-      "created_at": "2026-09-05T15:00:02"
     }
   ],
   "notices": [
