@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-09T21:00:09.509762+00:00",
+  "exported_at": "2026-09-09T21:00:21.957897+00:00",
   "facilities": [
     {
       "id": 1,
@@ -5095,6 +5095,116 @@
   ],
   "changes": [
     {
+      "id": 126522,
+      "facility_id": 32,
+      "facility_name": "Centre sportif Marc-Simoneau",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Patinage libre 10:45-12:35",
+      "description": "Centre sportif Marc-Simoneau: ajout Patinage libre le Mardi (10:45-12:35)",
+      "created_at": "2026-09-09T21:00:19"
+    },
+    {
+      "id": 126515,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 14:30-15:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (14:30-15:50)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126516,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Patinage libre 15:00-15:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Samedi (15:00-15:50)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126517,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Famille 16:00-16:50",
+      "description": "Aréna des Deux Glaces: ajout Famille le Dimanche (16:00-16:50)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126518,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Famille 16:00-16:50",
+      "description": "Aréna des Deux Glaces: ajout Famille le Samedi (16:00-16:50)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126519,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 12:30-14:05",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Lundi (12:30-14:05)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126520,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 12:00-12:50",
+      "description": "Arpidrome: ajout Famille le Lundi (12:00-12:50)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126521,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 13:00-14:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (13:00-14:20)",
+      "created_at": "2026-09-09T21:00:18"
+    },
+    {
+      "id": 126513,
+      "facility_id": 22,
+      "facility_name": "Aréna Bardy",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Famille 15:10-15:50",
+      "description": "Aréna Bardy: ajout Famille le Dimanche (15:10-15:50)",
+      "created_at": "2026-09-09T21:00:17"
+    },
+    {
+      "id": 126514,
+      "facility_id": 22,
+      "facility_name": "Aréna Bardy",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Tous 13:15-14:05",
+      "description": "Aréna Bardy: ajout Tous le Dimanche (13:15-14:05)",
+      "created_at": "2026-09-09T21:00:17"
+    },
+    {
       "id": 126507,
       "facility_id": 21,
       "facility_name": "YWCA Québec",
@@ -6083,116 +6193,6 @@
       "new_value": "Mardi Longueurs 12:00-13:30",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mardi (12:00-13:30)",
       "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126418,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 20:30-21:45",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mardi (20:30-21:45)",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126419,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 20:00-21:30",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Mercredi (20:00-21:30)",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126420,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 12:00-13:30",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (12:00-13:30)",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126421,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 20:30-21:45",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (20:30-21:45)",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126422,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 19:30-21:00",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Vendredi (19:30-21:00)",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126423,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:30",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Samedi (19:00-20:30)",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126424,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:30",
-      "new_value": "19:55",
-      "description": "Piscine de l'édifice Denis-Giguère: Tous le Mercredi fin changee 19:30 -> 19:55",
-      "created_at": "2026-09-09T18:00:04"
-    },
-    {
-      "id": 126406,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (19:00-20:45)",
-      "created_at": "2026-09-09T18:00:03"
-    },
-    {
-      "id": 126407,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:45-13:30)",
-      "created_at": "2026-09-09T18:00:03"
-    },
-    {
-      "id": 126408,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:45-13:30)",
-      "created_at": "2026-09-09T18:00:03"
     }
   ],
   "notices": [
