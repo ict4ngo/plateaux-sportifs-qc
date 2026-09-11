@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-11T06:00:08.819036+00:00",
+  "exported_at": "2026-09-11T06:00:20.435751+00:00",
   "facilities": [
     {
       "id": 1,
@@ -5095,6 +5095,116 @@
   ],
   "changes": [
     {
+      "id": 127443,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Famille 12:00-12:50",
+      "description": "Arpidrome: ajout Famille le Lundi (12:00-12:50)",
+      "created_at": "2026-09-11T06:00:17"
+    },
+    {
+      "id": 127444,
+      "facility_id": 28,
+      "facility_name": "Arpidrome",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 13:00-14:20",
+      "description": "Arpidrome: ajout Patinage libre le Lundi (13:00-14:20)",
+      "created_at": "2026-09-11T06:00:17"
+    },
+    {
+      "id": 127445,
+      "facility_id": 32,
+      "facility_name": "Centre sportif Marc-Simoneau",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Mardi Patinage libre 10:45-12:35",
+      "description": "Centre sportif Marc-Simoneau: ajout Patinage libre le Mardi (10:45-12:35)",
+      "created_at": "2026-09-11T06:00:17"
+    },
+    {
+      "id": 127436,
+      "facility_id": 22,
+      "facility_name": "Aréna Bardy",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Famille 15:10-15:50",
+      "description": "Aréna Bardy: ajout Famille le Dimanche (15:10-15:50)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
+      "id": 127437,
+      "facility_id": 22,
+      "facility_name": "Aréna Bardy",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Tous 13:15-14:05",
+      "description": "Aréna Bardy: ajout Tous le Dimanche (13:15-14:05)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
+      "id": 127438,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Patinage libre 14:30-15:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Dimanche (14:30-15:50)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
+      "id": 127439,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Patinage libre 15:00-15:50",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Samedi (15:00-15:50)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
+      "id": 127440,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Dimanche Famille 16:00-16:50",
+      "description": "Aréna des Deux Glaces: ajout Famille le Dimanche (16:00-16:50)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
+      "id": 127441,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Samedi Famille 16:00-16:50",
+      "description": "Aréna des Deux Glaces: ajout Famille le Samedi (16:00-16:50)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
+      "id": 127442,
+      "facility_id": 23,
+      "facility_name": "Aréna des Deux Glaces",
+      "change_type": "added",
+      "field": "slot",
+      "old_value": null,
+      "new_value": "Lundi Patinage libre 12:30-14:05",
+      "description": "Aréna des Deux Glaces: ajout Patinage libre le Lundi (12:30-14:05)",
+      "created_at": "2026-09-11T06:00:16"
+    },
+    {
       "id": 127429,
       "facility_id": 19,
       "facility_name": "Piscine Wilfrid-Hamel",
@@ -6083,116 +6193,6 @@
       "new_value": "Jeudi Longueurs 12:00-13:30",
       "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (12:00-13:30)",
       "created_at": "2026-09-11T03:00:03"
-    },
-    {
-      "id": 127349,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 20:30-21:45",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Longueurs le Jeudi (20:30-21:45)",
-      "created_at": "2026-09-11T03:00:03"
-    },
-    {
-      "id": 127350,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Vendredi Tous 19:30-21:00",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Vendredi (19:30-21:00)",
-      "created_at": "2026-09-11T03:00:03"
-    },
-    {
-      "id": 127351,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Samedi Tous 19:00-20:30",
-      "description": "Piscine de l'édifice Denis-Giguère: ajout Tous le Samedi (19:00-20:30)",
-      "created_at": "2026-09-11T03:00:03"
-    },
-    {
-      "id": 127352,
-      "facility_id": 11,
-      "facility_name": "Piscine de l'édifice Denis-Giguère",
-      "change_type": "modified",
-      "field": "end_time",
-      "old_value": "19:30",
-      "new_value": "19:55",
-      "description": "Piscine de l'édifice Denis-Giguère: Tous le Mercredi fin changee 19:30 -> 19:55",
-      "created_at": "2026-09-11T03:00:03"
-    },
-    {
-      "id": 127333,
-      "facility_id": 20,
-      "facility_name": "YMCA Saint-Roch",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Lane Swim 19:30-20:55",
-      "description": "YMCA Saint-Roch: ajout Lane Swim le Mardi (19:30-20:55)",
-      "created_at": "2026-09-11T03:00:02"
-    },
-    {
-      "id": 127334,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Dimanche Tous 19:00-20:45",
-      "description": "Centre communautaire Lucien-Borne: ajout Tous le Dimanche (19:00-20:45)",
-      "created_at": "2026-09-11T03:00:02"
-    },
-    {
-      "id": 127335,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Lundi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Lundi (11:45-13:30)",
-      "created_at": "2026-09-11T03:00:02"
-    },
-    {
-      "id": 127336,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mardi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mardi (11:45-13:30)",
-      "created_at": "2026-09-11T03:00:02"
-    },
-    {
-      "id": 127337,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Mercredi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Mercredi (11:45-13:30)",
-      "created_at": "2026-09-11T03:00:02"
-    },
-    {
-      "id": 127338,
-      "facility_id": 3,
-      "facility_name": "Centre communautaire Lucien-Borne",
-      "change_type": "added",
-      "field": "slot",
-      "old_value": null,
-      "new_value": "Jeudi Longueurs 11:45-13:30",
-      "description": "Centre communautaire Lucien-Borne: ajout Longueurs le Jeudi (11:45-13:30)",
-      "created_at": "2026-09-11T03:00:02"
     }
   ],
   "notices": [
